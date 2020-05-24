@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Til Svn",
-            "content": "",
-            "url": "https://adithyabalaji.com/2020/05/24/TIL-svn.html",
-            "relUrl": "/2020/05/24/TIL-svn.html",
+            "title": "Fetch only part of a GitHub repository",
+            "content": "The Use Case . If you are like me, you often need to grab a part of a large GitHub repository. Maybe, you’re copying configs from another project or grabbing part of a template repository: this trick has you covered. While git has a new feature to “clone” and filter part of a repo, that’s often not what is needed. . SVN to the Rescue . Since GitHub has built in SVN support, you can use use it pull down just part of a repo! . $ svn export https://github.com/{USER}/{PROJECT}/trunk/{PATH} {DEST} . Example . I recently used this to quickly pull the latest scss changes from minima. . $ svn export https://github.com/jekyll/minima/trunk/_sass/minima _sass/minima .",
+            "url": "https://adithyabalaji.com/til/2020/05/24/TIL-svn.html",
+            "relUrl": "/til/2020/05/24/TIL-svn.html",
             "date": " • May 24, 2020"
         }
         

@@ -3,17 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>About Me | Adithya Balaji</title>
+<title>Fetch only part of a GitHub repository | Adithya Balaji</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="About Me" />
+<meta property="og:title" content="Fetch only part of a GitHub repository" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The tidbits and musings of a developer. Made using fastpages." />
-<meta property="og:description" content="The tidbits and musings of a developer. Made using fastpages." />
-<link rel="canonical" href="https://adithyabalaji.com/about/" />
-<meta property="og:url" content="https://adithyabalaji.com/about/" />
+<meta name="description" content="Use SVN to download part of a large GitHub repository." />
+<meta property="og:description" content="Use SVN to download part of a large GitHub repository." />
+<link rel="canonical" href="https://adithyabalaji.com/til/2020/05/24/TIL-svn.html" />
+<meta property="og:url" content="https://adithyabalaji.com/til/2020/05/24/TIL-svn.html" />
 <meta property="og:site_name" content="Adithya Balaji" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-24T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"The tidbits and musings of a developer. Made using fastpages.","headline":"About Me","@type":"WebSite","url":"https://adithyabalaji.com/about/","name":"Adithya Balaji","@context":"https://schema.org"}</script>
+{"description":"Use SVN to download part of a large GitHub repository.","headline":"Fetch only part of a GitHub repository","dateModified":"2020-05-24T00:00:00-05:00","datePublished":"2020-05-24T00:00:00-05:00","@type":"BlogPosting","url":"https://adithyabalaji.com/til/2020/05/24/TIL-svn.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://adithyabalaji.com/til/2020/05/24/TIL-svn.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://adithyabalaji.com/feed.xml" title="Adithya Balaji" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -40,17 +42,19 @@ ga('send', 'pageview');</script>
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>About Me | Adithya Balaji</title>
+<title>Fetch only part of a GitHub repository | Adithya Balaji</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="About Me" />
+<meta property="og:title" content="Fetch only part of a GitHub repository" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The tidbits and musings of a developer. Made using fastpages." />
-<meta property="og:description" content="The tidbits and musings of a developer. Made using fastpages." />
-<link rel="canonical" href="https://adithyabalaji.com/about/" />
-<meta property="og:url" content="https://adithyabalaji.com/about/" />
+<meta name="description" content="Use SVN to download part of a large GitHub repository." />
+<meta property="og:description" content="Use SVN to download part of a large GitHub repository." />
+<link rel="canonical" href="https://adithyabalaji.com/til/2020/05/24/TIL-svn.html" />
+<meta property="og:url" content="https://adithyabalaji.com/til/2020/05/24/TIL-svn.html" />
 <meta property="og:site_name" content="Adithya Balaji" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-24T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"The tidbits and musings of a developer. Made using fastpages.","headline":"About Me","@type":"WebSite","url":"https://adithyabalaji.com/about/","name":"Adithya Balaji","@context":"https://schema.org"}</script>
+{"description":"Use SVN to download part of a large GitHub repository.","headline":"Fetch only part of a GitHub repository","dateModified":"2020-05-24T00:00:00-05:00","datePublished":"2020-05-24T00:00:00-05:00","@type":"BlogPosting","url":"https://adithyabalaji.com/til/2020/05/24/TIL-svn.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://adithyabalaji.com/til/2020/05/24/TIL-svn.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -136,34 +140,51 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About Me</h1>
-  </header>
+    <h1 class="post-title p-name" itemprop="name headline">Fetch only part of a GitHub repository</h1><p class="page-description">Use SVN to download part of a large GitHub repository.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-05-24T00:00:00-05:00" itemprop="datePublished">
+        May 24, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
-  <div class="post-content">
-    <p><img src="/images/headshot.png" alt="" style="float: left; margin-right: 1.5em" height="35%" width="35%" /></p>
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/categories/#TIL">TIL</a>
+        
+      
+      </p>
+    
 
-<h2 id="adithya-balaji">Adithya Balaji</h2>
+    </header>
 
-<p>I’m a currently a software engineer / data scientist. I am currently at
-<a href="https://www.cmu.edu/" title="Carnegie Mellon University">Carnegie Mellon University</a> working on a in <a href="https://www.csd.cs.cmu.edu/" title="CS Department @ CMU">Computer Science</a> Masters Degree. In undergrad, I double majored in <a href="https://www.ece.ncsu.edu/" title="ECE Department @ NC State">Electrical Engineering and
-Computer Engineering</a> at <a href="https://www.ncsu.edu/" title="NC State University">NC State University</a>.</p>
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="the-use-case">The Use Case</h2>
+<p>If you are like me, you often need to grab a part of a large GitHub repository. Maybe,
+you’re copying configs from another project or grabbing part of a template repository:
+this trick has you covered. While git has a new feature to
+<a href="https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository/52269934#52269934" title="Clone and filter feature">“clone” and filter</a> part of a repo, that’s often not what is needed.</p>
 
-<p>I’m currently working for <a href="https://www.synthego.com" title="Synthego">Synthego</a> as a Software Engineering Intern through the
-<a href="https://8vc.com/" title="8VC">8vc fellowship</a>. I’ve previously worked for <a href="https://www.georgianpartners.com" title="Georgian Partners">Georgian Partners</a> as a Data Science
-Intern, for the <a href="https://www.nba.com/thunder/" title="OKC Thunder">Oklahoma City Thunder</a> as a Data Science Intern, for the
-<a href="https://www.csc.ncsu.edu/" title="CS Department @ NC State">NC State CS Department</a> as a Research Assistant, for <a href="https://precisionlender.com/" title="Precision Lender">Precision Lender</a> as
-a Software Engineering Intern.</p>
+<h2 id="svn-to-the-rescue">SVN to the Rescue</h2>
+<p>Since GitHub has built in SVN support, you can use use it pull down just part of a repo!</p>
 
-<!-- Links -->
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>svn <span class="nb">export </span>https://github.com/<span class="o">{</span>USER<span class="o">}</span>/<span class="o">{</span>PROJECT<span class="o">}</span>/trunk/<span class="o">{</span>PATH<span class="o">}</span> <span class="o">{</span>DEST<span class="o">}</span>
+</code></pre></div></div>
 
+<h4 id="example">Example</h4>
+<p>I recently used this to quickly pull the latest scss changes from <code class="highlighter-rouge">minima</code>.</p>
 
-  </div>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>svn <span class="nb">export </span>https://github.com/jekyll/minima/trunk/_sass/minima _sass/minima 
+</code></pre></div></div>
 
+  </div><a class="u-url" href="/til/2020/05/24/TIL-svn.html" hidden></a>
 </article>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
