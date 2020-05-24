@@ -19,7 +19,7 @@ Hello :wave: @adithyabsk!  Thank you for using fastpages!
 
 If you are not using a custom domain, your website will appear at: 
 
-#### https://adithyabsk.github.io/blog
+#### https://adithyabalaji.com
 
 
 ## Optional: Using a Custom Domain
