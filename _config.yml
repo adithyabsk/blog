@@ -1,13 +1,7 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
+## Jekyll configs
 
-title: fastpages
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+title: Adithya Balaji
+description: The tidbits and musings of a developer. Made using fastpages.
 github_username: adithyabsk
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "blog"
@@ -41,6 +35,7 @@ minima:
   social_links:
     twitter: adithya_balaji
     github: adithyabsk
+    linkedin: adithyabsk
 
 # Set this to true to get LaTeX math equation support
 use_math: true
