@@ -71,6 +71,9 @@ default_badges:
 html_escape:
   description: false
 
+# Enable comments on teh page
+comments: true
+
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
 theme: minima
