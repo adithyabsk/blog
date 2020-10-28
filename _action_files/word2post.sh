@@ -18,7 +18,7 @@ for FILENAME in ${GITHUB_WORKSPACE}/_word/*.docx; do
         echo "Unable To Rename: ${FILENAME} to a Jekyll complaint filename for blog posts"
         exit 1
     fi
-    
+
     echo "Converting: ${NAME}  ---to--- ${NEW_NAME}"
     cd ${GITHUB_WORKSPACE}
     pandoc --from docx --to gfm --output "${GITHUB_WORKSPACE}/_posts/${NEW_NAME}" --columns 9999 \

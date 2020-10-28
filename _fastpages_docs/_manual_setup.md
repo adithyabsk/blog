@@ -18,7 +18,7 @@ These are the setup steps that are automated by [setup.yaml](.github/workflows/s
 
     `![](https://github.com/{your-username}/{your-repo-name}/workflows/CI/badge.svg)`
 
-6. Change `baseurl:` in `_config.yaml` to the name of your repository. For example, instead of 
+6. Change `baseurl:` in `_config.yaml` to the name of your repository. For example, instead of
 
     `baseurl: "/fastpages"`
 
@@ -30,11 +30,11 @@ These are the setup steps that are automated by [setup.yaml](.github/workflows/s
 
     `url: "https://fastpages.fast.ai/"`
 
-    this should be 
+    this should be
 
     `url: "https://<your-user-name>.github.io"`
 
-8. Read through `_config.yaml` carefully as there may be other options that must be set.  The comments in this file will provide instructions. 
+8. Read through `_config.yaml` carefully as there may be other options that must be set.  The comments in this file will provide instructions.
 
 9. Delete the `CNAME` file from the root of your `master` branch (or change it if you are using a custom domain)
 

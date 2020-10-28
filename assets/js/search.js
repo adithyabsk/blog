@@ -29,12 +29,12 @@ jtd.onReady = function(ready) {
 //     const mainNav = document.querySelector('.js-main-nav');
 //     const pageHeader = document.querySelector('.js-page-header');
 //     const navTrigger = document.querySelector('.js-main-nav-trigger');
-  
+
 //     jtd.addEvent(navTrigger, 'click', function(e){
 //       e.preventDefault();
 //       var text = navTrigger.innerText;
 //       var textToggle = navTrigger.getAttribute('data-text-toggle');
-  
+
 //       mainNav.classList.toggle('nav-open');
 //       pageHeader.classList.toggle('nav-open');
 //       navTrigger.classList.toggle('nav-open');
@@ -50,25 +50,25 @@ jtd.onReady = function(ready) {
 function initSearch() {
     var request = new XMLHttpRequest();
     request.open('GET', '{{ "assets/js/search-data.json" | relative_url }}', true);
-  
+
     request.onload = function(){
       if (request.status >= 200 && request.status < 400) {
         // Success!
         var data = JSON.parse(request.responseText);
-        
+
         {% if site.search_tokenizer_separator != nil %}
         lunr.tokenizer.separator = {{ site.search_tokenizer_separator }}
         {% else %}
         lunr.tokenizer.separator = /[\s\-/]+/
         {% endif %}
-        
+
         var index = lunr(function () {
           this.ref('id');
           this.field('title', { boost: 200 });
           this.field('content', { boost: 2 });
           this.field('url');
           this.metadataWhitelist = ['position']
-  
+
           for (var i in data) {
             this.add({
               id: i,
@@ -78,32 +78,32 @@ function initSearch() {
             });
           }
         });
-  
+
         searchResults(index, data);
       } else {
         // We reached our target server, but it returned an error
         console.log('Error loading ajax request. Request status:' + request.status);
       }
     };
-  
+
     request.onerror = function(){
       // There was a connection error of some sort
       console.log('There was a connection error');
     };
-  
+
     request.send();
-  
+
     function searchResults(index, data) {
       var index = index;
       var docs = data;
       var searchInput = document.querySelector('.js-search-input');
       var searchResults = document.querySelector('.js-search-results');
-  
+
       function hideResults() {
         searchResults.innerHTML = '';
         searchResults.classList.remove('active');
       }
-  
+
       jtd.addEvent(searchInput, 'keydown', function(e){
         switch (e.keyCode) {
           case 38: // arrow up
@@ -147,7 +147,7 @@ function initSearch() {
             return;
         }
       });
-  
+
       jtd.addEvent(searchInput, 'keyup', function(e){
         switch (e.keyCode) {
           case 27: // When esc key is pressed, hide the results and clear the field
@@ -160,14 +160,14 @@ function initSearch() {
             e.preventDefault();
             return;
         }
-  
+
         hideResults();
-  
+
         var input = this.value;
         if (input === '') {
           return;
         }
-  
+
         var results = index.query(function (query) {
           var tokens = lunr.tokenizer(input)
           query.term(tokens, {
@@ -177,36 +177,36 @@ function initSearch() {
             wildcard: lunr.Query.wildcard.TRAILING
           });
         });
-  
+
         if (results.length > 0) {
           searchResults.classList.add('active');
           var resultsList = document.createElement('ul');
           resultsList.classList.add('search-results-list');
           searchResults.appendChild(resultsList);
-  
+
           for (var i in results) {
             var result = results[i];
             var doc = docs[result.ref];
-  
+
             var resultsListItem = document.createElement('li');
             resultsListItem.classList.add('search-results-list-item');
             resultsList.appendChild(resultsListItem);
-  
+
             var resultLink = document.createElement('a');
             resultLink.classList.add('search-result');
             resultLink.setAttribute('href', doc.url);
             resultsListItem.appendChild(resultLink);
-  
+
             var resultTitle = document.createElement('div');
             resultTitle.classList.add('search-result-title');
             resultTitle.innerText = doc.title;
             resultLink.appendChild(resultTitle);
-  
+
             var resultRelUrl = document.createElement('span');
             resultRelUrl.classList.add('search-result-rel-date');
             resultRelUrl.innerText = doc.date;
             resultTitle.appendChild(resultRelUrl);
-  
+
             var metadata = result.matchData.metadata;
             var contentFound = false;
             for (var j in metadata) {
@@ -215,10 +215,10 @@ function initSearch() {
                 var start = position[0];
                 var end = position[0] + position[1];
                 resultTitle.innerHTML = doc.title.substring(0, start) + '<span class="search-result-highlight">' + doc.title.substring(start, end) + '</span>' + doc.title.substring(end, doc.title.length)+'<span class="search-result-rel-date">'+doc.date+'</span>';
-  
+
               } else if (metadata[j].content && !contentFound) {
                 contentFound = true;
-  
+
                 var position = metadata[j].content.position[0];
                 var start = position[0];
                 var end = position[0] + position[1];
@@ -265,7 +265,7 @@ function initSearch() {
                 if (ellipsesAfter) {
                   preview += ' ...';
                 }
-  
+
                 var resultPreview = document.createElement('div');
                 resultPreview.classList.add('search-result-preview');
                 resultPreview.innerHTML = preview;
@@ -275,20 +275,20 @@ function initSearch() {
           }
         }
       });
-  
+
       // jtd.addEvent(searchInput, 'blur', function(){
       //   setTimeout(function(){ hideResults() }, 300);
       // });
     }
   }
-  
+
 //   function pageFocus() {
 //     var mainContent = document.querySelector('.js-main-content');
 //     mainContent.focus();
 //   }
-  
+
   // Document ready
-  
+
   jtd.onReady(function(){
     // initNav();
     // pageFocus();
@@ -296,5 +296,5 @@ function initSearch() {
       initSearch();
     }
   });
-  
+
   })(window.jtd = window.jtd || {});

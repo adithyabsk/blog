@@ -14,7 +14,7 @@ The live preview requires that you have Docker installed on your machine. [Follo
 
 ## Seeing All Commands In The Terminal
 
-There are many different `docker-compose` commands that are necessary to manage the lifecycle of the fastpages Docker containers.  To make this easier, we aliased common commands in a [Makefile](https://www.gnu.org/software/make/manual/html_node/Introduction.html).  
+There are many different `docker-compose` commands that are necessary to manage the lifecycle of the fastpages Docker containers.  To make this easier, we aliased common commands in a [Makefile](https://www.gnu.org/software/make/manual/html_node/Introduction.html).
 
 You can quickly see all available commands by running this command in the root of your repository:
 

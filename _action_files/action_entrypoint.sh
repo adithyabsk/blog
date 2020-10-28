@@ -16,8 +16,8 @@ python /fastpages/nb2post.py
 ######## Optionally save files and build GitHub Pages ########
 if [[ "$INPUT_BOOL_SAVE_MARKDOWN" == "true" ]];then
 
-    if [ -z "$INPUT_SSH_DEPLOY_KEY" ];then 
-        echo "You must set the SSH_DEPLOY_KEY input if BOOL_SAVE_MARKDOWN is set to true."; 
+    if [ -z "$INPUT_SSH_DEPLOY_KEY" ];then
+        echo "You must set the SSH_DEPLOY_KEY input if BOOL_SAVE_MARKDOWN is set to true.";
         exit 1;
     fi
 
@@ -44,5 +44,3 @@ if [[ "$INPUT_BOOL_SAVE_MARKDOWN" == "true" ]];then
         git push fastpages-origin HEAD:${GITHUB_REF}
     fi
 fi
-
-

@@ -10,7 +10,7 @@ This adds a linked superscript {% fn 15 %}
 
 ![image](https://user-images.githubusercontent.com/1483922/76640645-83e49f80-650d-11ea-8f8a-01ee6eba91e1.png)
 
-You can have links, but then you have to use **single quotes** to escape the link.  
+You can have links, but then you have to use **single quotes** to escape the link.
 ```
 This adds a linked superscript {% fn 20 %}
 

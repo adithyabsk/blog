@@ -16,7 +16,7 @@ def rename_for_jekyll(nb_path: Path, warnings: Set[Tuple[str, str]]=None) -> str
 
     # Checks if filename is compliant with Jekyll blog posts
     if _re_blog_date.match(nb_path.name): return nb_path.with_suffix('.md').name.replace(' ', '-')
-    
+
     else:
         clean_name = _re_numdash.sub('', nb_path.with_suffix('.md').name).replace(' ', '-')
 
