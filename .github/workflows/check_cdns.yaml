@@ -1,5 +1,5 @@
 name: Check CDN
-on: 
+on:
 #     push:
 #     schedule:
 #       - cron: '1 7,14,21 * * *'

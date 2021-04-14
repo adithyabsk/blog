@@ -9,4 +9,4 @@ repos:
     rev: v0.5.0
     hooks:
     -   id: markdownlint
-        exclude: '^(?!_posts/)'
+        exclude: '^(?!_posts\/)'
