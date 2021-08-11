@@ -1,5 +1,10 @@
+{% capture url_to_use %}{{ post.url" }}{% endcapture %}
+{% if post.redirect_url %}
+  {% capture url_to_use %}{{ post.redirect_url" }}{% endcapture %}
+{% endif %}
+
 <h3>
-    <a class="post-link" href="{{ post.url | relative_url }}">
+    <a class="post-link" href="{{ url_to_use }}">
     {{ post.title | escape }}
     </a>
 </h3>

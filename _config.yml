@@ -60,6 +60,7 @@ exclude:
   - action.yml
   - Makefile
   - settings.ini
+  - .idea
 
 # this setting allows you to keep pages organized in the _pages folder
 include:
