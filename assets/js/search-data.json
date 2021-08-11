@@ -1,15 +1,70 @@
 {
   
+    
+        "post0": {
+            "title": "Analyzing Bird Audio",
+            "content": "",
+            "url": "https://adithyabalaji.com/datascience/2021/05/17/Bird-Audio.html",
+            "relUrl": "/datascience/2021/05/17/Bird-Audio.html",
+            "date": " • May 17, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
+            "title": "How to use Custom Sklearn Classes and Pipelines",
+            "content": "",
+            "url": "https://adithyabalaji.com/datascience/2021/04/08/Custom-Sklearn.html",
+            "relUrl": "/datascience/2021/04/08/Custom-Sklearn.html",
+            "date": " • Apr 8, 2021"
+        }
+        
+    
+  
+    
+        ,"post2": {
+            "title": "Python Tooling Makes a Project Tick",
+            "content": "",
+            "url": "https://adithyabalaji.com/python/2019/08/08/Python-Tooling.html",
+            "relUrl": "/python/2019/08/08/Python-Tooling.html",
+            "date": " • Aug 8, 2019"
+        }
+        
+    
+  
+    
+        ,"post3": {
+            "title": "Choosing the best AutoML Framework",
+            "content": "",
+            "url": "https://adithyabalaji.com/datascience/2018/08/21/AutoML.html",
+            "relUrl": "/datascience/2018/08/21/AutoML.html",
+            "date": " • Aug 21, 2018"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": ". Adithya Balaji . I’m a currently a software engineer / data scientist. I am currently at Carnegie Mellon University working on a Computer Science Master’s Degree. In undergrad, I double majored in Electrical Engineering and Computer Engineering at NC State University. . I’m currently working for Microsoft as a Software Engineering Intern on their Quantum System team. . I’ve previously worked for Synthego as a Software Engineering Intern through the 8vc fellowship, for Georgian Partners as a Data Science Intern, for the Oklahoma City Thunder as a Data Science Intern, for the NC State CS Department as a Research Assistant, for Precision Lender as a Software Engineering Intern. .",
           "url": "https://adithyabalaji.com/about/",
           "relUrl": "/about/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page2": {
+          "title": "In Press",
+          "content": "Articles . 2021-03-08 – CMU Graduate Student Cracks Mars Rover Code | 2021-02-24 – NASA Sent a Secret Message to Mars. Meet the People Who Decoded It. | 2020-07-08 – NC State’s New Venture Studio Gives Students Entrepreneurship Experience | 2020-05-07 – College recognizes outstanding seniors | 2020-04-14 – Innovation and Creativity are Rewarded at the 2020 Lulu eGames | .",
+          "url": "https://adithyabalaji.com/press/",
+          "relUrl": "/press/",
           "date": ""
       }
       
@@ -37,7 +92,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://adithyabalaji.com/robots.txt",
