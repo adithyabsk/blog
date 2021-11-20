@@ -3,7 +3,7 @@ layout: post
 description: How to turn any article into a "podcast."
 category: productivity
 title: Get an Audio Version of Any Blog Post
-image: images/chipotle/blog_image.png
+image: images/spoken_content/SpokenContentCover.png
 ---
 
 ![]({{ site.baseurl }}/images/spoken_content/SpokenContentCover.png)
