@@ -8,15 +8,13 @@ permalink: /about/
 
 ## Adithya Balaji
 
-I'm a currently a software engineer / data scientist. I am currently at
+I am currently at
 [Carnegie Mellon University][CMU] working on a [Computer Science][CSD] Master's
 Degree. In undergrad, I double majored in [Electrical Engineering and
 Computer Engineering][ECE] at [NC State University][NCSU].
 
-I'm currently working for [Microsoft] as a Software Engineering Intern on their
-Quantum System team.
-
-I've previously worked for [Synthego][SYNTH] as a Software
+I've previously worked as a Software Engineering Intern for [Microsoft] on their
+Quantum System team, [Synthego][SYNTH] as a Software
 Engineering Intern through the [8vc fellowship][8VC], for
 [Georgian Partners][GP] as a Data Science Intern, for the
 [Oklahoma City Thunder][OKC] as a Data Science Intern, for the
