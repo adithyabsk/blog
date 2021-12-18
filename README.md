@@ -7,3 +7,5 @@
 <https://adithyabalaji.com>
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
+
+To start the local development server run: `make server`.
