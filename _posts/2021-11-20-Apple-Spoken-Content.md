@@ -8,11 +8,10 @@ image: images/spoken_content/SpokenContentCover.png
 
 ![]({{ site.baseurl }}/images/spoken_content/SpokenContentCover.png)
 
-### Audio Version
-
+<!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1163756371&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adithyabsk" title="Adithya" target="_blank" style="color: #cccccc; text-decoration: none;">Adithya</a> · <a href="https://soundcloud.com/adithyabsk/spoken-content" title="Get An Audio Version of Any Blog Post" target="_blank" style="color: #cccccc; text-decoration: none;">Get An Audio Version of Any Blog Post</a></div>
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 
 I've sometimes found myself distracted while reading a passage or two and then
 having to track back to re-read the sentence. Other times, I've been on a walk

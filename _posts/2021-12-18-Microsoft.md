@@ -8,15 +8,20 @@ image: images/microsoft.png
 
 ![]({{ site.baseurl }}/images/microsoft.png)
 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1180461799&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adithyabsk" title="Adithya" target="_blank" style="color: #cccccc; text-decoration: none;">Adithya</a> · <a href="https://soundcloud.com/adithyabsk/microsoft" title="Quantum Resource Estimation and my Intern Experience" target="_blank" style="color: #cccccc; text-decoration: none;">Quantum Resource Estimation and my Intern Experience</a></div>
+<!-- markdownlint-restore -->
+
 This past summer, I worked on the Quantum Systems Team at Microsoft. Every
 December the group puts together a
 [Q# Advent Calendar](https://devblogs.microsoft.com/qsharp/q-advent-calendar-2021/)
 filled with great blog posts. I thought I'd share my work on the Quantum Systems
-Team as well as my general experience being a Microsoft Intern.
+Team, as well as my general experience being a Microsoft Intern.
 
 ## Quantum Resource Estimation
 
-## Motivation
+### Motivation
 
 Resource estimation is an important concept in quantum programs. As the name
 implies, resource estimation allows a quantum researcher to understand the
@@ -35,7 +40,15 @@ following function, where $n=3$. (known as the
 ) This example is taken from a great presentation given by the QDK Team at
 [IEEE Quantum Week 2020](https://qce20.quantum.ieee.org/tutorials/).
 
-$$\langle p_1,\dots, p_n \rangle = \rm Majority (p_1, \dots, p_n) = \left \lfloor \frac{1}{2} + \frac{((\sum^n_{i=1} p_i) - 1/2}{n} \right \rfloor$$
+&nbsp;
+
+$$
+\langle p_1,\dots, p_n \rangle
+= \rm Majority (p_1, \dots, p_n)
+= \left \lfloor \frac{1}{2} + \frac{((\sum^n_{i=1} p_i) - 1/2}{n} \right \rfloor
+$$
+
+&nbsp;
 
 ```csharp
 namespace Majority {
@@ -83,7 +96,7 @@ below.
 
 Now imagine you are a researcher trying to iteratively improve upon your
 algorithm's performance. Often times, performance in one of these metrics comes
-at the cost of another area. (known as a [pareto front](https://en.wikipedia.org/wiki/Pareto_front)
+at the cost of another area. (known as a [Pareto front](https://en.wikipedia.org/wiki/Pareto_front)
 ) And after speaking with quantum researchers, I noted that they all mention the
 tedium and sometimes error filled process of tracking experiment results.
 
@@ -93,8 +106,8 @@ Enter the resource estimation dashboard, an all-in-one tool to both measure and
 track the performance of different quantum programs. The idea here is to track
 experiment results using a consistent format and upload the results to a central
 platform. As you iteratively improve on your algorithm--or run your algorithm
-with a different set of parameters, you will see plots that result points along
-a pareto curve.
+with a different set of parameters, you will see plots that result in points
+along a Pareto curve.
 
 The screenshot below is taken from the MVP that I built over the summer. It
 digitizes the main plots showing the tradeoffs suggested in the work to
@@ -108,7 +121,7 @@ public CI service like GitHub Actions)
 
 ![Pareto Plots](https://i.imgur.com/O92lOHO.png)
 
-In fact this concept is not all that new and has been put to great effect in the
+In fact, this concept is not all that new and has been put to great effect in the
 ML community and [a number](https://wandb.ai/site)
 [of startups](https://neptune.ai/)
 [and projects](https://github.com/IDSIA/sacred) [are working](https://www.comet.ml/site/)
@@ -127,7 +140,7 @@ working on.
 
 Besides my core work on the Quantum Systems Team, I also enjoyed
 my time as a Microsoft Intern! Although there were a number of fantastic intern
-events, two in particular stand out in my memory: the
+events, two in particular, stand out in my memory: the
 [Microsoft Intern Game](https://interngame.microsoft.com/) and serving as a
 moderator for a "pool-side" chat with a Microsoft Researcher.
 
