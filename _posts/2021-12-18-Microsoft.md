@@ -82,8 +82,9 @@ namespace Majority {
 ```
 
 We won't dive into the implementation details of each of these functions since
-that is not the focus of this blog post. (and, they were already covered
-in the talk linked above) What is important, though, is that they _do_ produce
+that is not the focus of this blog post. (and, they were
+[already covered in the talk linked above](https://www.youtube.com/watch?v=Ps5lZ0G6zIg)
+) What is important, though, is that they _do_ produce
 significantly different qubit usage counts and gate counts as noted in the table
 below.
 

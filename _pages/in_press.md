@@ -2,6 +2,7 @@
 layout: page
 title: In Press
 permalink: /press/
+search_exclude: true
 ---
 
 ## Articles
