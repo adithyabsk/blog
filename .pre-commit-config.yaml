@@ -10,3 +10,8 @@ repos:
     hooks:
     -   id: markdownlint
         exclude: '^(?!_posts/)'
+-   repo: https://github.com/klieret/jekyll-relative-url-check
+    rev: main
+    hooks:
+    -   id: jekyll-relative-url-check-html
+    -   id: jekyll-relative-url-check-markdown
