@@ -1,0 +1,28 @@
+<div class="ml-6 pl-3">
+  <div class="TimelineItem">
+    <div class="TimelineItem-avatar">
+      <a href="{{ include.location_link }}">
+        <img class="avatar" height="40" width="40" alt="@octocat"
+             src="{{ include.image }}"/>
+      </a>
+    </div>
+    <div class="TimelineItem-badge">
+      <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16"
+           aria-hidden="true">
+        <path fill-rule="evenodd"
+              d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
+      </svg>
+    </div>
+    <div class="TimelineItem-body">
+      {{ include.time_range }}:
+      <a href="{{ include.location_link }}" class="text-bold Link--primary">{{ include.location }}</a>
+      <br class="mobile-break">
+      <span class="Label">{{ include.title }}</span>
+      {% if include.extra_title %}
+        <br class="mobile-break">
+        <div class="mobile-break pt-1"></div>
+        <span class="Label">{{ include.extra_title }}</span>
+      {% endif %}
+    </div>
+  </div>
+</div>
