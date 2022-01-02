@@ -9,3 +9,22 @@
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight";
+
+.ref-job-title {
+  margin-top: .25em !important;
+  margin-bottom: .25em !important;
+  color: rgb(15, 15, 15);
+  font-size: 18px !important;
+}
+
+.ref-description {
+  color: rgb(88, 88, 88);
+  font-size: 15px !important;
+  margin-top:.05rem !important;
+  margin-bottom:.05rem !important;
+}
+
+.ref-image {
+  width: 100px;
+  clip-path: circle();
+}
