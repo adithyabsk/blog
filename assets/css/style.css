@@ -484,4 +484,10 @@ pre code { font-size: 15px !important; }
 
 p code { font-size: 19px; }
 
+.ref-job-title { margin-top: .25em !important; margin-bottom: .25em !important; color: #0f0f0f; font-size: 18px !important; }
+
+.ref-description { color: #585858; font-size: 15px !important; margin-top: .05rem !important; margin-bottom: .05rem !important; }
+
+@media screen and (min-width: 544px) { .mobile-break { display: none; } }
+
 /*# sourceMappingURL=style.css.map */
