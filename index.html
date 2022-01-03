@@ -1,44 +1,38 @@
 ---
 layout: home
+title: Blog
 search_exclude: true
 ---
 
-# Blog
-
-<br/>
-
-To see the posts hot off the press, sign up for the mailing list!
-
-<!-- Begin Mailchimp Signup Form -->
-<link href="https://cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    /*Patch styling*/
-    #mc_embed_signup form {
-        display: block;
-        position: relative;
-        text-align: left;
-        padding: 0px
-    }
-</style>
-<div id="mc_embed_signup">
-  <form action="https://adithyabalaji.us19.list-manage.com/subscribe/post?u=3f318b3689786e08a7addd668&amp;id=1037a8ae06"
-        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-        target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-      <input type="text" value="" name="FNAME" class="email" id="mce-FNAME" placeholder="first name" required>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                name="b_3f318b3689786e08a7addd668_1037a8ae06"
-                                                                                tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                                class="button"></div>
-    </div>
-  </form>
+<div class="Subhead">
+  <div class="Subhead-heading">Mailing List</div>
+  <div class="Subhead-description">To see the posts hot off the press, sign up for the mailing list!</div>
 </div>
-<!--End mc_embed_signup-->
 
-<br/>
-
-------
-
-<br/>
+{% comment %}Mailchimp Signup Form{% endcomment %}
+<form action="https://adithyabalaji.us19.list-manage.com/subscribe/post?u=3f318b3689786e08a7addd668&amp;id=1037a8ae06"
+      method="post" class="pb-3" id="mc-embedded-subscribe-form"
+      name="mc-embedded-subscribe-form" target="_blank" novalidate>
+    <div class="form-group">
+        <div class="form-group-header">
+            <label for="mce-EMAIL">Email</label>
+        </div>
+        <div class="form-group-body">
+            <input type="email" value="" name="EMAIL" class="form-control"
+                   id="mce-EMAIL" placeholder="example@domain.com" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="form-group-header">
+            <label for="mce-FNAME">First Name</label>
+        </div>
+        <div class="form-group-body">
+            <input type="text" value="" name="FNAME" class="form-control"
+                   id="mce-FNAME" placeholder="name" required>
+        </div>
+    </div>
+    <input type="hidden" name="b_3f318b3689786e08a7addd668_1037a8ae06" value="">
+    <button type="submit" name="subscribe" id="mc-embedded-subscribe"
+            class="btn btn-primary">Subscribe
+    </button>
+</form>
