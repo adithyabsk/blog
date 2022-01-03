@@ -9,3 +9,16 @@
 _powered by [fastpages](https://github.com/fastai/fastpages)_
 
 To start the local development server run: `make server`.
+
+## Developers
+
+Tested on Ruby 2.7.2
+
+* Use `rbenv` and `rbenv gemset` to manage ruby and gem versions
+  * Create a gemset for this repo
+
+To update the Gemfile.lock without installing dependencies
+
+```
+bundle lock --update --add-platform x86_64-linux
+```
