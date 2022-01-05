@@ -10,15 +10,15 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="The tidbits and musings of a developer. Made using fastpages." />
 <meta property="og:description" content="The tidbits and musings of a developer. Made using fastpages." />
-<link rel="canonical" href="https://adithyabalaji.com/obsidian" />
-<meta property="og:url" content="https://adithyabalaji.com/obsidian" />
+<link rel="canonical" href="https://adithyabalaji.com/obsidian/search/" />
+<meta property="og:url" content="https://adithyabalaji.com/obsidian/search/" />
 <meta property="og:site_name" content="Adithya Balaji" />
 <meta property="og:image" content="https://i.imgur.com/9XBsbxo.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://i.imgur.com/9XBsbxo.png" />
 <meta property="twitter:title" content="Adithya Balaji" />
 <script type="application/ld+json">
-{"url":"https://adithyabalaji.com/obsidian","@type":"WebPage","image":"https://i.imgur.com/9XBsbxo.png","headline":"Adithya Balaji","description":"The tidbits and musings of a developer. Made using fastpages.","@context":"https://schema.org"}</script>
+{"url":"https://adithyabalaji.com/obsidian/search/","@type":"WebPage","image":"https://i.imgur.com/9XBsbxo.png","headline":"Adithya Balaji","description":"The tidbits and musings of a developer. Made using fastpages.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://adithyabalaji.com/feed.xml" title="Adithya Balaji" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -121,7 +121,9 @@ window.onload = function() {
     const browserURL = new URL(window.location.toString());
     // Strip out the obsidian from the path
     const newPathName = browserURL.pathname.split('/').slice(2).join('/')
-    location.href = "obsidian://" + newPathName + browserURL.search + browserURL.hash;
+    const newURL = "obsidian://" + newPathName + browserURL.search + browserURL.hash;
+    console.log(newURL);
+    location.href = newURL;
 }
 </script>
 
