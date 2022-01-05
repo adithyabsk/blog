@@ -1,0 +1,15 @@
+---
+layout: page
+permalink: /obsidian
+search_exclude: true
+exclude: true
+image: https://i.imgur.com/9XBsbxo.png
+---
+<script type="text/javascript">
+window.onload = function() {
+    const browserURL = new URL(window.location.toString());
+    // Strip out the obsidian from the path
+    const newPathName = browserURL.pathname.split('/').slice(2).join('/')
+    location.href = "obsidian://" + newPathName + browserURL.search + browserURL.hash;
+}
+</script>
