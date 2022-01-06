@@ -34,3 +34,19 @@ search_exclude: true
    Tooling
 4. **\[00:40:04\]** DevOps, Continuous Integration, and an Intro to Azure
    Pipelines
+
+## Music
+
+Learn more about me from the songs I like 🎶
+
+<iframe src="https://open.spotify.com/embed/playlist/4Q9HhZhKcUwEHERoQNSbPH?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<iframe src="https://open.spotify.com/embed/playlist/7dg80IFVps2f5f4GfxB2QU?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<iframe src="https://open.spotify.com/embed/playlist/3TqzABZCjngqwctagn0oIs?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<iframe src="https://open.spotify.com/embed/playlist/4uyTxkytnzaDfGF01jomdz?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<iframe src="https://open.spotify.com/embed/playlist/3x5acYXTXCdjEbGrEFJXE6?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<iframe src="https://open.spotify.com/embed/playlist/3I1PttxWtrW1x5wpr7Keuh?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
