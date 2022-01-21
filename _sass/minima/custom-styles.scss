@@ -26,3 +26,12 @@
 @media screen and (min-width: 544px)  {
     .mobile-break { display: none; }
 }
+
+//// Add logo before the main title
+//.site-title::before {
+//	content: url("https://via.placeholder.com/30.jpg");
+//	display: inline-block;
+//	position: relative;
+//	width: px;
+//	//top: 5px;
+//}

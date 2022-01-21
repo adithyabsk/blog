@@ -4,6 +4,7 @@ description: A summer of quantum computing and casino heists @ Microsoft.
 category: work
 title: Quantum Resource Estimation and my Intern Experience
 image: images/microsoft.png
+comments: true
 ---
 
 ![]({{ site.baseurl }}/images/microsoft.png)
@@ -42,11 +43,11 @@ following function, where $n=3$. (known as the
 
 &nbsp;
 
-$$
-\langle p_1,\dots, p_n \rangle
-= \rm Majority (p_1, \dots, p_n)
-= \left \lfloor \frac{1}{2} + \frac{((\sum^n_{i=1} p_i) - 1/2}{n} \right \rfloor
-$$
+$$\begin{split}
+\langle p_1,\dots, p_n \rangle &= \rm Majority (p_1, \dots, p_n) \\
+\\
+&= \left \lfloor \frac{1}{2} + \frac{((\sum^n_{i=1} p_i) - 1/2}{n} \right \rfloor
+\end{split}$$
 
 &nbsp;
 

@@ -4,6 +4,7 @@ description: How to turn any article into a "podcast."
 category: productivity
 title: Get an Audio Version of Any Blog Post
 image: images/spoken_content/SpokenContentCover.png
+comments: true
 ---
 
 ![]({{ site.baseurl }}/images/spoken_content/SpokenContentCover.png)
