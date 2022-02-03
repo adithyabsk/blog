@@ -57,6 +57,20 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content | toc  }}
   </div>
+  <hr/>
+  <div class="d-flex flex-justify-center">
+    <div class="flex-column">
+      <div class="Subhead">
+        <div class="Subhead-heading">Mailing List</div>
+        <div class="Subhead-description">If you made it this far--you might want to join my mailing list!</div>
+      </div>
+      <div>
+        {%- include mailchimp.html -%}
+      </div>
+    </div>
+  </div>
+  <hr/>
+
   {%- if page.comments -%}
     {%- include utterances.html -%}
   {%- endif -%}

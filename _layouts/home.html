@@ -6,8 +6,14 @@ layout: default
     {%- if page.title -%}
         <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
-
     {{ content | markdownify }}
+
+    <div class="Subhead">
+      <div class="Subhead-heading">Mailing List</div>
+      <div class="Subhead-description">To see the posts hot off the press, sign up for the mailing list!</div>
+    </div>
+
+    {%- include mailchimp.html -%}
 
     {% if site.paginate %}
         {% assign rawposts = paginator.posts %}
