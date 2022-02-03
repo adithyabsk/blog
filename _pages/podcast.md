@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Podcast
-permalink: https://podcasts.apple.com/us/podcast/adithyas-blog/id1601127059
+permalink: /podcast/
 search_exclude: true
 ---
 

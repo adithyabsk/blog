@@ -22,3 +22,7 @@ To update the Gemfile.lock without installing dependencies
 ```
 bundle lock --update --add-platform x86_64-linux
 ```
+
+### FAQ
+
+- Note: the `_config.yaml` does not reload unless you rebuild the server

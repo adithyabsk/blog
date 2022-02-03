@@ -37,6 +37,15 @@ minima:
     github: adithyabsk
     linkedin: adithyabsk
 
+# Add header pages (so that we can order them)
+header_pages:
+  - _pages/posts.html
+  - _pages/about.html
+  - _pages/media.md
+  - _pages/podcast.md
+  - _pages/tags.html
+  - _pages/search.html
+
 # Set this to true to get LaTeX math equation support
 use_math: true
 
