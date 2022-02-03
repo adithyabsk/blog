@@ -112,6 +112,22 @@
   
 
   
+      ,"page6": {
+          "title": "Posts",
+          "content": "",
+          "url": "https://adithyabalaji.com/posts/",
+          "relUrl": "/posts/",
+          "date": ""
+      }
+      
+  
+
+  
+  
+
+  
+
+  
   
 
   
@@ -120,18 +136,13 @@
   
 
   
-
-  
   
 
   
   
 
   
-  
-
-  
-      ,"page13": {
+      ,"page14": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://adithyabalaji.com/robots.txt",
