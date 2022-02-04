@@ -1,17 +1,35 @@
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.1.0
     hooks:
-    -   id: check-yaml
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
--   repo: https://github.com/igorshubovych/markdownlint-cli
+      - id: check-yaml
+      - id: end-of-file-fixer
+        exclude: |
+            (?x)^(
+                _posts/2021-04-08-Custom-Sklearn-Pipelines.md
+            )|(.*\.(ipynb))$
+      - id: trailing-whitespace
+        exclude: |
+            (?x)^(
+                _posts/2021-04-08-Custom-Sklearn-Pipelines.md
+            )$
+  - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.30.0
     hooks:
-    -   id: markdownlint
+      - id: markdownlint
+        args: [ "--ignore", "_posts/2021-04-08-Custom-Sklearn-Pipelines.md" ]
         exclude: '^(?!_posts/)'
--   repo: https://github.com/klieret/jekyll-relative-url-check
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.2.3
+    hooks:
+      - id: nbqa-black
+        additional_dependencies: [ black==22.1.0 ]
+      - id: nbqa-isort
+        additional_dependencies: [ isort==5.10.1 ]
+      - id: nbqa-flake8
+        additional_dependencies: [ flake8==4.0.1, flake8-bugbear==22.1.11 ]
+  - repo: https://github.com/klieret/jekyll-relative-url-check
     rev: v2.0.1
     hooks:
-    -   id: jekyll-relative-url-check-html
-    -   id: jekyll-relative-url-check-markdown
+      - id: jekyll-relative-url-check-html
+      - id: jekyll-relative-url-check-markdown
