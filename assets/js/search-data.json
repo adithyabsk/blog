@@ -123,33 +123,33 @@
   
 
   
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-      ,"page14": {
+      ,"page7": {
           "title": "",
-          "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
+          "content": "User-agent: * Sitemap: https://adithyabalaji.com/sitemap.xml .",
           "url": "https://adithyabalaji.com/robots.txt",
           "relUrl": "/robots.txt",
           "date": ""
       }
       
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
   
 
 }
