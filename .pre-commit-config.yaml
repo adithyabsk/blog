@@ -3,6 +3,8 @@ repos:
     rev: v4.1.0
     hooks:
       - id: check-yaml
+      # TODO: a way to fix this would be to include a tag like *jupyter* in the
+      #       file name so that we can ignore it
       - id: end-of-file-fixer
         exclude: |
             (?x)^(
@@ -20,6 +22,12 @@ repos:
     hooks:
       - id: markdownlint
         exclude: '^(?!_posts/)'
+  - repo: https://github.com/tcort/markdown-link-check
+    rev: v3.9.3
+    hooks:
+      - id: markdown-link-check
+        exclude: '^(?!_posts/)'
+        args: ["-c", ".markdown-link-check.json"]
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.2.3
     hooks:
