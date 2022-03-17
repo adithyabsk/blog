@@ -3,30 +3,22 @@ repos:
     rev: v4.1.0
     hooks:
       - id: check-yaml
-      # TODO: a way to fix this would be to include a tag like *jupyter* in the
-      #       file name so that we can ignore it
       - id: end-of-file-fixer
         exclude: |
-            (?x)^(
-                _posts/2021-04-08-Custom-Sklearn-Pipelines.md|
-                _posts/2021-05-17-Analyzing-Bird-Audio.md
-            )|(.*\.(ipynb))$
+            (?x)^(_posts/notebooks/.*)|(.*\.(ipynb))$
       - id: trailing-whitespace
         exclude: |
-            (?x)^(
-                _posts/2021-04-08-Custom-Sklearn-Pipelines.md|
-                _posts/2021-05-17-Analyzing-Bird-Audio.md
-            )$
+            (?x)^(_posts/notebooks/.*)$
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.30.0
     hooks:
       - id: markdownlint
-        exclude: '^(?!_posts/)'
+        exclude: '^(?!_posts/markdown/)'
   - repo: https://github.com/tcort/markdown-link-check
     rev: v3.9.3
     hooks:
       - id: markdown-link-check
-        exclude: '^(?!_posts/)'
+        exclude: '^(?!_posts/markdown/)'
         args: ["-c", ".markdown-link-check.json"]
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.2.3

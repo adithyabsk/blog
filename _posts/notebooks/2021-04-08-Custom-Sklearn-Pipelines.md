@@ -19,7 +19,7 @@ layout: notebook
 -->
 
 <div class="container" id="notebook-container">
-
+        
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="/images/copied_from_nb/sklearn.png" alt="Sklearn Cover Photo"></p>
@@ -39,7 +39,7 @@ layout: notebook
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -63,7 +63,7 @@ layout: notebook
     {% endraw %}
 
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -118,13 +118,13 @@ dataset in a bit more detail. It is no longer live, but it is still available on
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
@@ -135,7 +135,7 @@ dataset in a bit more detail. It is no longer live, but it is still available on
     {% endraw %}
 
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -167,7 +167,7 @@ dataset in a bit more detail. It is no longer live, but it is still available on
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -252,7 +252,7 @@ dataset in a bit more detail. It is no longer live, but it is still available on
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -353,7 +353,7 @@ dataset in a bit more detail. It is no longer live, but it is still available on
     {% endraw %}
 
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -432,7 +432,7 @@ dataset in a bit more detail. It is no longer live, but it is still available on
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -467,7 +467,7 @@ Name: settlement_type, dtype: int64</pre>
     {% endraw %}
 
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -513,7 +513,7 @@ Name: region, dtype: int64</pre>
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -548,7 +548,7 @@ Name: region, dtype: int64</pre>
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -586,7 +586,7 @@ Name: region, dtype: int64</pre>
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -612,7 +612,7 @@ Name: region, dtype: int64</pre>
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -667,7 +667,7 @@ Name: region, dtype: int64</pre>
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -693,7 +693,7 @@ Name: region, dtype: int64</pre>
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -752,7 +752,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -790,7 +790,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -837,7 +837,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -877,7 +877,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -916,7 +916,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -1007,7 +1007,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -1046,7 +1046,7 @@ Transformed Data
     {% endraw %}
 
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -1063,7 +1063,7 @@ Transformed Data
     {% endraw %}
 
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -1087,7 +1087,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -1203,7 +1203,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -1307,7 +1307,7 @@ Transformed Data
 </div>
 </div>
     {% raw %}
-
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
@@ -1376,3 +1376,5 @@ Line Count: 206
     {% endraw %}
 
 </div>
+ 
+
