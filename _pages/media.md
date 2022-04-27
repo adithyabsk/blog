@@ -2,7 +2,7 @@
 layout: page
 title: Media
 permalink: /media/
-search_exclude: true
+search_exclude: false
 ---
 
 ## In Press

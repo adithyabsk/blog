@@ -41,6 +41,7 @@ minima:
 # Add header pages (so that we can order them)
 header_pages:
   - _pages/posts.html
+  - _pages/short-thoughts.html
   - _pages/about.html
   - _pages/media.md
   - _pages/podcast.md

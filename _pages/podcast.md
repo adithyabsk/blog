@@ -2,7 +2,7 @@
 layout: page
 title: Podcast
 permalink: /podcast/
-search_exclude: true
+search_exclude: false
 ---
 
 Listen to the blog in podcast form!
