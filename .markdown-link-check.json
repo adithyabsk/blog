@@ -5,9 +5,6 @@
     },
     {
       "pattern": "\/sounds\/uploaded"
-    },
-    {
-      "pattern": "wandb"
     }
   ],
   "httpHeaders": [
