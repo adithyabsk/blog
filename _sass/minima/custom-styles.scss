@@ -2,8 +2,6 @@
 /*--- IMPORT STYLES FOR FASTPAGES ---*/
 @import "minima/fastpages-styles";
 
-
-
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 
@@ -17,14 +15,18 @@
   color: rgb(15, 15, 15);
   font-size: 18px !important;
 }
+
 .ref-description {
   color: rgb(88, 88, 88);
   font-size: 15px !important;
-  margin-top:.05rem !important;
-  margin-bottom:.05rem !important;
+  margin-top: .05rem !important;
+  margin-bottom: .05rem !important;
 }
-@media screen and (min-width: 544px)  {
-    .mobile-break { display: none; }
+
+@media screen and (min-width: 544px) {
+  .mobile-break {
+    display: none;
+  }
 }
 
 //// Add logo before the main title
@@ -35,3 +37,17 @@
 //	width: px;
 //	//top: 5px;
 //}
+
+// Styles for Goodreads embed
+.gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 39px;
+  height: 60px;
+  padding: 0 0;
+  overflow: hidden;
+}
