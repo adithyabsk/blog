@@ -26,7 +26,7 @@ layout: default
       {%- endif -%}
       {%- if page.author -%}
         • {% for author in page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="author" itemscope itemtype="https://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
@@ -35,8 +35,8 @@ layout: default
     </p>
 
     {% if page.categories.size > 0 and site.show_tags %}
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i>
-      {% for category in  page.categories  %}
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
+        {% for category in  page.categories  %}
         <a class="category-tags-link" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
@@ -44,7 +44,7 @@ layout: default
     {% endif %}
 
     {% if page.layout == 'notebook' %}
-      {% if page.badges or page.badges == nil %}
+      {% if page.badges %}
         <div class="pb-5 d-flex flex-wrap flex-justify-end">
           {% unless page.hide_github_badge or site.default_badges.github != true %}{% include notebook_github_link.html %}{% endunless %}
           {% unless page.hide_binder_badge or site.default_badges.binder != true  %}{% include notebook_binder_link.html %}{% endunless %}
