@@ -1,0 +1,130 @@
+{%extends "base.html"%}
+
+{% block content %}
+<h1>Bio</h1>
+
+<p class="text-normal">
+    Hi 👋 my name is Adithya. I'm a developer based in the SF Bay Area. I'm
+    excited about a wide range of things, including:
+</p>
+<div class="d-flex flex-column flex-sm-row">
+    <div class="col-md-3 row-xs-12 p-3">
+        <img class="width-full avatar" src="/images/headshot.png" alt="Adithya Balaji"/>
+    </div>
+    <ul>
+        <li>🤖 Robotics</li>
+        <li>🚀 Rocketry</li>
+        <li>👾 Machine Learning</li>
+        <li>💻 Software Systems</li>
+        <li>&nbsp;Ξ&nbsp;&nbsp;DeFi and Cryptography</li>
+        <li>📜 Ancient History</li>
+        <li>🏀 Basketball</li>
+        <li>🏎 Formula1</li>
+        <li>🏏 Cricket</li>
+    </ul>
+</div>
+
+<p>
+    If you found this page, I'd love to chat--feel free to drop me a line at
+    adithya[at]adithyabalaji[dot]com. I promise to respond if you sneak
+    <a href="https://en.wikipedia.org/wiki/Veni,_vidi,_vici">
+        "<i>veni, vidi, vici</i>"
+    </a> into the footer.
+</p>
+
+<details>
+
+    <summary><b>Copyable Short Bio</b></summary>
+
+    <br/>
+
+    Adithya is a currently a software engineer at Tesla with their Autopilot
+    team. He's previously written code for Precision Lender, the OKC Thunder,
+    Georgian Partners, Synthego, and Microsoft. He received an M.S. in Computer
+    Science from Carnegie Mellon University and a B.S. in both Electrical
+    Engineering and Computer Engineering from NC State. In his free time, he
+    enjoys hacking on side projects, volunteering at high school robotics
+    competitions, and watching basketball. He's based in the SF Bay Area.
+
+</details>
+
+<h2>Background</h2>
+
+<p class="color-fg-muted">For more details on my background, feel free to hop
+    over to my <a href="https://www.linkedin.com/in/adithyabsk">LinkedIn</a></p>
+
+<h3>Experience</h3>
+{# 
+
+{% include timeline-item.html image="https://i.imgur.com/ZAZk0o6.jpeg"
+        title="Software Engineer, Autopilot"
+        location="Tesla"
+        location_link="https://www.tesla.com/autopilot"
+        time_range="Nov 2022 –  Current"
+%} {% include timeline-item.html image="https://i.imgur.com/740ng2W.png"
+        title="CS Teaching Assistant"
+        location="Carnegie Mellon University"
+        location_link="https://www.csd.cs.cmu.edu/"
+        time_range="Aug 2021 – Dec 2021"
+%} {% include timeline-item.html image="https://i.imgur.com/2320peG.png"
+        title="Software Engineer Intern"
+        location="Microsoft Quantum"
+        location_link="https://azure.microsoft.com/en-us/solutions/quantum-computing/"
+        title_preamble="as a"
+        time_range="May 2021 – Aug 2021"
+%} {% include timeline-item.html
+        image="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1488473180/o1ttz1hs6is1sxx4zgc7.png"
+        location="Synthego"
+        location_link="https://www.synthego.com"
+        title="Software Engineer Intern"
+        extra_title="8VC Fellow"
+        time_range="May 2020 – Aug 2020"
+%} {% include timeline-item.html image="https://i.imgur.com/wcYv2KR.png"
+        title="Machine Learning Engineer Intern"
+        location="Georgian Partners"
+        location_link="https://www.georgianpartners.com"
+        time_range="May 2018 – Aug 2019"
+%} {% include timeline-item.html image="https://i.imgur.com/js2Io6i.jpg"
+        title="Data Science Intern"
+        location="OKC Thunder"
+        location_link="https://www.nba.com/thunder/"
+        time_range="Jan 2019 – May 2019"
+%} {% include timeline-item.html image="https://i.imgur.com/QHpUBqS.png"
+        title="CS Research Assistant"
+        location="NC State"
+        location_link="https://www.csc.ncsu.edu/"
+        time_range="Oct 2018 – May 2019"
+%} {% include timeline-item.html
+        image="https://media.glassdoor.com/sqll/515740/q2-software-squarelogo-1594314509011.png"
+        title="Software Engineer Intern"
+        location="Precision Lender"
+        location_link="https://precisionlender.com/"
+        time_range="May 2017 – Aug 2017"
+%}
+
+#}
+
+<h3>Education</h3>
+
+{#
+
+{% include timeline-item.html image="https://i.imgur.com/740ng2W.png"
+        title="M.S. in Computer Science"
+        location="Carnegie Mellon University"
+        location_link="https://www.csd.cs.cmu.edu/"
+        time_range="Aug 2020 – Dec 2021"
+%}
+{% include timeline-item.html image="https://i.imgur.com/QHpUBqS.png"
+        title="B.S. in Electrical Engineering"
+        extra_title="B.S. in Computer Engineering"
+        location="NC State University"
+        location_link="https://www.ece.ncsu.edu/"
+        title_preamble="as a"
+        time_range="Aug 2017 – May 2020"
+%}
+
+#}
+
+{# TODO: Add references link to LinkedIn #}
+
+{% endblock content %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if page.extra.redirect_url %}
+    <meta http-equiv="refresh" content="0; url={{ page.extra.redirect_url }}">
+    <h1 class="title">
+        Redirecting to external post...
+    </h1>
+    <p>If you are not redirected automatically, <a href="{{ page.extra.redirect_url }}">click here</a>.</p>
+{% else %}
+    <h1 class="title">
+        {{ page.title }}
+    </h1>
+    <p class="subtitle"><strong>{{ page.date }}</strong></p>
+    {{ page.content | safe }}
+{% endif %}
+{% endblock content %}
