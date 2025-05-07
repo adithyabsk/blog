@@ -1,18 +1,11 @@
----
-layout: post
-description: A review of the tools and habits I put into place to get better sleep.
-category: productivity
-title: Get Better Sleep—Anecdata and Sleep Tech
-image: sleep.png
-comments: true
----
++++
+title = "Get Better Sleep—Anecdata and Sleep Tech"
+description = "A review of the tools and habits I put into place to get better sleep."
+[extra]
+header_image = "header.png"
++++
 
-![](header.png)
-
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1208777116&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adithyabsk" title="Adithya" target="_blank" style="color: #cccccc; text-decoration: none;">Adithya</a> · <a href="https://soundcloud.com/adithyabsk/sleep" title="Get Better Sleep—Anecdata and Sleep Tech" target="_blank" style="color: #cccccc; text-decoration: none;">Get Better Sleep—Anecdata and Sleep Tech</a></div>
-<!-- markdownlint-restore -->
+{{ soundcloud(id="1208777116") }}
 
 I recently got 8.5 hours of the best sleep of my adult life--a culmination of a
 month of being mindful of my sleep habits. We spend anywhere between a
@@ -26,9 +19,9 @@ Instagram to my extended friends circle, which received more feedback than I
 expected. A lot of people were interested in what I was doing to optimize my
 sleep, so I thought I'd share.
 
-![Sleep Cycle Instagram Story](https://i.imgur.com/BLGEkga.jpg){: width="60%"}
+![Sleep Cycle Instagram Story](story.jpeg)
 
-## Software
+# Software
 
 The cornerstone of getting better sleep is tracking it. As the adage goes, _you
 can't manage what you can't measure_. I've been using
@@ -51,9 +44,9 @@ sleep score, regularity, and other statistics that the app lays out bare for you
 to draw your own conclusions. I also happen to be an early adopter, so I've been
 grandfathered into the subscription features.
 
-## White Noise
+# White Noise
 
-![Sleep Quality vs Weather](https://i.imgur.com/Jnvr1Re.jpg){: width="80%"}
+![Sleep Quality vs Weather](affected.jpeg)
 
 The second thing I noticed was that the Sleep Cycle app consistently reported
 higher sleep scores on rainy nights. The white noise that a fan makes has always
@@ -61,7 +54,7 @@ helped me fall asleep--since I was a kid. So, I started using the app's
 built-in "Rain on Car Roof" sleep aid on top of the fan I have running in
 my room. I have since been falling asleep much faster.
 
-## Weighted Blanket
+# Weighted Blanket
 
 The third piece of sleep "technology"--likely the secret sauce--has been a
 [weighted blanket.](https://web.archive.org/web/20230130005935/https://chillablankets.com/)
@@ -72,7 +65,7 @@ think I have any major issues with sleep, but I've found that a weighted blanket
 improves my sleep score. I've only had mine for ~1 month, but
 the initial data shows an upward trending sleep score.
 
-## Qualitative Observations
+# Qualitative Observations
 
 On the even more anecdotal side, I've found that a couple of other key factors
 help the cause:
@@ -86,7 +79,7 @@ I've found that bedtime matters less for me personally. Looking into it, it
 seems some doctors
 [have echoed similar ideas.](https://www.headspace.com/articles/sleep-health-2-consistent-wake-up-time-sleeps-surprising-mvp)
 
-## Social Media
+# Social Media
 
 The hardest habit that I have broken this year was scrolling on social media
 before bed. I would say this is the second most important aspect to better
@@ -99,7 +92,7 @@ unlimited time to browse on a desktop computer. Desktop sites don't seem to have
 as optimized algorithms for endless scrolling. [^1] I've found that there are
 more natural stopping points when you are on a desktop computer.
 
-## Waking up
+# Waking up
 
 The part of sleep that people sometimes forget to talk about is waking up.
 I've already talked about using an app to try to wake up in a lighter phase of
@@ -115,9 +108,9 @@ up and stops me from drifting back to sleep. It also acts as a two-for-one since
 I make sure to keep the habit in both apps going since I do it first thing in
 the morning.
 
-## The Results
+# The Results
 
-![Sleep Cycle Trend Line](https://i.imgur.com/DTjMO7I.jpg){: width="60%"}
+![Sleep Cycle Trend Line](trendline.jpeg)
 
 This is a snapshot of sleep cycle over the last couple of months. I had taken a
 break from tracking my sleep at the start of the pandemic, but got back into it
@@ -126,7 +119,7 @@ some waking up habits in mid-November, but I really kicked up the focus in late
 December with the weighted blankets, social media restrictions, and white noise.
 I plan to continue to track the results of these changes this year.
 
-## Summary
+# Summary
 
 The long-short of it all, in rough relative order of importance:
 
@@ -144,6 +137,8 @@ Aishwarya Balaji for providing feedback on earlier versions of this post.
 
 **Edit 2022-02-22**: The post got some traction on Hacker News--
 [check out the discussion there](https://news.ycombinator.com/item?id=30410310)
+
+---
 
 [^1]:
     I manually delete and re-download Instagram stories on days I want to post,

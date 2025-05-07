@@ -3,15 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adithya Balaji's Blog</title>
+
+    <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) }}">
+
+    {% block head %}
+    {% endblock head %}
 </head>
 
 <body>
     {% include "partials/nav.html" %}
-    <section>
-        <div class="container">
-            {% block content %}{% endblock content %}
-    </section>
+    <main class="main-content">
+        {% block content %}{% endblock content %}
+    </main>
 </body>
 
 </html>

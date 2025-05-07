@@ -1,18 +1,9 @@
----
-layout: post
-description: A summer of quantum computing and casino heists @ Microsoft.
-category: work
-title: Quantum Resource Estimation and my Intern Experience
-image: images/microsoft.png
-comments: true
----
++++
+title = "Quantum Resource Estimation and my Intern Experience"
+description = "A summer of quantum computing and casino heists @ Microsoft."
++++
 
-![](microsoft.png)
-
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1180461799&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adithyabsk" title="Adithya" target="_blank" style="color: #cccccc; text-decoration: none;">Adithya</a> · <a href="https://soundcloud.com/adithyabsk/microsoft" title="Quantum Resource Estimation and my Intern Experience" target="_blank" style="color: #cccccc; text-decoration: none;">Quantum Resource Estimation and my Intern Experience</a></div>
-<!-- markdownlint-restore -->
+{{ soundcloud(id="1180461799") }}
 
 This past summer, I worked on the Quantum Systems Team at Microsoft. Every
 December the group puts together a
