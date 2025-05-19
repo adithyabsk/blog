@@ -1,15 +1,8 @@
 help:
 	cat Makefile
 
-# start (or restart) the services
-server: .FORCE
-	docker-compose down --remove-orphans || true;
-	docker-compose up
-
-# start (or restart) the services in detached mode
-server-detached: .FORCE
-	docker-compose down || true;
-	docker-compose up -d
+serve: .FORCE
+	zola serve
 
 # build or rebuild the services WITHOUT cache
 build: .FORCE

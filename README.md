@@ -8,8 +8,6 @@
 
 ### TODO
 
-- [ ] Setup a script to convert notebooks into pages under `content`
-- [ ] Make soundcloud shortcode
 - [ ] Style the blog using scss
 - [ ] Make the Blog hero images less gauche
 - [ ] Automate the generation of Link Preview for Social media in Zola

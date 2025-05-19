@@ -42,7 +42,7 @@ $$\begin{split}
 
 &nbsp;
 
-```csharp
+```cs
 namespace Majority {
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Convert;
