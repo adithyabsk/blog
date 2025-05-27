@@ -3,6 +3,7 @@
 {% block content %}
 <div class="post-page">
     {% if page.extra.redirect_url %}
+    <link rel="canonical" href="{{ page.extra.redirect_url }}"/>
     <meta http-equiv="refresh" content="0; url={{ page.extra.redirect_url }}">
     <h1 class="title">Redirecting to external post...</h1>
     <p>If you are not redirected automatically, <a href="{{ page.extra.redirect_url }}">click here</a>.</p>
