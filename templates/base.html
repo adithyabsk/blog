@@ -32,9 +32,54 @@
 
     {# Nav JS #}
     <script>
-        document.querySelector('.nav-menu-button').addEventListener('click', function() {
+        let lastScrollTop = 0;
+        const nav = document.querySelector('.site-nav');
+        const menuButton = document.querySelector('.nav-menu-button');
+        const scrollThreshold = 50;
+        let menuOpen = false;
+        let isAnchorScroll = false;
+
+        // Handle anchor clicks
+        document.addEventListener('click', (e) => {
+            const anchor = e.target.closest('a');
+            if (anchor && anchor.hash && anchor.origin + anchor.pathname === window.location.origin + window.location.pathname) {
+                isAnchorScroll = true;
+                setTimeout(() => { isAnchorScroll = false; }, 100);
+            }
+        });
+
+        // Mobile menu button handler
+        menuButton.addEventListener('click', function() {
             this.classList.toggle('active');
             document.querySelector('.nav-links').classList.toggle('show');
+            // Toggle menu state
+            menuOpen = !menuOpen;
+            
+            // When opening menu, ensure nav is visible
+            if (menuOpen) {
+                nav.classList.remove('nav-hidden');
+            }
+        });
+
+        window.addEventListener('scroll', () => {
+            // Don't hide nav when mobile menu is open or during anchor scrolls
+            if (menuOpen || isAnchorScroll) return;
+            
+            const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+            
+            // Only trigger if we've scrolled more than the threshold
+            if (Math.abs(lastScrollTop - currentScroll) <= scrollThreshold) return;
+            
+            // Scrolling down and past the threshold
+            if (currentScroll > lastScrollTop && currentScroll > scrollThreshold) {
+                nav.classList.add('nav-hidden');
+            } 
+            // Scrolling up (only for non-anchor scrolls)
+            else if (currentScroll < lastScrollTop) {
+                nav.classList.remove('nav-hidden');
+            }
+            
+            lastScrollTop = currentScroll;
         });
     </script>
 

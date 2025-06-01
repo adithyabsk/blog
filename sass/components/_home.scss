@@ -6,8 +6,8 @@
   padding: $spacing * 2;
 
   .intro {
-    font-size: 1.2rem;
-    line-height: 1.6;
+    font-size: $font-size-lg;
+    line-height: $line-height-base;
     margin: $spacing 0 $spacing * 2;
   }
 
@@ -15,14 +15,14 @@
     margin: $spacing 0;
     padding: $spacing;
     background: $subtle-gray;
-    border-radius: 3px;
+    border-radius: $border-radius-sm;
 
     .d-flex {
       display: flex;
       gap: $spacing * 2;
       margin-bottom: $spacing;
 
-      @media (max-width: 768px) {
+      @media (max-width: $breakpoint-mobile) {
         flex-direction: column;
       }
     }
@@ -49,7 +49,7 @@
     .post-card {
       padding: $spacing;
       background: $subtle-gray;
-      border-radius: 3px;
+      border-radius: $border-radius-sm;
       transition: transform 0.2s;
 
       &:hover {
@@ -80,6 +80,6 @@
     margin: $spacing * 3 0;
     padding: $spacing * 2;
     background: $subtle-gray;
-    border-radius: 3px;
+    border-radius: $border-radius-sm;
   }
 }

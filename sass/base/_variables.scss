@@ -18,3 +18,38 @@ $nav-font-color: $text-color;
 $nav-font-color-hover: $link-color;
 $nav-padding: $spacing;
 $nav-width: $content-width;
+
+// Layout
+$breakpoint-mobile: 768px;
+
+// Component specific
+$border-radius-sm: 3px;
+$border-subtle: 1px solid rgba(0, 0, 0, 0.08);
+$hover-background: rgba(0, 0, 0, 0.05);
+$shadow-dropdown: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+// Typography Scale
+$font-size-xs: 0.8rem;
+$font-size-sm: 0.9rem;
+$font-size-base: 1rem;
+$font-size-md: 1.125rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
+$font-size-2xl: 2rem;
+$font-size-3xl: 2.5rem;
+
+// Line Heights
+$line-height-tight: 1.2;
+$line-height-base: 1.5;
+$line-height-relaxed: 1.75;
+
+// Color Modifications
+$lighten-subtle: 15%;
+$lighten-medium: 20%;
+$lighten-strong: 25%;
+$lighten-extreme: 35%;
+$lighten-ultra: 70%;
+
+$darken-subtle: 5%;
+$darken-medium: 10%;
+$darken-strong: 15%;

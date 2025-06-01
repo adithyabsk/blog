@@ -16,14 +16,14 @@ img {
   max-width: 100%;
   height: auto;
   margin: $spacing auto;
-  border-radius: 2px;
+  border-radius: $border-radius-sm;
   display: block;
 }
 
 hr {
   margin: $spacing 0 0;
   border: none;
-  border-top: 1px solid lighten($text-color, 70%);
+  border-top: $border-subtle;
 }
 
 .d-flex {
