@@ -17,6 +17,12 @@
     <main class="main-content">
         {% block content %}{% endblock content %}
     </main>
+    <script>
+        document.querySelector('.nav-menu-button').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('show');
+        });
+    </script>
 </body>
 
 </html>
