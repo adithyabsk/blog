@@ -9,8 +9,6 @@
 ### TODO
 
 - [ ] Style the blog using scss
-  - Nav Bar
-  - Merge home and posts
   - About page
   - KaTeX
   - Pick a font stack
