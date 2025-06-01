@@ -1,5 +1,8 @@
 // Base Variables
-$font-family-base: Charter, Georgia, 'Times New Roman', serif;
+// https://modernfontstacks.com/#font-stacks
+// https://github.com/system-fonts/modern-font-stacks#geometric-humanist
+$font-family-geometric: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+$font-family-base: $font-family-geometric;
 $font-family-headings: Palatino, Charter, Georgia, serif;
 $content-width: 750px;
 $spacing: 1.2rem;
