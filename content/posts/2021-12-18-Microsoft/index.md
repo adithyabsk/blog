@@ -1,6 +1,9 @@
 +++
 title = "Quantum Resource Estimation and my Intern Experience"
 description = "A summer of quantum computing and casino heists @ Microsoft."
+
+[extra]
+katex = true
 +++
 
 {{ soundcloud(id="1180461799") }}
@@ -34,11 +37,13 @@ following function, where $n=3$. (known as the
 
 &nbsp;
 
+<p>
 $$\begin{split}
 \langle p_1,\dots, p_n \rangle &= \rm Majority (p_1, \dots, p_n) \\
 \\
 &= \left \lfloor \frac{1}{2} + \frac{((\sum^n_{i=1} p_i) - 1/2}{n} \right \rfloor
 \end{split}$$
+</p>
 
 &nbsp;
 

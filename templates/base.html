@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adithya Balaji's Blog</title>
 
-    <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) }}">
+    {# KaTeX CSS #}
+    {%- if page.extra.katex or section.extra.katex or config.extra.katex %}
+        <link rel="stylesheet" href="{{ get_url(path='katex.css', trailing_slash=false) }}">
+    {%- endif %}
 
+    <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) }}">
+    
     {% block head %}
     {% endblock head %}
 </head>
@@ -17,12 +22,24 @@
     <main class="main-content">
         {% block content %}{% endblock content %}
     </main>
+
+    {# KaTeX Scripts #}
+    {%- if page.extra.katex or section.extra.katex or config.extra.katex %}
+        <script defer src="{{ get_url(path='katex.min.js', trailing_slash=false) }}"></script>
+        <script defer src="{{ get_url(path='auto-render.min.js', trailing_slash=false) }}"></script>
+        <script defer src="{{ get_url(path='katex-init.js', trailing_slash=false) }}"></script>
+    {%- endif %}
+
+    {# Nav JS #}
     <script>
         document.querySelector('.nav-menu-button').addEventListener('click', function() {
             this.classList.toggle('active');
             document.querySelector('.nav-links').classList.toggle('show');
         });
     </script>
-</body>
 
+    {# Other scripts #}
+    {% block scripts %}
+    {% endblock scripts %}
+</body>
 </html>
