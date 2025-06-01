@@ -1,13 +1,80 @@
 {%extends "base.html"%}
 
 {% block content %}
-<h1>Blog</h1>
-<h2>Mailing List</h2>
-<h3>To see the posts hot off the press, sign up for the mailing list!</h3>
-{% include "partials/mailchimp.html" %}
+<div class="home-content">
+    <h1>Hi, I'm Adithya 👋</h1>
 
-<h2>Selected Posts</h2>
+    <p class="intro">
+        I'm a developer based in the SF Bay Area working on Tesla Autopilot. I write about technology, programming, and my various interests.
+    </p>
 
-{# TODO: Add selected posts here and why you should read them #}
+    <details>
+        <summary><b>More about me</b></summary>
+        <div class="about-details">
+            <div class="d-flex">
+                <div class="headshot">
+                    <img src="/images/headshot.png" alt="Adithya Balaji"/>
+                </div>
+                <div class="interests">
+                    <p>I'm excited about a wide range of things, including:</p>
+                    <ul>
+                        <li>🤖 Robotics</li>
+                        <li>🚀 Rocketry</li>
+                        <li>👾 Machine Learning</li>
+                        <li>💻 Software Systems</li>
+                        <li>&nbsp;Ξ&nbsp;&nbsp;DeFi and Cryptography</li>
+                        <li>📜 Ancient History</li>
+                        <li>🏀 Basketball</li>
+                        <li>🏎 Formula1</li>
+                        <li>🏏 Cricket</li>
+                    </ul>
+                </div>
+            </div>
 
+            <p>
+                If you'd like to chat, feel free to drop me a line at
+                adithya[at]adithyabalaji[dot]com. I promise to respond if you sneak
+                <a href="https://en.wikipedia.org/wiki/Veni,_vidi,_vici">
+                    "<i>veni, vidi, vici</i>"
+                </a> into the footer.
+            </p>
+
+            <details>
+                <summary><b>Professional Bio</b></summary>
+                <p class="bio">
+                    Adithya is currently a software engineer at Tesla with their Autopilot
+                    team. He's previously written code for Precision Lender, the OKC Thunder,
+                    Georgian Partners, Synthego, and Microsoft. He received an M.S. in Computer
+                    Science from Carnegie Mellon University and a B.S. in both Electrical
+                    Engineering and Computer Engineering from NC State. In his free time, he
+                    enjoys hacking on side projects, volunteering at high school robotics
+                    competitions, and watching basketball.
+                </p>
+            </details>
+        </div>
+    </details>
+
+    <h2>Selected Posts</h2>
+    <div class="featured-posts">
+        <div class="post-card">
+            <h3><a href="/posts/2022-02-01-Sleep">Get Better Sleep—Anecdata and Sleep Tech</a></h3>
+            <p>A review of the tools and habits I put into place to get better sleep.</p>
+        </div>
+        
+        <div class="post-card">
+            <h3><a href="/posts/2021-12-18-Microsoft">Quantum Resource Estimation @ Microsoft</a></h3>
+            <p>A summer of quantum computing and casino heists as a Microsoft intern.</p>
+        </div>
+
+        <div class="post-card">
+            <h3><a href="/posts/2021-08-10-Chipotle">How I (almost) got infinite free Chipotle</a></h3>
+            <p>A tale of trials, tribulations, and most importantly burritos.</p>
+        </div>
+    </div>
+
+    <div class="cta">
+        <h2>Want to read more?</h2>
+        <p>Check out all my <a href="/posts">blog posts</a> or subscribe to the <a href="/podcast">podcast version</a>.</p>
+    </div>
+</div>
 {% endblock content %}

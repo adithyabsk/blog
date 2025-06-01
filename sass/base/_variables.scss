@@ -1,0 +1,17 @@
+// Base Variables
+$font-family-base: Charter, Georgia, 'Times New Roman', serif;
+$font-family-headings: Palatino, Charter, Georgia, serif;
+$content-width: 750px;
+$spacing: 1.2rem;
+$text-color: #2b2b2b;
+$background-color: #fbfbfb;
+$link-color: #d64000;
+$subtle-gray: #f7f7f7;
+
+// Navigation Variables
+$nav-height: 60px;
+$nav-background: $background-color;
+$nav-font-color: $text-color;
+$nav-font-color-hover: $link-color;
+$nav-padding: $spacing;
+$nav-width: $content-width;

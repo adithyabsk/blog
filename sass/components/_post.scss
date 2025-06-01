@@ -1,0 +1,182 @@
+@import "../base/variables";
+
+.post-page {
+  max-width: $content-width;
+  margin: 0 auto;
+  font-family: $font-family-base;
+  color: $text-color;
+  line-height: 1.75;
+  padding: $spacing * 2;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  
+  @media (max-width: 768px) {
+    padding: $spacing;
+  }
+
+  .content {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: $spacing * 2;
+    background: $background-color;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 3px;
+    
+    @media (max-width: 768px) {
+      padding: $spacing;
+      margin: 0;
+      border-radius: 0;
+    }
+  }
+
+  .subtitle {
+    font-family: $font-family-base;
+    color: lighten($text-color, 25%);
+    margin-bottom: $spacing * 2;
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+
+  .post-heading {
+    margin: ($spacing * 1) 0 ($spacing * 1);
+    text-align: left;
+    
+    .title {
+      font-family: $font-family-headings;
+      font-size: 3rem;
+      line-height: 1.2;
+      margin: 0 0 $spacing;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+      color: #1a1a1a;
+      
+      @media (max-width: 768px) {
+        font-size: 2rem;
+      }
+    }
+
+    .description {
+      font-family: $font-family-base;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      color: lighten($text-color, 20%);
+      margin: $spacing 0;
+      font-style: italic;
+    }
+
+    .date {
+      display: block;
+      font-family: $font-family-base;
+      color: lighten($text-color, 35%);
+      font-size: 0.95rem;
+      margin-top: $spacing;
+      font-style: italic;
+    }
+  }
+
+  .header-image {
+    margin: (-$spacing * 2) (-$spacing * 2) ($spacing * 2);
+    
+    @media (max-width: 768px) {
+      margin: (-$spacing) (-$spacing) $spacing;
+    }
+    
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0;
+      border-radius: 3px 3px 0 0;
+    }
+  }
+
+  // Lists
+  ul, ol {
+    margin: $spacing 0;
+    padding-left: $spacing * 1.5;
+    
+    li {
+      margin-bottom: $spacing * 0.2;
+    }
+  }
+
+  // Blockquotes
+  blockquote {
+    margin: $spacing * 2 0;
+    padding-left: $spacing * 1.2;
+    border-left: 2px solid #ddd;
+    font-style: italic;
+    color: lighten($text-color, 15%);
+  }
+
+  // Footnotes
+  .footnote-definition {
+    margin: $spacing 0;
+    padding-left: $spacing * 2;
+    padding-right: $spacing * 2;
+    font-size: 0.9rem;
+    color: lighten($text-color, 15%);
+    
+    sup {
+      margin-right: $spacing * 0.5;
+      font-weight: 600;
+    }
+
+    p {
+      display: inline;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      padding-left: $spacing;
+      padding-right: $spacing;
+    }
+  }
+
+  .footnote-reference {
+    font-size: 0.8em;
+    vertical-align: super;
+    line-height: 0;
+    text-decoration: none;
+    
+    &:hover {
+      color: darken($link-color, 15%);
+    }
+  }
+
+  #footnote-definitions {
+    margin-top: $spacing * 3;
+    padding: $spacing * 1.5 $spacing * 2;
+    border-top: 1px solid lighten($text-color, 70%);
+    background-color: $subtle-gray;
+    border-radius: 3px;
+    
+    h2 {
+      font-size: 1.25rem;
+      margin-bottom: $spacing;
+    }
+
+    @media (max-width: 768px) {
+      padding: $spacing;
+    }
+  }
+}
+
+.soundcloud-embed {
+  margin: ($spacing * 2) 0;
+  background: $background-color;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  
+  iframe {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 768px) {
+    margin: $spacing 0;
+  }
+}

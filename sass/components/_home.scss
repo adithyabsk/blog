@@ -1,0 +1,85 @@
+@import "../base/variables";
+
+.home-content {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: $spacing * 2;
+
+  .intro {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: $spacing 0 $spacing * 2;
+  }
+
+  .about-details {
+    margin: $spacing 0;
+    padding: $spacing;
+    background: $subtle-gray;
+    border-radius: 3px;
+
+    .d-flex {
+      display: flex;
+      gap: $spacing * 2;
+      margin-bottom: $spacing;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+
+    .headshot {
+      flex: 0 0 200px;
+      
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+
+    .interests {
+      flex: 1;
+    }
+  }
+
+  .featured-posts {
+    margin: $spacing * 2 0;
+    display: grid;
+    gap: $spacing;
+
+    .post-card {
+      padding: $spacing;
+      background: $subtle-gray;
+      border-radius: 3px;
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+
+      h3 {
+        margin: 0 0 $spacing/2;
+        
+        a {
+          text-decoration: none;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      p {
+        margin: 0;
+        color: lighten($text-color, 20%);
+      }
+    }
+  }
+
+  .cta {
+    text-align: center;
+    margin: $spacing * 3 0;
+    padding: $spacing * 2;
+    background: $subtle-gray;
+    border-radius: 3px;
+  }
+}
