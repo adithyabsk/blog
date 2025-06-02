@@ -9,10 +9,7 @@ comments: true
 
 ![](SpokenContentCover.png)
 
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1163756371&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adithyabsk" title="Adithya" target="_blank" style="color: #cccccc; text-decoration: none;">Adithya</a> · <a href="https://soundcloud.com/adithyabsk/spoken-content" title="Get An Audio Version of Any Blog Post" target="_blank" style="color: #cccccc; text-decoration: none;">Get An Audio Version of Any Blog Post</a></div>
-<!-- markdownlint-restore -->
+{{ soundcloud(id="1163756371") }}
 
 I've sometimes found myself distracted while reading a passage or two and then
 having to track back to re-read the sentence. Other times, I've been on a walk
@@ -27,8 +24,7 @@ on `Speak Selection`. Also make sure that `Highlight Content` is turned on.
 If you then hop into `Voices`, you can pick a voice to narrate the content. I
 particularly like `Siri Voice 1` which is not the default.
 
-{% include video.html url="https://i.imgur.com/DSK4krC.mp4" style="width:300px"
-alt="iOS Spoken Content Setup Demo" %}
+{{ video(sources=["./spoken-content-setup.mp4"], w="300px", alt="iOS Spoken Content Setup Demo", loop=true) }}
 
 It's a pain to select text and then tap on the screen to speak. That's where the
 second trick comes in. Another feature hidden in accessibility is an alternative
@@ -40,8 +36,7 @@ On macOS, it's a similar process. Head to
 `System Preferences > Accessibility > Spoken Content` and turn on
 `Speak Selection`. The default keyboard shortcut is `⌥ + Esc`.
 
-{% include video.html url="https://i.imgur.com/ZwnLSxw.mp4" style="width:650px"
-alt="macOS Desktop Spoken Content Setup Demo" %}
+{{ video(sources=["./macos-setup.mp4"], w="650px", alt="macOS Desktop Spoken Content Setup Demo", loop=true) }}
 
 The thing I like the most about this setup is that it's native--so I know it'll
 work on all my apps, system-wide. (I used the
@@ -52,8 +47,7 @@ better if I'm listening to it while I'm reading it. This seems to be
 [borne out in the literature](https://moritz.digital/reading/)
 as well.
 
-{% include video.html url="https://i.imgur.com/zWCmFp0.mp4" style="width:300px"
-alt="Safari Reader Mode Demo" %}
+{{ video(sources=["./python-paradox.mp4"], w="300px", alt="Safari Reader Mode Demo", loop=true) }}
 
 It works great with iBooks and also with blog posts and longer news articles.
 Sometimes the articles have superfluous bits of text (ads, call to actions, and

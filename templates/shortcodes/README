@@ -88,3 +88,30 @@ To update the widget:
    - Hide Link: unchecked
    - Hide Title: Checked
 4. Copy and replace the widget code
+
+## Video
+Embed HTML5 video with support for multiple sources and responsive sizing.
+
+```html
+{% video sources=["./video.mp4", "/videos/another.mov"] alt="Video description" caption="Video caption" w="650px" class="custom-class" %}
+```
+
+Parameters:
+- `sources`: Array of video file paths (required)
+- `alt`: Alt text for accessibility (optional)
+- `caption`: Markdown-enabled caption (optional) 
+- `w`: Max width of video container (optional)
+- `h`: Height of video (optional)
+- `class`: Additional CSS classes (optional)
+- `autoplay`: Enable autoplay (optional)
+- `loop`: Enable video looping (optional)
+- `muted`: Mute video by default (optional)
+- `playsinline`: Play inline on mobile (optional)
+
+Features:
+- Supports multiple video sources/formats
+- Responsive sizing with max-width control
+- Markdown captions
+- Handles relative and absolute paths
+- MIME type auto-detection
+- Accessibility attributes

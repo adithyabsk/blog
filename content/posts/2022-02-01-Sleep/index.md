@@ -8,7 +8,6 @@ header_image = "header.png"
 [extra.hn]
 id = 30410310
 position = 25
-
 +++
 
 {{ soundcloud(id="1208777116") }}
