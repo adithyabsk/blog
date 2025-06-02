@@ -72,6 +72,10 @@
         margin: 0;
         color: lighten($text-color, 20%);
       }
+
+      .hn-badge {
+        margin-top: $spacing / 2;
+      }
     }
   }
 

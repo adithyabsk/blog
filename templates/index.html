@@ -1,4 +1,5 @@
 {%extends "base.html"%}
+{% import "macros/hn.html" as hn %}
 
 {% block content %}
 <div class="home-content">
@@ -56,20 +57,16 @@
 
     <h2>Selected Posts</h2>
     <div class="featured-posts">
+        {% set blog_section = get_section(path="posts/_index.md") %}
+        {% for page in blog_section.pages | filter(attribute="extra.highlight", value=true) | sort(attribute="date") | reverse | slice(end=5) %}
         <div class="post-card">
-            <h3><a href="/posts/2022-02-01-Sleep">Get Better Sleep—Anecdata and Sleep Tech</a></h3>
-            <p>A review of the tools and habits I put into place to get better sleep.</p>
+            <h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
+            <p>{{ page.description }}</p>
+            {% if page.extra.hn %}
+            {{ hn::badge(id=page.extra.hn.id, position=page.extra.hn.position) }}
+            {% endif %}
         </div>
-        
-        <div class="post-card">
-            <h3><a href="/posts/2021-12-18-Microsoft">Quantum Resource Estimation @ Microsoft</a></h3>
-            <p>A summer of quantum computing and casino heists as a Microsoft intern.</p>
-        </div>
-
-        <div class="post-card">
-            <h3><a href="/posts/2021-08-10-Chipotle">How I (almost) got infinite free Chipotle</a></h3>
-            <p>A tale of trials, tribulations, and most importantly burritos.</p>
-        </div>
+        {% endfor %}
     </div>
 
     <div class="cta">
@@ -78,3 +75,7 @@
     </div>
 </div>
 {% endblock content %}
+
+{% block scripts %}
+{{ hn::badge_script() }}
+{% endblock scripts%}

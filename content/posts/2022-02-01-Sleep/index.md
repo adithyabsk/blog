@@ -2,7 +2,13 @@
 title = "Get Better Sleep—Anecdata and Sleep Tech"
 description = "A review of the tools and habits I put into place to get better sleep."
 [extra]
+highlight = true
 header_image = "header.png"
+
+[extra.hn]
+id = 30410310
+position = 25
+
 +++
 
 {{ soundcloud(id="1208777116") }}

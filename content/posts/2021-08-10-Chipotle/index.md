@@ -1,11 +1,10 @@
----
-layout: post
-description: A tale of trials, tribulations, and most importantly burritos.
-category: hacking
-title: How I (almost) got infinite free Chipotle
-image: blog_image.png
-comments: true
----
++++
+title = "How I (almost) got infinite free Chipotle"
+description = "A tale of trials, tribulations, and most importantly burritos."
+
+[extra]
+highlight = true
++++
 
 ![](blog_image.png)
 

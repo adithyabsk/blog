@@ -3,6 +3,7 @@ title = "Quantum Resource Estimation and my Intern Experience"
 description = "A summer of quantum computing and casino heists @ Microsoft."
 
 [extra]
+highlight = true
 katex = true
 +++
 
