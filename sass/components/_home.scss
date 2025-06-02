@@ -3,12 +3,12 @@
 .home-content {
   max-width: $content-width;
   margin: 0 auto;
-  padding: $spacing * 1;
+  padding: $spacing;
 
   .intro {
     font-size: $font-size-lg;
     line-height: $line-height-base;
-    margin: $spacing 0 $spacing * 2;
+    margin: $spacing 0 $spacing;
   }
 
   .about-details {
@@ -19,7 +19,7 @@
 
     .d-flex {
       display: flex;
-      gap: $spacing * 2;
+      gap: $spacing;
       margin-bottom: $spacing;
 
       @media (max-width: $breakpoint-mobile) {
@@ -28,11 +28,11 @@
     }
 
     .headshot {
-      flex: 0 0 200px;
+      flex: 0 0 300px;
       
       img {
         width: 100%;
-        border-radius: 50%;
+        border-radius: 12px;
       }
     }
 
