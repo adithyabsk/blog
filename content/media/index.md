@@ -3,6 +3,15 @@ title = "Media"
 template = "standalone.html"
 +++
 
+## Podcast
+
+Listen to the blog in podcast form!
+
+* [Apple Podcasts](https://podcasts.apple.com/us/podcast/adithyas-blog/id1601127059)
+* [Stitcher](https://www.stitcher.com/show/adithyas-blog)
+* [Spotify](https://open.spotify.com/show/0zBPzThWz37HXbVqvKaoZh)
+* [Overcast](https://overcast.fm/itunes1601127059)
+
 ## In Press
 
 - [2021-03-08 -- CMU Graduate Student Cracks Mars Rover Code](https://www.cmu.edu/news/stories/archives/2021/march/mars-rover-code.html)
