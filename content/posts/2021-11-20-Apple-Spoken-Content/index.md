@@ -21,7 +21,11 @@ on `Speak Selection`. Also make sure that `Highlight Content` is turned on.
 If you then hop into `Voices`, you can pick a voice to narrate the content. I
 particularly like `Siri Voice 1` which is not the default.
 
-{{ video(sources=["./spoken-content-setup.mp4"], w="300px", alt="iOS Spoken Content Setup Demo", loop=true) }}
+{{ video(
+    sources=["./spoken-content-setup.mp4"],
+    w="300px",
+    alt="iOS Spoken Content Setup Demo",
+    loop=true) }}
 
 It's a pain to select text and then tap on the screen to speak. That's where the
 second trick comes in. Another feature hidden in accessibility is an alternative
@@ -33,7 +37,11 @@ On macOS, it's a similar process. Head to
 `System Preferences > Accessibility > Spoken Content` and turn on
 `Speak Selection`. The default keyboard shortcut is `⌥ + Esc`.
 
-{{ video(sources=["./macos-setup.mp4"], w="650px", alt="macOS Desktop Spoken Content Setup Demo", loop=true) }}
+{{ video(
+    sources=["./macos-setup.mp4"],
+    w="650px",
+    alt="macOS Desktop Spoken Content Setup Demo",
+    loop=true) }}
 
 The thing I like the most about this setup is that it's native--so I know it'll
 work on all my apps, system-wide. (I used the
@@ -44,7 +52,11 @@ better if I'm listening to it while I'm reading it. This seems to be
 [borne out in the literature](https://moritz.digital/reading/)
 as well.
 
-{{ video(sources=["./python-paradox.mp4"], w="300px", alt="Safari Reader Mode Demo", loop=true) }}
+{{ video(
+    sources=["./python-paradox.mp4"],
+    w="300px",
+    alt="Safari Reader Mode Demo",
+    loop=true) }}
 
 It works great with iBooks and also with blog posts and longer news articles.
 Sometimes the articles have superfluous bits of text (ads, call to actions, and
@@ -60,4 +72,6 @@ I also set up keyboard shortcuts for this by going to
 `System Preferences > Keyboard > Shortcuts` and adding an entry for
 `Enter Reader Mode` and `Exit Reader Mode`. I use `⌃ + ⇧ + R`.
 
-{{ image(path="./ChromeReaderModeKeyboardShortcuts.png", alt="Chrome Reader Mode Keyboard Shortcut") }}
+{{ image(
+    path="./ChromeReaderModeKeyboardShortcuts.png",
+    alt="Chrome Reader Mode Keyboard Shortcut") }}

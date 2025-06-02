@@ -29,7 +29,7 @@
 
     .headshot {
       flex: 0 0 300px;
-      
+
       img {
         width: 100%;
         border-radius: 12px;
@@ -58,10 +58,10 @@
 
       h3 {
         margin: 0 0 $spacing/2;
-        
+
         a {
           text-decoration: none;
-          
+
           &:hover {
             text-decoration: underline;
           }

@@ -3,31 +3,31 @@
     padding: ($spacing * 0.75) ($spacing * 1.5);
     background-color: $subtle-gray;
     border-radius: $border-radius-sm;
-    
+
     h2 {
         font-family: $font-family-headings;
         margin-bottom: $spacing;
         font-size: $font-size-xl;
     }
-    
+
     p {
         margin-bottom: $spacing;
         font-size: $font-size-md;
         line-height: $line-height-relaxed;
     }
-    
+
     .form-group {
         margin-bottom: $spacing * 0.25;
-        
+
         &-header {
             margin-bottom: ($spacing * 0.5);
-            
+
             label {
                 font-size: $font-size-sm;
             }
         }
     }
-    
+
     .form-control {
         width: 100%;
         max-width: ($content-width * 0.5);
@@ -36,13 +36,13 @@
         border-radius: $border-radius-sm;
         font-family: $font-family-base;
         font-size: $font-size-base;
-        
+
         &:focus {
             outline: none;
             border-color: lighten($primary-color, $lighten-subtle);
         }
     }
-    
+
     .btn-primary {
         margin-top: $spacing;
         background-color: $primary-color;
@@ -55,16 +55,16 @@
         width: 100%;
         max-width: ($content-width * 0.5);
         font-weight: 500;
-        
+
         &:hover {
             background-color: darken($primary-color, $darken-subtle);
         }
-        
+
         @media (max-width: $breakpoint-mobile) {
             max-width: 100%;
         }
     }
-    
+
     .privacy-note {
         font-size: $font-size-xs;
         color: lighten($text-color, 30%);
@@ -75,7 +75,7 @@
 @media (max-width: $breakpoint-mobile) {
     .newsletter-section {
         padding: $spacing;
-        
+
         .form-control {
             max-width: 100%;
         }

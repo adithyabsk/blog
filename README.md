@@ -2,10 +2,10 @@
 
 <https://adithyabalaji.com>
 
-### FAQ
+## FAQ
 
 - [Recording Setup](./Recording.md)
 
-### TODO
+## TODO
 
 - [ ] Deployment

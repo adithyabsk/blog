@@ -125,7 +125,7 @@ In fact, this concept is not all that new and has been put to great effect in th
 ML community and [a number](https://wandb.ai/site)
 [of startups](https://neptune.ai/)
 [and projects](https://github.com/IDSIA/sacred) [are working](https://web.archive.org/web/20211205032107/https://www.comet.ml/site/)
-on problems in that space. [Papers with Code](https://paperswithcode.com/),
+on problems in that space. [Papers with Code](https://web.archive.org/web/20250601010035/https://paperswithcode.com/),
 most notably, has become the go-to source for ML researchers to get a rough
 sense of the progression of the state of the art in any particular problem area.
 The work I implemented over the summer put together an MVP for a hosted runner

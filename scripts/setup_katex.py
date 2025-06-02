@@ -40,7 +40,7 @@ FILES_TO_DOWNLOAD = {
     "katex.min.css": f"{CDN_BASE}/katex.min.css",
     "auto-render.min.js": f"{CDN_BASE}/contrib/auto-render.min.js",
     "fonts/KaTeX_AMS-Regular.woff2": f"{CDN_BASE}/fonts/KaTeX_AMS-Regular.woff2",
-    "fonts/KaTeX_Caligraphic-Bold.woff2": f"{CDN_BASE}/fonts/KaTeX_Caligraphic-Bold.woff2", 
+    "fonts/KaTeX_Caligraphic-Bold.woff2": f"{CDN_BASE}/fonts/KaTeX_Caligraphic-Bold.woff2",
     "fonts/KaTeX_Caligraphic-Regular.woff2": f"{CDN_BASE}/fonts/KaTeX_Caligraphic-Regular.woff2",
     "fonts/KaTeX_Fraktur-Bold.woff2": f"{CDN_BASE}/fonts/KaTeX_Fraktur-Bold.woff2",
     "fonts/KaTeX_Fraktur-Regular.woff2": f"{CDN_BASE}/fonts/KaTeX_Fraktur-Regular.woff2",
@@ -92,10 +92,10 @@ def download_file(url: str, dest_path: Path) -> None:
     """Download a file from URL to destination path."""
     response = requests.get(url)
     response.raise_for_status()
-    
+
     # Create parent directories if they don't exist
     dest_path.parent.mkdir(parents=True, exist_ok=True)
-    
+
     # Write the file
     with open(dest_path, 'wb') as f:
         f.write(response.content)
@@ -113,13 +113,13 @@ def generate_font_face(family: str, variant: str) -> str:
 def generate_fonts_scss():
     """Generate SCSS file for KaTeX fonts."""
     STYLES_DIR.mkdir(exist_ok=True)
-    
+
     # Generate all font-face declarations
     font_faces = []
     for family, variants in KATEX_FONTS.items():
         for variant in variants:
             font_faces.append(generate_font_face(family, variant))
-    
+
     # Write the SCSS file
     scss_content = "\n\n".join(font_faces)
     with open(STYLES_DIR / "_katex_fonts.scss", 'w') as f:
@@ -129,16 +129,16 @@ def generate_fonts_scss():
 def setup_katex():
     """Set up KaTeX files and configuration."""
     print(f"Setting up KaTeX v{KATEX_VERSION}...")
-    
+
     # Create necessary directories
     STATIC_DIR.mkdir(exist_ok=True)
     FONTS_DIR.mkdir(exist_ok=True)
-    
+
     # Download all required files
     for file_path, url in FILES_TO_DOWNLOAD.items():
         dest_path = STATIC_DIR / file_path
         download_file(url, dest_path)
-    
+
     # Rename katex.min.css to katex.css to match existing setup
     css_path = STATIC_DIR / "katex.min.css"
     if css_path.exists():

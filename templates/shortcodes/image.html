@@ -34,7 +34,7 @@
     {%- endif %}
     {%- set scale_factor = max_width / mdata.width %}
     {%- set scaled_height = mdata.height * scale_factor %}
-    
+
     {%- set default = resize_image(path=metapath, width=max_width, op="fit_width", format=mdata.format) %}
     {%- set webp = resize_image(path=metapath, width=max_width, op="fit_width", format="webp") %}
     {%- set mobile = resize_image(path=metapath, width=mobile_width, op="fit_width", format=mdata.format) %}

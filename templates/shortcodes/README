@@ -99,7 +99,7 @@ Embed HTML5 video with support for multiple sources and responsive sizing.
 Parameters:
 - `sources`: Array of video file paths (required)
 - `alt`: Alt text for accessibility (optional)
-- `caption`: Markdown-enabled caption (optional) 
+- `caption`: Markdown-enabled caption (optional)
 - `w`: Max width of video container (optional)
 - `h`: Height of video (optional)
 - `class`: Additional CSS classes (optional)

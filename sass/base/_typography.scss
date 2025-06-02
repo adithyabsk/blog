@@ -30,7 +30,7 @@ p {
   margin-bottom: $spacing * 0.8;
   color: $text-color;
   line-height: $line-height-relaxed;
-  
+
   @media (max-width: $breakpoint-mobile) {
     font-size: $font-size-base;
   }
@@ -66,7 +66,7 @@ pre {
   letter-spacing: -0.02em;
   font-weight: 700;
   color: #1a1a1a;
-  
+
   @media (max-width: $breakpoint-mobile) {
     font-size: $font-size-2xl;
   }

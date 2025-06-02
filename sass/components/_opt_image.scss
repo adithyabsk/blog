@@ -2,11 +2,11 @@
 
 .opt-image {
   margin: $spacing * 2 0;
-  
+
   &.wide {
     margin-left: -$spacing * 8;
     margin-right: -$spacing * 8;
-    
+
     @media (max-width: $breakpoint-mobile) {
       margin-left: -$spacing;
       margin-right: -$spacing;
@@ -44,7 +44,7 @@
     color: lighten($text-color, $lighten-strong);
     padding: 0 $spacing;
     font-style: italic;
-    
+
     p {
       margin: 0;
     }

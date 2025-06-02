@@ -20,7 +20,7 @@
         gap: $spacing;
         padding: $spacing 0;
         border-bottom: 1px solid rgba($text-color, 0.1);
-        
+
         &:hover {
             .post-details h3 a {
                 color: $primary-color;
@@ -37,7 +37,7 @@
             h3 {
                 margin: 0 0 $spacing/3;
                 font-size: 1.2em;
-                
+
                 a {
                     text-decoration: none;
                     color: $text-color;
@@ -58,7 +58,7 @@
         .post-item {
             grid-template-columns: 1fr;
             gap: $spacing/3;
-            
+
             .date {
                 font-size: 0.85em;
             }

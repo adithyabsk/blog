@@ -8,6 +8,12 @@
     },
     {
       "pattern": "\/ChipotleTweets\/"
+    },
+    {
+      "pattern": "web\\.archive\\.org"
+    },
+    {
+      "pattern": "archive\\.is"
     }
   ],
   "httpHeaders": [

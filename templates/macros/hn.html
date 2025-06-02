@@ -5,18 +5,18 @@ let hnBadgeCounter = 0;
 async function updateHNBadge(id, position, suffix) {
   const response = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
   const data = await response.json();
-  
+
   if (!data) return;
-  
+
   const text = document.getElementById(`hn-${id}-${suffix}-text`);
   const date = new Date(data.time * 1000).toISOString().split('T')[0];
-  
+
   let content = `▲${data.score}`;
   if (position > 0) {
     content += ` • Ranked #${position}`;
   }
   content += ` • ${date}`;
-  
+
   text.textContent = content;
 }
 
@@ -36,26 +36,26 @@ document.addEventListener('DOMContentLoaded', initHNBadges);
 
 {% macro badge(id, position=-1) %}
 {% set suffix = get_random(end=999999) %}
-<div class="hn-badge" 
-     data-hn-id="{{ id }}" 
+<div class="hn-badge"
+     data-hn-id="{{ id }}"
      data-hn-suffix="{{ suffix }}"
      {% if position > 0 %}data-hn-position="{{ position }}"{% endif %}>
   <a href="https://news.ycombinator.com/item?id={{ id }}" target="_blank" rel="noopener noreferrer">
     <svg xmlns="http://www.w3.org/2000/svg" width="240" height="40" viewBox="0 0 240 40">
       <!-- Background -->
       <rect width="230" height="40" fill="#ff6600"/>
-      
+
       <!-- Y Combinator Logo (scaled and positioned) -->
       <g transform="translate(8,8) scale(0.0465)">
         <rect width="512" height="512" fill="white" rx="77"/>
         <path d="M126 113h49l81 164 81-165h49L274 314v134h-42V314z" fill="#ff6600"/>
       </g>
-      
+
       <!-- Featured on Hacker News -->
       <text x="38" y="18" font-family="Arial, sans-serif" font-size="15" fill="white">
         Featured on <tspan font-weight="bold">Hacker News</tspan>
       </text>
-      
+
       <!-- Stats on second line -->
       <text id="hn-{{id}}-{{suffix}}-text" x="38" y="32" font-family="Arial, sans-serif" font-size="12" fill="white">
         Loading...
@@ -64,4 +64,3 @@ document.addEventListener('DOMContentLoaded', initHNBadges);
   </a>
 </div>
 {% endmacro badge %}
-

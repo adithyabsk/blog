@@ -27,7 +27,7 @@ sleep, so I thought I'd share.
 
 {{ image(path="./story.jpeg", alt="Sleep Cycle Instagram Story") }}
 
-# Software
+## Software
 
 The cornerstone of getting better sleep is tracking it. As the adage goes, _you
 can't manage what you can't measure_. I've been using
@@ -50,7 +50,7 @@ sleep score, regularity, and other statistics that the app lays out bare for you
 to draw your own conclusions. I also happen to be an early adopter, so I've been
 grandfathered into the subscription features.
 
-# White Noise
+## White Noise
 
 {{ image(path="./affected.jpeg", alt="Sleep Quality vs Weather") }}
 
@@ -60,7 +60,7 @@ helped me fall asleep--since I was a kid. So, I started using the app's
 built-in "Rain on Car Roof" sleep aid on top of the fan I have running in
 my room. I have since been falling asleep much faster.
 
-# Weighted Blanket
+## Weighted Blanket
 
 The third piece of sleep "technology"--likely the secret sauce--has been a
 [weighted blanket.](https://web.archive.org/web/20230130005935/https://chillablankets.com/)
@@ -71,7 +71,7 @@ think I have any major issues with sleep, but I've found that a weighted blanket
 improves my sleep score. I've only had mine for ~1 month, but
 the initial data shows an upward trending sleep score.
 
-# Qualitative Observations
+## Qualitative Observations
 
 On the even more anecdotal side, I've found that a couple of other key factors
 help the cause:
@@ -85,7 +85,7 @@ I've found that bedtime matters less for me personally. Looking into it, it
 seems some doctors
 [have echoed similar ideas.](https://www.headspace.com/articles/sleep-health-2-consistent-wake-up-time-sleeps-surprising-mvp)
 
-# Social Media
+## Social Media
 
 The hardest habit that I have broken this year was scrolling on social media
 before bed. I would say this is the second most important aspect to better
@@ -98,7 +98,7 @@ unlimited time to browse on a desktop computer. Desktop sites don't seem to have
 as optimized algorithms for endless scrolling. [^1] I've found that there are
 more natural stopping points when you are on a desktop computer.
 
-# Waking up
+## Waking up
 
 The part of sleep that people sometimes forget to talk about is waking up.
 I've already talked about using an app to try to wake up in a lighter phase of
@@ -114,7 +114,7 @@ up and stops me from drifting back to sleep. It also acts as a two-for-one since
 I make sure to keep the habit in both apps going since I do it first thing in
 the morning.
 
-# The Results
+## The Results
 
 {{ image(path="./trendline.jpeg", alt="Sleep Cycle Trend Line") }}
 
@@ -125,7 +125,7 @@ some waking up habits in mid-November, but I really kicked up the focus in late
 December with the weighted blankets, social media restrictions, and white noise.
 I plan to continue to track the results of these changes this year.
 
-# Summary
+## Summary
 
 The long-short of it all, in rough relative order of importance:
 
