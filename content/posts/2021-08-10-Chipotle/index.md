@@ -4,6 +4,7 @@ description = "A tale of trials, tribulations, and most importantly burritos."
 
 [extra]
 highlight = true
+social_image = "blog_image.png"
 +++
 
 ![](blog_image.png)
