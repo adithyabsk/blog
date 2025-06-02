@@ -8,7 +8,8 @@ $content-width: 750px;
 $spacing: 1.2rem;
 $text-color: #2b2b2b;
 $background-color: #fbfbfb;
-$link-color: #d64000;
+$primary-color: #d64000;
+$link-color: $primary-color;
 $subtle-gray: #f7f7f7;
 
 // Navigation Variables
