@@ -7,3 +7,4 @@ compile_sass = true
 [markdown]
 highlight_code = true
 bottom_footnotes = true
+insert_anchor_links = "left"

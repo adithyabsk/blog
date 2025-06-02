@@ -39,20 +39,6 @@
   .post-heading {
     margin: ($spacing * 1) 0 ($spacing * 1);
     text-align: left;
-    
-    .title {
-      font-family: $font-family-headings;
-      font-size: $font-size-3xl;
-      line-height: $line-height-tight;
-      margin-bottom: $spacing;
-      letter-spacing: -0.02em;
-      font-weight: 700;
-      color: #1a1a1a;
-      
-      @media (max-width: $breakpoint-mobile) {
-        font-size: $font-size-2xl;
-      }
-    }
 
     .description {
       font-family: $font-family-base;

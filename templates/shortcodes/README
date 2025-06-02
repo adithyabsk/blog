@@ -1,0 +1,90 @@
+# Shortcode Documentation
+
+## YouTube Playlist
+Embed a YouTube playlist in your content.
+
+```html
+{% youtube_playlist id="PLAYLIST_ID" %}
+```
+
+Parameters:
+- `id`: YouTube playlist ID (required)
+
+## X (Twitter)
+Embed a tweet using X's (formerly Twitter) oEmbed API.
+
+```html
+{% x url="TWEET_URL" %}
+```
+
+Parameters:
+- `url`: Full URL to the tweet (required)
+
+## SoundCloud
+Embed a SoundCloud track.
+
+```html
+{% soundcloud id="TRACK_ID" color="d64000" %}
+```
+
+Parameters:
+- `id`: SoundCloud track ID (required)
+- `color`: Hex color code without # (optional, default: d64000)
+
+## Spotify Playlist
+Embed a Spotify playlist.
+
+```html
+{% spotify_playlist id="PLAYLIST_ID" %}
+```
+
+Parameters:
+- `id`: Spotify playlist ID (required)
+
+## Image
+Inspo: https://abridge.pages.dev/overview-rich-content/#image
+Advanced image shortcode with responsive sizing and WebP support.
+
+```html
+{% image path="path/to/image.jpg" alt="Alt text" caption="Image caption" wide=true class="custom-class" %}
+```
+
+Parameters:
+- `path`: Path to image file (required)
+- `alt`: Alt text for accessibility (optional)
+- `caption`: Markdown-enabled caption (optional)
+- `wide`: Boolean to enable wide layout (optional)
+- `class`: Additional CSS classes (optional)
+- `debug`: Show image debug info (optional)
+
+Features:
+- Automatic responsive images
+- WebP conversion
+- Lazy loading
+- Markdown captions
+- Handles relative and absolute paths
+
+## Goodreads Widget
+Displays your favorite books from Goodreads.
+
+```html
+{% goodreads_widget %}
+```
+
+Features:
+- Displays a grid of book covers
+- Links to Goodreads book pages
+- Responsive layout
+- Supports up to 20 books
+
+To update the widget:
+1. Go to: https://www.goodreads.com/user/edit?ref=nav_profile_settings
+2. Scroll to "Grid Widget" section
+3. Configure:
+   - Shelf: `favorite-books`
+   - Sort: `Rating`, `desc`
+   - Number of books: 20
+   - Title: `Favorite Books`
+   - Hide Link: unchecked
+   - Hide Title: Checked
+4. Copy and replace the widget code

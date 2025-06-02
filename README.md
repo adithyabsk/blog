@@ -9,7 +9,6 @@
 ### TODO
 
 - Post styling
-  - Image styling
   - Pound to link back to specific header
 - Fix short thoughts, should be centered
   - Or, maybe we should just embed X feed with highlighted posts

@@ -2,6 +2,9 @@
     <div class="nav-content">
         <div class="nav-logo">
             <a href="{{ config.base_url }}">
+                {% set logo = resize_image(path="/images/logo.png", width=48, height=48, op="fit") %}
+                <img class="nav-logo-img" src="{{ logo.url }}" alt="Logo" width="48" height="48" loading="lazy">
+                <div class="nav-divider"></div>
                 <span class="name-stylized">
                     <span class="name-container">
                         <span class="full-name">

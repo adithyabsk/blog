@@ -63,10 +63,10 @@ and it'll swap to a reader view that works much better with `Spoken Content`. On
 desktop Chrome, you can do something very similar by heading to
 [chrome flags](chrome://flags/) and setting `Enable Reader Mode : Enabled`.
 
-![Chrome Reader Mode Setup](ChromeReaderMode.png)
+{{ image(path="./ChromeReaderMode.png", alt="Chrome Reader Mode Setup") }}
 
 I also set up keyboard shortcuts for this by going to
 `System Preferences > Keyboard > Shortcuts` and adding an entry for
 `Enter Reader Mode` and `Exit Reader Mode`. I use `⌃ + ⇧ + R`.
 
-![Chrome Reader Mode Keyboard Shortcut](ChromeReaderModeKeyboardShortcuts.png)
+{{ image(path="./ChromeReaderModeKeyboardShortcuts.png", alt="Chrome Reader Mode Keyboard Shortcut") }}

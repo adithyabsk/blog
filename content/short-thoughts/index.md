@@ -5,7 +5,7 @@ template = "standalone.html"
 
 Some selected thoughts, ideas, and feelings
 
-## Programming
+# Programming
 
 {{ x(url="https://twitter.com/adithya_balaji/status/1250945319279439878") }}
 
@@ -15,11 +15,11 @@ Some selected thoughts, ideas, and feelings
 
 {{ x(url="https://twitter.com/adithya_balaji/status/1506014565523460111") }}
 
-## Startups
+# Startups
 
 {{ x(url="https://twitter.com/adithya_balaji/status/1484691530984083468") }}
 
-## Productivity
+# Productivity
 
 {{ x(url="https://twitter.com/adithya_balaji/status/1295835035241766920") }}
 
@@ -31,7 +31,7 @@ Some selected thoughts, ideas, and feelings
 
 {{ x(url="https://twitter.com/adithya_balaji/status/1415121668083568642") }}
 
-## Society
+# Society
 
 {{ x(url="https://twitter.com/adithya_balaji/status/1357398380339732480") }}
 
@@ -51,7 +51,7 @@ Some selected thoughts, ideas, and feelings
 
 {{ x(url="https://twitter.com/adithya_balaji/status/1479523315450535943") }}
 
-## Jokes
+# Jokes
 
 {{ x(url="https://twitter.com/adithya_balaji/status/1347588465207209984") }}
 

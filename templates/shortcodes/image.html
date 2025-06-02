@@ -1,0 +1,83 @@
+{%- if page.path %}
+    {%- set pagepath = page.path %}
+{%- elif section.path %}
+    {%- set pagepath = section.path %}
+{%- endif %}
+
+{%- set dirtest = path | trim_start_matches(pat="./") %}
+{%- if dirtest is containing("/") %}
+    {%- set reldir = true %}
+{%- endif %}
+
+{%- if path is starting_with("./") and reldir %}
+    {%- set img_path = path | trim_start_matches(pat="./") %}
+    {%- set metapath = pagepath ~ img_path %}
+{%- elif path is starting_with("/") %}
+    {%- set img_path = path %}
+    {%- set metapath = path %}
+{%- else %}
+    {%- set img_path = path %}
+    {%- set metapath = pagepath ~ path %}
+{%- endif %}
+
+{%- set mdata = get_image_metadata(path=metapath, allow_missing=true) %}
+{%- if not mdata %}
+    <div class="image-error">Image not found: {{ path }}</div>
+{%- else %}
+    {%- set regular_max_width = 800 %}
+    {%- set wide_max_width = 1200 %}
+    {%- set mobile_width = 400 %}
+    {%- if wide %}
+        {%- set max_width = wide_max_width %}
+    {%- else %}
+        {%- set max_width = regular_max_width %}
+    {%- endif %}
+    {%- set scale_factor = max_width / mdata.width %}
+    {%- set scaled_height = mdata.height * scale_factor %}
+    
+    {%- set default = resize_image(path=metapath, width=max_width, op="fit_width", format=mdata.format) %}
+    {%- set webp = resize_image(path=metapath, width=max_width, op="fit_width", format="webp") %}
+    {%- set mobile = resize_image(path=metapath, width=mobile_width, op="fit_width", format=mdata.format) %}
+    {%- set mobile_webp = resize_image(path=metapath, width=mobile_width, op="fit_width", format="webp") %}
+
+    <figure class="opt-image {% if wide %}wide{% endif %} {% if class %}{{ class }}{% endif %}"
+            data-format="{{ mdata.format }}"
+            data-mime="{{ mdata.mime }}">
+        <a href="{{ get_url(path=metapath) }}" target="_blank" rel="noopener">
+            <picture>
+                <source
+                    media="(min-width: 768px)"
+                    srcset="{{ webp.url }}"
+                    type="image/webp">
+                <source
+                    media="(min-width: 768px)"
+                    srcset="{{ default.url }}"
+                    type="{{ mdata.mime }}">
+                <source
+                    srcset="{{ mobile_webp.url }}"
+                    type="image/webp">
+                <source
+                    srcset="{{ mobile.url }}"
+                    type="{{ mdata.mime }}">
+                <img
+                    src="{{ default.url }}"
+                    width="{{ mdata.width }}"
+                    height="{{ mdata.height }}"
+                    alt="{{ alt | default(value='') }}"
+                    loading="lazy"
+                    decoding="async"
+                    style="aspect-ratio: {{ mdata.width }}/{{ mdata.height }}">
+            </picture>
+        </a>
+        {% if caption %}
+        <figcaption>
+            {{ caption | markdown | safe }}
+            {% if debug %}
+            <span class="image-debug">
+                ({{ mdata.width }}×{{ mdata.height }} {{ mdata.format | upper }})
+            </span>
+            {% endif %}
+        </figcaption>
+        {% endif %}
+    </figure>
+{%- endif %}

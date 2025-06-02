@@ -6,31 +6,6 @@
     padding: $spacing;
     line-height: $line-height-relaxed;
 
-    .title {
-        font-family: $font-family-headings;
-        font-size: $font-size-2xl;
-        margin-bottom: $spacing;
-        color: $text-color;
-    }
-
-    h2 {
-        font-family: $font-family-headings;
-        font-size: $font-size-xl;
-        margin-top: $spacing * 3;
-        margin-bottom: $spacing;
-        color: $text-color;
-        border-bottom: $border-subtle;
-        padding-bottom: $spacing/2;
-    }
-
-    h3 {
-        font-family: $font-family-headings;
-        font-size: $font-size-lg;
-        margin-top: $spacing * 2;
-        margin-bottom: $spacing;
-        color: $text-color;
-    }
-
     ul {
         list-style-type: none;
         padding-left: 0;
@@ -60,20 +35,8 @@
         overflow: hidden;
     }
 
-    @media (max-width: $breakpoint-mobile) {
-        padding: $spacing;
-
-        .title {
-            font-size: $font-size-xl;
-        }
-
-        h2 {
-            font-size: $font-size-lg;
-            margin-top: $spacing * 2;
-        }
-
-        h3 {
-            font-size: $font-size-md;
-        }
+    .zola-anchor {
+        text-decoration: none;
+        padding: 0 0.4rem 0 0;
     }
 }
