@@ -19,6 +19,8 @@
         <hr />
     </div>
     {{ page.content | safe }}
+
+    {% include "partials/mailchimp.html" %}
 {% endif %}
 </div>
 {% endblock content %}
