@@ -1,13 +1,10 @@
----
-layout: post
-description: How to turn any article into a "podcast."
-category: productivity
-title: Get an Audio Version of Any Blog Post
-image: images/spoken_content/SpokenContentCover.png
-comments: true
----
++++
+title = "Get an Audio Version of Any Blog Post"
+description = "How to turn any article into a podcast."
 
-![](SpokenContentCover.png)
+[extra]
+social_image = "SpokenContentCover.png"
++++
 
 {{ soundcloud(id="1163756371") }}
 

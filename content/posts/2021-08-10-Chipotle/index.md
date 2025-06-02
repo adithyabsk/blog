@@ -7,12 +7,7 @@ highlight = true
 social_image = "blog_image.png"
 +++
 
-![](blog_image.png)
-
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1103970979&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adithyabsk" title="Adithya" target="_blank" style="color: #cccccc; text-decoration: none;">Adithya</a> · <a href="https://soundcloud.com/adithyabsk/how-i-almost-got-infinite-free-chipotle" title="How I (almost) Got Infinite Free Chipotle" target="_blank" style="color: #cccccc; text-decoration: none;">How I (almost) Got Infinite Free Chipotle</a></div>
-<!-- markdownlint-restore -->
+{{ soundcloud(id="1103970979" )}}
 
 It's
 [Game 3 of the NBA finals](https://www.basketball-reference.com/boxscores/201906050GSW.html),
@@ -25,9 +20,7 @@ coupons. As a college student, Chipotle happened to be part of my food pyramid.
 The NBA promo event was paying me in burritos for something I already enjoyed
 watching.
 
-<!-- markdownlint-disable -->
-{% twitter https://twitter.com/ChipotleTweets/status/1133785740645687301 %}
-<!-- markdownlint-enable -->
+{{ x(url="https://twitter.com/ChipotleTweets/status/1133785740645687301") }}
 
 For those not in the know, Chipotle [ran a promotional campaign](https://twitter.com/ChipotleTweets/status/1133785740645687301)
 during the 2019 NBA playoffs to get more people into their stores. Each time the
@@ -54,7 +47,7 @@ it's nothing to write home about, but it gets the job done. We set up a
 and use a [python twitter library](https://github.com/python-twitter-tools/twitter)
 (now outdated) to parse the firehose of tweets for what we need.
 
-![](code.png "An image of the source code.")
+{{ image(path="./code.png", alt="An image of the source code.") }}
 
 In terms of actually extracting the codes, I started out with a more complex
 regex approach that would pull out codes that only seemed to work sometimes. I
@@ -69,7 +62,7 @@ worked, and it did! Now all I had to do was use `subprocess` to call the script
 from within my Python script, and I would be burrito rich. You can see below
 from my triumphant Instagram story that it worked.
 
-![](insta.jpg "Instagram Story")
+{{ image(path="./insta.jpg", alt="Instagram Story.") }}
 
 But, I wasn't about to become a burrito billionaire. Chipotle was likely wise to
 the fact that someone like me might try to script their way to glory and

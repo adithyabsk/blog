@@ -5,6 +5,7 @@ description = "A summer of quantum computing and casino heists @ Microsoft."
 [extra]
 highlight = true
 katex = true
+social_image = "microsoft.png"
 +++
 
 {{ soundcloud(id="1180461799") }}
