@@ -1,8 +1,10 @@
 {%- set metapath = src %}
+{%- set urlpath = src %}
 {# Relative Path #}
 {%- if src is starting_with("./") %}
   {%- set trimmed_src = src | trim_start_matches(pat="./") %}
   {%- set metapath = page.colocated_path ~ trimmed_src%}
+  {%- set urlpath = page.path ~ trimmed_src %}
 {%- endif %}
 
 {%- set mdata = get_image_metadata(path=metapath, allow_missing=true) %}
@@ -30,7 +32,7 @@
     <figure class="opt-image {% if wide %}wide{% endif %} {% if class %}{{ class }}{% endif %}"
             data-format="{{ mdata.format }}"
             data-mime="{{ mdata.mime }}">
-        <a href="{{ get_url(path=metapath) }}" target="_blank" rel="noopener">
+        <a href="{{ get_url(path=urlpath) }}" target="_blank" rel="noopener">
             <picture>
                 <source
                     srcset="{{ webp.url }}"
