@@ -1,28 +1,15 @@
-{%- set img = src | split(pat="/") | last %}
-{%- set dirtest = src | trim_start_matches(pat="./") %}
-{%- set reldir = false %}
-{%- if dirtest is containing("/") %} {%- set reldir = true %} {%- endif %}
-{%- set pagepath = "" %}
-{%- if page.path %}{%- set pagepath = page.path %}{%- elif section.path %}{%- set pagepath = section.path %}{%- endif %}
-{%- set metapath = "" %}
-
+{%- set metapath = src %}
 {# Relative Path #}
-{%- if src is starting_with("./") and reldir %}
-  {%- set img_path = src | trim_start_matches(pat="./") | split(pat="/") | slice(end=-1) | join(sep="/") | trim_start_matches(pat="/") %}
-  {%- set img_path = img_path ~ "/" %}
-  {%- set metapath = pagepath ~ img_path ~ img %}
-{# Root Path #}
-{%- elif src is starting_with("/") %}
-  {%- set rootpath = src | split(pat="/") | slice(end=-1) | join(sep="/") %}
-  {%- set metapath = rootpath ~ "/" ~ img %}
-{# Same Directory Path #}
-{%- else %}
-  {%- set metapath = pagepath ~ src %}
+{%- if src is starting_with("./") %}
+  {%- set trimmed_src = src | trim_start_matches(pat="./") %}
+  {%- set metapath = page.colocated_path ~ trimmed_src%}
 {%- endif %}
 
 {%- set mdata = get_image_metadata(path=metapath, allow_missing=true) %}
 {%- if not mdata %}
-    <div class="image-error">Image not found: {{ src }}</div>
+    <div class="image-error">
+        Image not found: {{ src }}
+    </div>
 {%- else %}
     {%- set regular_max_width = 800 %}
     {%- set wide_max_width = 1200 %}
