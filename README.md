@@ -5,7 +5,3 @@
 ## FAQ
 
 - [Recording Setup](./Recording.md)
-
-## TODO
-
-- [ ] Deployment
