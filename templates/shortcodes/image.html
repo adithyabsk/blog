@@ -20,6 +20,15 @@
     {%- set metapath = pagepath ~ path %}
 {%- endif %}
 
+<pre>
+path: {{ path }}
+pagepath: {{ pagepath | default(value='(none)') }}
+dirtest: {{ dirtest | default(value='(none)') }}
+reldir: {{ reldir | default(value='(none)') }}
+img_path: {{ img_path | default(value='(none)') }}
+metapath: {{ metapath | default(value='(none)') }}
+</pre>
+
 {%- set mdata = get_image_metadata(path=metapath, allow_missing=true) %}
 {%- if not mdata %}
     <div class="image-error">Image not found: {{ path }}</div>
