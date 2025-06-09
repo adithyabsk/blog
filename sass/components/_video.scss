@@ -3,30 +3,28 @@
 .video-container {
   margin: $spacing * 2 0;
   text-align: center;
+  width: 100%;
+  max-width: 100%;
 
   &.wide {
     margin-left: -$spacing * 8;
     margin-right: -$spacing * 8;
 
     @media (max-width: $breakpoint-mobile) {
-      margin-left: -$spacing;
-      margin-right: -$spacing;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 
   video {
     display: block;
+    width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: $border-radius-sm;
     background-color: $subtle-gray;
     margin: 0 auto;
     transition: transform 0.2s ease;
-
-    &[width] {
-      width: 100%;
-      max-width: attr(width);
-    }
   }
 
   figure {

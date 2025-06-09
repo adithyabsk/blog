@@ -1,0 +1,19 @@
+@import "../base/variables";
+
+.soundcloud-embed {
+  margin: ($spacing * 2) 0;
+  background: $background-color;
+  border-radius: $border-radius-sm;
+  box-shadow: $shadow-dropdown;
+  overflow: hidden;
+
+  iframe {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    margin: $spacing 0;
+  }
+}

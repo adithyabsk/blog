@@ -38,13 +38,14 @@ p {
 
 a {
   color: $link-color;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
   transition: color 0.2s;
 
   &:hover {
-    color: darken($link-color, 10%);
+    color: darken($link-color, $darken-medium);
+    text-decoration: underline;
   }
 }
 
@@ -74,5 +75,61 @@ pre {
 
 .zola-anchor {
     text-decoration: none;
-    padding: 0 0.4rem 0 0;
+    padding: 0;
+}
+
+ul, ol {
+  margin: $spacing 0;
+  padding-left: $spacing * 1.5;
+
+  li {
+    margin-bottom: $spacing * 0.2;
+  }
+}
+
+blockquote {
+  margin: $spacing * 2 0;
+  padding-left: $spacing * 1.2;
+  border-left: 2px solid #ddd;
+  font-style: italic;
+  color: lighten($text-color, $lighten-subtle);
+}
+
+// Tables
+table {
+  width: 100%;
+  margin: ($spacing * 2) 0;
+  border-collapse: collapse;
+  background: $background-color;
+  box-shadow: $shadow-dropdown;
+  border-radius: $border-radius-sm;
+  overflow: hidden;
+
+  th, td {
+    padding: ($spacing * 0.8) $spacing;
+    border: 1px solid lighten($text-color, $lighten-ultra);
+    text-align: left;
+  }
+
+  th {
+    background-color: $subtle-gray;
+    font-family: $font-family-headings;
+    font-weight: 600;
+    color: darken($text-color, $darken-subtle);
+  }
+
+  tr:nth-child(even) {
+    background-color: darken($background-color, 2%);
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    th, td {
+      padding: ($spacing * 0.5) ($spacing * 0.8);
+      min-width: 120px;
+    }
+  }
 }

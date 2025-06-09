@@ -1,8 +1,9 @@
 .newsletter-section {
-    margin: ($spacing * 2) 0;
+    margin: ($spacing * 2) auto;
     padding: ($spacing * 0.75) ($spacing * 1.5);
     background-color: $subtle-gray;
     border-radius: $border-radius-sm;
+    max-width: $content-width * 0.7;
 
     h2 {
         font-family: $font-family-headings;
@@ -25,6 +26,10 @@
             label {
                 font-size: $font-size-sm;
             }
+        }
+
+        &-body {
+            padding-right: $spacing;
         }
     }
 
