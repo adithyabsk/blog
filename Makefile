@@ -1,48 +1,23 @@
+.PHONY: help
 help:
-	cat Makefile
+	@cat Makefile
 
-serve: .FORCE
+.PHONY: generate_redirects
+generate_redirects:
 	./scripts/generate_redirects.py
+
+.PHONY: serve
+serve: generate_redirects
 	zola serve
 
-# build or rebuild the services WITHOUT cache
-build: .FORCE
-	python scripts/generate_redirects.py
-	chmod 777 Gemfile.lock
-	docker-compose stop || true; docker-compose rm || true;
-	docker build --no-cache -t fastai/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
-	docker-compose build --force-rm --no-cache
+.PHONY: build
+build: generate_redirects
+	zola build
 
-# rebuild the services WITH cache
-quick-build: .FORCE
-	docker-compose stop || true;
-	docker build -t fastai/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
-	docker-compose build
+.PHONY: clean
+clean:
+	rm -rf public
 
-# convert word & nb without Jekyll services
-convert: .FORCE
-	docker-compose up converter
-
-# stop all containers
-stop: .FORCE
-	docker-compose stop
-	docker ps | grep fastpages | awk '{print $1}' | xargs docker stop
-
-# remove all containers
-remove: .FORCE
-	docker-compose stop  || true; docker-compose rm || true;
-
-# get shell inside the notebook converter service (Must already be running)
-bash-nb: .FORCE
-	docker-compose exec watcher /bin/bash
-
-# get shell inside jekyll service (Must already be running)
-bash-jekyll: .FORCE
-	docker-compose exec jekyll /bin/bash
-
-# restart just the Jekyll server
-restart-jekyll: .FORCE
-	docker-compose restart jekyll
-
-.FORCE:
-	chmod -R u+rw .
+.PHONY: format
+format:
+	pre-commit run -a
