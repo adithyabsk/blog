@@ -1,0 +1,8 @@
+@import "../base/variables";
+
+.standalone-content {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: $spacing;
+    line-height: $line-height-relaxed;
+}

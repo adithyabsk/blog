@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="posts-content">
+    <h1 class="title">{{ section.title }}</h1>
+
+    <div class="posts-list">
+        {% for page in section.pages %}
+        <article class="post-item">
+            <time class="date">{{ page.date | date(format="%B %d, %Y") }}</time>
+            <div class="post-details">
+                <h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
+                {% if page.description %}
+                <p class="description">{{ page.description }}</p>
+                {% endif %}
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}

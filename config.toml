@@ -1,0 +1,14 @@
+# The URL the site will be built for
+base_url = "https://adithyabalaji.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+[markdown]
+highlight_code = true
+bottom_footnotes = true
+insert_anchor_links = "left"
+
+[extra.goatcounter]
+host = "goatcounter.com"
+user = "adithyabalaji"

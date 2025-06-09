@@ -1,0 +1,34 @@
+{# Default OpenGraph Image #}
+{% set og_image = "/images/logo.png" %}
+
+{# Use post image if available #}
+{% if page.extra.social_image %}
+    {%- if page.extra.social_image is starting_with("/") %}
+        {% set og_image = page.extra.social_image %}
+    {%- else %}
+        {%- if page.path %}
+            {%- set pagepath = page.path %}
+        {%- elif section.path %}
+            {%- set pagepath = section.path %}
+        {%- endif %}
+        {% set og_image = pagepath ~ page.extra.social_image %}
+    {%- endif %}
+{% endif %}
+
+{# OpenGraph Meta Tags #}
+<meta property="og:title" content="{{ title }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ get_url(path=og_image) }}">
+{% if page.description %}
+    <meta property="og:description" content="{{ page.description }}">
+{% endif %}
+<meta property="og:url" content="{{ current_url }}">
+<meta property="og:site_name" content="Adithya Balaji's Blog">
+
+{# Twitter Card Meta Tags #}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title }}">
+{% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+{% endif %}
+<meta name="twitter:image" content="{{ get_url(path=og_image) }}">

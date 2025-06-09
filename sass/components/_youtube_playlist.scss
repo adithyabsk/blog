@@ -1,0 +1,27 @@
+@import "../base/variables";
+
+.youtube-playlist-embed {
+  width: $content-width * 0.7;
+  max-width: $content-width;
+  aspect-ratio: 16 / 9;
+
+  iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+
+    iframe {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+  }
+}

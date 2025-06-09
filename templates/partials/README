@@ -1,0 +1,14 @@
+# Partials
+
+## Social Media Cards
+
+Posts automatically generate social media preview cards using:
+1. Custom image specified in frontmatter (`social_image`)
+2. Default post image (`blog_image.png`)
+3. Site logo as fallback
+
+Example frontmatter:
+```toml
+[extra]
+social_image = "custom-preview.png"  # Optional - relative to post directory
+```

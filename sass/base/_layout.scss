@@ -1,0 +1,31 @@
+@import "variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+}
+
+.main-content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: $spacing;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: $spacing auto;
+  border-radius: $border-radius-sm;
+  display: block;
+}
+
+hr {
+  margin: $spacing 0 0;
+  border: none;
+  border-top: $border-subtle;
+}
+
+.d-flex {
+  display: flex;
+}

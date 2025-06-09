@@ -1,0 +1,82 @@
+{%extends "base.html"%}
+{% import "macros/hn.html" as hn %}
+
+{% block content %}
+<div class="home-content">
+    <h1>Hi, I'm Adithya 👋</h1>
+
+    <p class="intro">
+        I'm a developer based in the SF Bay Area 📍. I write about technology, programming, and my various interests.
+    </p>
+
+    <div class="about-details">
+        <div class="d-flex">
+            <div class="headshot">
+                {# Match the flex width in _home.scss #}
+                {% set image = resize_image(path="/images/headshot.jpeg", width=300, height=300, op="scale") %}
+                <img src="{{ image.url }}" loading="lazy" alt="Adithya Balaji"/>
+            </div>
+            <div class="interests">
+                <p>I'm excited about a wide range of things, including:</p>
+                <ul>
+                    <li>🤖 Robotics</li>
+                    <li>🚀 Rocketry</li>
+                    <li>👾 Machine Learning</li>
+                    <li>💻 Software Systems</li>
+                    <li>&nbsp;Ξ&nbsp;&nbsp;DeFi and Cryptography</li>
+                    <li>📜 Ancient History</li>
+                    <li>🏀 Basketball</li>
+                    <li>🏎 Formula1</li>
+                    <li>🏏 Cricket</li>
+                </ul>
+            </div>
+        </div>
+
+        <p>
+            If you'd like to chat, feel free to drop me a line at
+            adithya[at]adithyabalaji[dot]com. I promise to respond if you sneak
+            <a href="https://en.wikipedia.org/wiki/Veni,_vidi,_vici">
+                "<i>veni, vidi, vici</i>"
+            </a> into the footer.
+        </p>
+
+        <details>
+            <summary><b>Professional Bio</b></summary>
+            <p class="bio">
+                Adithya is currently a software engineer at Tesla with their Autopilot
+                team. He's previously written code for Precision Lender, the OKC Thunder,
+                Georgian Partners, Synthego, and Microsoft. He received an M.S. in Computer
+                Science from Carnegie Mellon University and a B.S. in both Electrical
+                Engineering and Computer Engineering from NC State. In his free time, he
+                enjoys hacking on side projects, volunteering at high school robotics
+                competitions, and watching basketball.
+            </p>
+        </details>
+    </div>
+
+    <h2>Selected Posts</h2>
+    <div class="featured-posts">
+        {% set blog_section = get_section(path="posts/_index.md") %}
+        {% for page in blog_section.pages | filter(attribute="extra.highlight", value=true) | sort(attribute="date") | reverse | slice(end=5) %}
+        <div class="post-card">
+            <h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
+            <p>{{ page.description }}</p>
+            {% if page.extra.hn %}
+            {{ hn::badge(id=page.extra.hn.id, position=page.extra.hn.position) }}
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+
+    {% include "partials/mailchimp.html" %}
+
+    <div class="cta">
+        <h2>Want to read more?</h2>
+        <p>Check out all my <a href="{{ config.base_url }}/posts">blog posts</a> or subscribe to the <a href="{{ config.base_url }}/media">podcast version</a>.</p>
+    </div>
+</div>
+{% endblock content %}
+
+{% block scripts %}
+{{ hn::badge_script() }}
+{% endblock scripts%}

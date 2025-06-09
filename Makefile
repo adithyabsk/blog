@@ -1,18 +1,13 @@
 help:
 	cat Makefile
 
-# start (or restart) the services
-server: .FORCE
-	docker-compose down --remove-orphans || true;
-	docker-compose up
-
-# start (or restart) the services in detached mode
-server-detached: .FORCE
-	docker-compose down || true;
-	docker-compose up -d
+serve: .FORCE
+	./scripts/generate_redirects.py
+	zola serve
 
 # build or rebuild the services WITHOUT cache
 build: .FORCE
+	python scripts/generate_redirects.py
 	chmod 777 Gemfile.lock
 	docker-compose stop || true; docker-compose rm || true;
 	docker build --no-cache -t fastai/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
