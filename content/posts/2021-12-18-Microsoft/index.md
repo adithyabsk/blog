@@ -119,7 +119,7 @@ two for one, since both the results and code are collated together, you get
 reproducibility of results for free. (that is, if the project was run using a
 public CI service like GitHub Actions)
 
-{{ image(path="./demo.png", alt="Pareto Plots", wide=true, debug=true) }}
+{{ image(src="./demo.png", alt="Pareto Plots", wide=true, debug=true) }}
 
 In fact, this concept is not all that new and has been put to great effect in the
 ML community and [a number](https://wandb.ai/site)

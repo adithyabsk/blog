@@ -47,7 +47,7 @@ it's nothing to write home about, but it gets the job done. We set up a
 and use a [python twitter library](https://github.com/python-twitter-tools/twitter)
 (now outdated) to parse the firehose of tweets for what we need.
 
-{{ image(path="./code.png", alt="An image of the source code.") }}
+{{ image(src="./code.png", alt="An image of the source code.") }}
 
 In terms of actually extracting the codes, I started out with a more complex
 regex approach that would pull out codes that only seemed to work sometimes. I
@@ -62,7 +62,7 @@ worked, and it did! Now all I had to do was use `subprocess` to call the script
 from within my Python script, and I would be burrito rich. You can see below
 from my triumphant Instagram story that it worked.
 
-{{ image(path="./insta.jpg", alt="Instagram Story.") }}
+{{ image(src="./insta.jpg", alt="Instagram Story.") }}
 
 But, I wasn't about to become a burrito billionaire. Chipotle was likely wise to
 the fact that someone like me might try to script their way to glory and

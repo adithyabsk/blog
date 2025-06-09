@@ -25,7 +25,7 @@ Instagram to my extended friends circle, which received more feedback than I
 expected. A lot of people were interested in what I was doing to optimize my
 sleep, so I thought I'd share.
 
-{{ image(path="./story.jpeg", alt="Sleep Cycle Instagram Story") }}
+{{ image(src="./story.jpeg", alt="Sleep Cycle Instagram Story") }}
 
 ## Software
 
@@ -52,7 +52,7 @@ grandfathered into the subscription features.
 
 ## White Noise
 
-{{ image(path="./affected.jpeg", alt="Sleep Quality vs Weather") }}
+{{ image(src="./affected.jpeg", alt="Sleep Quality vs Weather") }}
 
 The second thing I noticed was that the Sleep Cycle app consistently reported
 higher sleep scores on rainy nights. The white noise that a fan makes has always
@@ -116,7 +116,7 @@ the morning.
 
 ## The Results
 
-{{ image(path="./trendline.jpeg", alt="Sleep Cycle Trend Line") }}
+{{ image(src="./trendline.jpeg", alt="Sleep Cycle Trend Line") }}
 
 This is a snapshot of sleep cycle over the last couple of months. I had taken a
 break from tracking my sleep at the start of the pandemic, but got back into it
