@@ -1,13 +1,25 @@
 # The URL the site will be built for
 base_url = "https://www.adithyabalaji.com"
 
+title = "Adithya Balaji's Blog"
+description = "A blog about technology, programming, and life experiences."
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+
+# Minify HTML
+minify_html = true
+
+generate_feeds = true
+
+author = "Adithya Balaji"
 
 [markdown]
 highlight_code = true
 bottom_footnotes = true
 insert_anchor_links = "left"
+# Open links in a new tab
+external_links_target_blank = true
 
 [extra.goatcounter]
 host = "goatcounter.com"
