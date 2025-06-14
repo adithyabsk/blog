@@ -5,14 +5,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: $font-family-geometric;
   font-weight: normal;
-  color: $text-color;
+  color: $text-color-body;
   font-size: $font-size-base;
   line-height: $line-height-base;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
-  color: #1a1a1a;
+  color: $text-color-headings;
   font-weight: 600;
   line-height: $line-height-tight;
   margin: $spacing 0 $spacing;
@@ -28,8 +28,8 @@ h6 { font-size: $font-size-base; }
 p {
   font-size: $font-size-md;
   margin-bottom: $spacing * 0.8;
-  color: $text-color;
-  line-height: $line-height-relaxed;
+  color: $text-color-body;
+  line-height: $line-height-base;
 
   @media (max-width: $breakpoint-mobile) {
     font-size: $font-size-base;
@@ -37,15 +37,20 @@ p {
 }
 
 a {
-  color: $link-color;
+  color: $link-color-primary;
   text-decoration: none;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
   transition: color 0.2s;
 
   &:hover {
-    color: darken($link-color, $darken-medium);
+    color: $link-color-hover;
     text-decoration: underline;
+  }
+
+  // Same as unvisited links
+  &:visited {
+    color: $link-color-primary;
   }
 }
 
@@ -66,7 +71,7 @@ pre {
   margin-bottom: $spacing;
   letter-spacing: -0.02em;
   font-weight: 700;
-  color: #1a1a1a;
+  color: $text-color-headings;
 
   @media (max-width: $breakpoint-mobile) {
     font-size: $font-size-2xl;
@@ -90,9 +95,9 @@ ul, ol {
 blockquote {
   margin: $spacing * 2 0;
   padding-left: $spacing * 1.2;
-  border-left: 2px solid #ddd;
+  border-left: 2px solid $accent-color-muted;
   font-style: italic;
-  color: lighten($text-color, $lighten-subtle);
+  color: lighten($text-color-body, $lighten-subtle);
 }
 
 // Tables

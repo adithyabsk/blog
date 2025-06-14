@@ -130,7 +130,7 @@ $nav-divider-color: lighten($text-color, $lighten-extreme);
   height: 100%;
 
   li {
-    margin: 0 ($spacing / 2);
+    margin: 0 ($spacing / 16);
 
     &:last-child {
       margin-right: 0;

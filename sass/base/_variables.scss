@@ -4,13 +4,30 @@
 $font-family-geometric: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 $font-family-base: $font-family-geometric;
 $font-family-headings: Palatino, Charter, Georgia, serif;
-$content-width: 750px;
+$content-width: 650px;
 $spacing: 1.2rem;
 $text-color: #2b2b2b;
 $background-color: #fbfbfb;
 $primary-color: #d64000;
 $link-color: $primary-color;
 $subtle-gray: #f7f7f7;
+
+// Color improvements following Buterick's guidelines
+// https://practicaltypography.com/color.html
+// Dark gray instead of pure black for better screen readability
+$text-color-dark-gray: #333333;
+$text-color-body: $text-color-dark-gray;
+$text-color-headings: #1a1a1a;
+
+// Restrained color palette - fewer colors, more effective
+$accent-color-red: #cc3300;
+$accent-color-muted: #8a6914;
+
+// Link colors that respect clickability conventions
+$link-color-primary: $accent-color-red;
+// Same as primary - no color change
+$link-color-visited: $accent-color-red;
+$link-color-hover: darken($accent-color-red, 10%);
 
 // Navigation Variables
 $nav-height: 60px;
@@ -43,8 +60,8 @@ $font-size-3xl: 2.5rem;
 
 // Line Heights
 $line-height-tight: 1.2;
-$line-height-base: 1.5;
-$line-height-relaxed: 1.75;
+$line-height-semi-tight: 1.45;
+$line-height-base: 1.6;
 
 // Color Modifications
 $lighten-subtle: 15%;
