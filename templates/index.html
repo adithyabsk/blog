@@ -13,7 +13,7 @@
         <div class="d-flex">
             <div class="headshot">
                 {# Match the flex width in _home.scss #}
-                {% set image = resize_image(path="/images/headshot.jpeg", width=300, height=300, op="scale") %}
+                {% set image = resize_image(path="/images/headshot.jpeg", width=600, height=600, op="scale") %}
                 <img src="{{ image.url }}" loading="lazy" alt="Adithya Balaji"/>
             </div>
             <div class="interests">
