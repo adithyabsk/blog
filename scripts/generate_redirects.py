@@ -23,15 +23,25 @@ def generate_redirects():
 
     # Create redirect pages
     for old_path, new_path in redirects.items():
-        # Remove leading slash but keep the .html extension
-        path = old_path.lstrip("/")
+        # Remove leading slash from the old path
+        stripped_path = old_path.lstrip("/")
 
-        # Create directory structure
-        redirect_dir = Path("static") / path
-        redirect_dir.parent.mkdir(parents=True, exist_ok=True)
+        # Determine the final file path within the 'static' directory
+        if not stripped_path:
+            target_file_in_static = Path("index.html")
+        elif stripped_path.endswith("/"):
+            target_file_in_static = Path(stripped_path) / "index.html"
+        else:
+            target_file_in_static = Path(stripped_path)
+
+        # Construct the full path for the redirect HTML file
+        redirect_output_file = Path("static") / target_file_in_static
+
+        # Ensure the parent directory exists
+        redirect_output_file.parent.mkdir(parents=True, exist_ok=True)
 
         # Write redirect file
-        with open(redirect_dir, "w") as f:
+        with open(redirect_output_file, "w") as f:
             f.write(REDIRECT_TEMPLATE.format(redirect_url=new_path))
 
 if __name__ == "__main__":

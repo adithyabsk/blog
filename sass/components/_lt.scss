@@ -1,0 +1,151 @@
+@import "../base/variables";
+
+.link-tree {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: ($spacing * 2) $spacing;
+    text-align: center;
+}
+
+.link-tree-header {
+    margin-bottom: $spacing * 3;
+
+    .profile-image {
+        margin-bottom: $spacing * 1.5;
+        
+        img {
+            border-radius: 50%;
+            border: 3px solid lighten($text-color, $lighten-ultra);
+            box-shadow: $shadow-dropdown;
+        }
+    }
+
+    .profile-name {
+        font-family: $font-family-headings;
+        font-size: $font-size-2xl;
+        font-weight: 700;
+        margin: 0 0 ($spacing * 0.5);
+        color: #1a1a1a;
+    }
+
+    .profile-bio {
+        font-size: $font-size-md;
+        color: lighten($text-color, $lighten-subtle);
+        margin: 0;
+        font-weight: 400;
+    }
+}
+
+.link-tree-links {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    padding: $spacing * 1.2;
+    background: $background-color;
+    border: $border-subtle;
+    border-radius: 12px;
+    text-decoration: none;
+    color: $text-color;
+    transition: all 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        border-color: lighten($primary-color, $lighten-medium);
+        color: darken($link-color, $darken-medium);
+    }
+
+    .link-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: $spacing;
+        flex-shrink: 0;
+        transition: color 0.2s ease;
+        color: $text-color;
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .link-text {
+        flex: 1;
+        font-size: $font-size-md;
+        font-weight: 500;
+        text-align: left;
+        transition: color 0.2s ease;
+    }
+
+    .link-arrow {
+        font-size: $font-size-lg;
+        opacity: 0.6;
+        transition: transform 0.2s ease;
+    }
+
+    &:hover .link-arrow {
+        transform: translateX(4px);
+        opacity: 1;
+    }
+
+    // Platform-specific colors
+    &.linkedin:hover {
+        .link-icon {
+            color: #0077b5;
+        }
+    }
+
+    &.github:hover {
+        .link-icon {
+            color: #24292f;
+        }
+    }
+
+    &.goodreads:hover {
+        .link-icon {
+            color: #e9e5cd;
+        }
+    }
+
+    &.x:hover {
+        .link-icon {
+            color: #1d9bf0;
+        }
+    }
+}
+
+// Mobile responsive
+@media (max-width: $breakpoint-mobile) {
+    .link-tree {
+        padding: $spacing;
+    }
+
+    .link-tree-header {
+        .profile-image img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .profile-name {
+            font-size: $font-size-xl;
+        }
+
+        .profile-bio {
+            font-size: $font-size-base;
+        }
+    }
+
+    .link-item {
+        padding: $spacing;
+
+        .link-text {
+            font-size: $font-size-base;
+        }
+    }
+}
