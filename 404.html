@@ -1,0 +1,49 @@
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta content="width=device-width,initial-scale=1.0" name=viewport><title>Adithya Balaji's Blog</title><meta content="Adithya Balaji's Blog" property=og:title><meta content=website property=og:type><meta content=https://www.adithyabalaji.com/images/logo.png property=og:image><meta content="Adithya Balaji's Blog" property=og:site_name><meta content=summary_large_image name=twitter:card><meta content="Adithya Balaji's Blog" name=twitter:title><meta content=https://www.adithyabalaji.com/images/logo.png name=twitter:image><link href=https://www.adithyabalaji.com/images/favicon/apple-touch-icon.png rel=apple-touch-icon sizes=180x180><link href=https://www.adithyabalaji.com/images/favicon/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://www.adithyabalaji.com/images/favicon/favicon-16x16.png rel=icon sizes=16x16 type=image/png><link href=https://www.adithyabalaji.com/images/favicon/favicon.ico rel=icon type=image/x-icon><link href=https://www.adithyabalaji.com/images/favicon/site.webmanifest rel=manifest><link color=#5bbad5 href=https://www.adithyabalaji.com/images/favicon/safari-pinned-tab.svg rel=mask-icon><meta content=https://www.adithyabalaji.com/images/favicon/browserconfig.xml name=msapplication-config><meta content=https://www.adithyabalaji.com/images/favicon/mstile-150x150.png name=msapplication-TileImage><meta content="Adithya Balaji's Blog" name=application-name><meta content="Adithya Balaji's Blog" name=apple-mobile-web-app-title><meta content=#ffffff name=theme-color><link href=https://www.adithyabalaji.com/style.css rel=stylesheet><body><nav class=site-nav><div class=nav-content><div class=nav-logo><a href=https://www.adithyabalaji.com> <img alt=Logo class=nav-logo-img height=48 loading=lazy src=https://www.adithyabalaji.com/processed_images/logo.24e09cd63a28796c.png width=48> <div class=nav-divider></div> <span class=name-stylized> <span class=name-container> <span class=full-name> <span class=first>Adithya</span> <span class=last>Balaji</span> </span> <span class=monogram>AB</span> </span> </span> </a></div><ul class=nav-links><li><a href=https://www.adithyabalaji.com>Home</a><li><a href=https://www.adithyabalaji.com/posts>Posts</a><li><a href=https://www.adithyabalaji.com/short-thoughts>Short Thoughts</a><li><a href=https://www.adithyabalaji.com/media>Media</a><li><a href=https://www.adithyabalaji.com/lt>Linktree</a></ul><button class=nav-menu-button><span class=bar></span> <span class=bar></span> <span class=bar></span></button></div></nav><main class=main-content><div class=standalone-content><div class=error-page><div class=error-code>404</div><h1 class=title>Page Not Found</h1><p class=error-message>The page you're looking for doesn't exist. It might have been moved, deleted, or you may have typed the URL incorrectly.<div class=error-actions><a class=btn-primary href=https://www.adithyabalaji.com>Go Home</a><a class=btn-secondary href=https://www.adithyabalaji.com/posts>Browse Posts</a></div><div class=search-suggestion><p>Looking for something specific? Try:<ul><li>Checking the URL for typos<li>Going back to the <a href=https://www.adithyabalaji.com>homepage</a><li>Browsing my <a href=https://www.adithyabalaji.com/posts>blog posts</a><li>Reaching out at adithya[at]adithyabalaji[dot]com</ul></div></div></div></main><script async data-goatcounter=https://adithyabalaji.goatcounter.com/count src=https://gc.zgo.at/count.js></script><script>let lastScrollTop = 0;
+        const nav = document.querySelector('.site-nav');
+        const menuButton = document.querySelector('.nav-menu-button');
+        const scrollThreshold = 50;
+        let menuOpen = false;
+        let isAnchorScroll = false;
+
+        // Handle anchor clicks
+        document.addEventListener('click', (e) => {
+            const anchor = e.target.closest('a');
+            if (anchor && anchor.hash && anchor.origin + anchor.pathname === window.location.origin + window.location.pathname) {
+                isAnchorScroll = true;
+                setTimeout(() => { isAnchorScroll = false; }, 100);
+            }
+        });
+
+        // Mobile menu button handler
+        menuButton.addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('show');
+            // Toggle menu state
+            menuOpen = !menuOpen;
+
+            // When opening menu, ensure nav is visible
+            if (menuOpen) {
+                nav.classList.remove('nav-hidden');
+            }
+        });
+
+        window.addEventListener('scroll', () => {
+            // Don't hide nav when mobile menu is open or during anchor scrolls
+            if (menuOpen || isAnchorScroll) return;
+
+            const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+            // Only trigger if we've scrolled more than the threshold
+            if (Math.abs(lastScrollTop - currentScroll) <= scrollThreshold) return;
+
+            // Scrolling down and past the threshold
+            if (currentScroll > lastScrollTop && currentScroll > scrollThreshold) {
+                nav.classList.add('nav-hidden');
+            }
+            // Scrolling up (only for non-anchor scrolls)
+            else if (currentScroll < lastScrollTop) {
+                nav.classList.remove('nav-hidden');
+            }
+
+            lastScrollTop = currentScroll;
+        });</script>

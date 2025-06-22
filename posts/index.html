@@ -1,0 +1,49 @@
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta content="width=device-width,initial-scale=1.0" name=viewport><title>Posts | Adithya Balaji's Blog</title><meta content="Posts | Adithya Balaji's Blog" property=og:title><meta content=website property=og:type><meta content=https://www.adithyabalaji.com/images/logo.png property=og:image><meta content=https://www.adithyabalaji.com//posts/ property=og:url><meta content="Adithya Balaji's Blog" property=og:site_name><meta content=summary_large_image name=twitter:card><meta content="Posts | Adithya Balaji's Blog" name=twitter:title><meta content=https://www.adithyabalaji.com/images/logo.png name=twitter:image><link href=https://www.adithyabalaji.com/images/favicon/apple-touch-icon.png rel=apple-touch-icon sizes=180x180><link href=https://www.adithyabalaji.com/images/favicon/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://www.adithyabalaji.com/images/favicon/favicon-16x16.png rel=icon sizes=16x16 type=image/png><link href=https://www.adithyabalaji.com/images/favicon/favicon.ico rel=icon type=image/x-icon><link href=https://www.adithyabalaji.com/images/favicon/site.webmanifest rel=manifest><link color=#5bbad5 href=https://www.adithyabalaji.com/images/favicon/safari-pinned-tab.svg rel=mask-icon><meta content=https://www.adithyabalaji.com/images/favicon/browserconfig.xml name=msapplication-config><meta content=https://www.adithyabalaji.com/images/favicon/mstile-150x150.png name=msapplication-TileImage><meta content="Posts | Adithya Balaji's Blog" name=application-name><meta content="Posts | Adithya Balaji's Blog" name=apple-mobile-web-app-title><meta content=#ffffff name=theme-color><link href=https://www.adithyabalaji.com/style.css rel=stylesheet><body><nav class=site-nav><div class=nav-content><div class=nav-logo><a href=https://www.adithyabalaji.com> <img alt=Logo class=nav-logo-img height=48 loading=lazy src=https://www.adithyabalaji.com/processed_images/logo.24e09cd63a28796c.png width=48> <div class=nav-divider></div> <span class=name-stylized> <span class=name-container> <span class=full-name> <span class=first>Adithya</span> <span class=last>Balaji</span> </span> <span class=monogram>AB</span> </span> </span> </a></div><ul class=nav-links><li><a href=https://www.adithyabalaji.com>Home</a><li><a href=https://www.adithyabalaji.com/posts>Posts</a><li><a href=https://www.adithyabalaji.com/short-thoughts>Short Thoughts</a><li><a href=https://www.adithyabalaji.com/media>Media</a><li><a href=https://www.adithyabalaji.com/lt>Linktree</a></ul><button class=nav-menu-button><span class=bar></span> <span class=bar></span> <span class=bar></span></button></div></nav><main class=main-content><div class=posts-content><h1 class=title>Posts</h1><div class=posts-list><article class=post-item><time class=date>February 01, 2022</time><div class=post-details><h3><a href=https://www.adithyabalaji.com/posts/sleep/>Get Better Sleep—Anecdata and Sleep Tech</a></h3><p class=description>A review of the tools and habits I put into place to get better sleep.</div></article><article class=post-item><time class=date>December 18, 2021</time><div class=post-details><h3><a href=https://www.adithyabalaji.com/posts/microsoft/>Quantum Resource Estimation and my Intern Experience</a></h3><p class=description>A summer of quantum computing and casino heists @ Microsoft.</div></article><article class=post-item><time class=date>November 20, 2021</time><div class=post-details><h3><a href=https://www.adithyabalaji.com/posts/apple-spoken-content/>Get an Audio Version of Any Blog Post</a></h3><p class=description>How to turn any article into a podcast.</div></article><article class=post-item><time class=date>August 10, 2021</time><div class=post-details><h3><a href=https://www.adithyabalaji.com/posts/chipotle/>How I (almost) got infinite free Chipotle</a></h3><p class=description>A tale of trials, tribulations, and most importantly burritos.</div></article><article class=post-item><time class=date>May 17, 2021</time><div class=post-details><h3><a href=https://www.adithyabalaji.com/posts/analyzing-bird-audio/>Analyzing Bird Audio</a></h3><p class=description>An analysis of bird audio from Xeno Canto to determine if it was a song or a call.</div></article><article class=post-item><time class=date>April 08, 2021</time><div class=post-details><h3><a href=https://www.adithyabalaji.com/posts/custom-sklearn-pipelines/>How to use Custom Sklearn Classes and Pipelines</a></h3><p class=description>How to use Scikit-Learn's deeper features to build custom models and transformers.</div></article><article class=post-item><time class=date>August 08, 2019</time><div class=post-details><h3><a href=https://www.adithyabalaji.com/posts/python-tooling/>Python Tooling Makes a Project Tick</a></h3><p class=description>An opinionated guide to tooling in Python covering pyenv, poetry, black, flake8, isort, pre-commit, pytest, coverage, tox, Azure Pipelines, sphinx, and readthedocs</div></article><article class=post-item><time class=date>August 21, 2018</time><div class=post-details><h3><a href=https://www.adithyabalaji.com/posts/automl/>Choosing the best AutoML Framework</a></h3><p class=description>A head-to-head comparison of four automatic machine learning frameworks on 87 datasets</div></article></div></div></main><script async data-goatcounter=https://adithyabalaji.goatcounter.com/count src=https://gc.zgo.at/count.js></script><script>let lastScrollTop = 0;
+        const nav = document.querySelector('.site-nav');
+        const menuButton = document.querySelector('.nav-menu-button');
+        const scrollThreshold = 50;
+        let menuOpen = false;
+        let isAnchorScroll = false;
+
+        // Handle anchor clicks
+        document.addEventListener('click', (e) => {
+            const anchor = e.target.closest('a');
+            if (anchor && anchor.hash && anchor.origin + anchor.pathname === window.location.origin + window.location.pathname) {
+                isAnchorScroll = true;
+                setTimeout(() => { isAnchorScroll = false; }, 100);
+            }
+        });
+
+        // Mobile menu button handler
+        menuButton.addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('show');
+            // Toggle menu state
+            menuOpen = !menuOpen;
+
+            // When opening menu, ensure nav is visible
+            if (menuOpen) {
+                nav.classList.remove('nav-hidden');
+            }
+        });
+
+        window.addEventListener('scroll', () => {
+            // Don't hide nav when mobile menu is open or during anchor scrolls
+            if (menuOpen || isAnchorScroll) return;
+
+            const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+            // Only trigger if we've scrolled more than the threshold
+            if (Math.abs(lastScrollTop - currentScroll) <= scrollThreshold) return;
+
+            // Scrolling down and past the threshold
+            if (currentScroll > lastScrollTop && currentScroll > scrollThreshold) {
+                nav.classList.add('nav-hidden');
+            }
+            // Scrolling up (only for non-anchor scrolls)
+            else if (currentScroll < lastScrollTop) {
+                nav.classList.remove('nav-hidden');
+            }
+
+            lastScrollTop = currentScroll;
+        });</script>

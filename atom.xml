@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Adithya Balaji&#x27;s Blog</title>
+    <subtitle>A blog about technology, programming, and life experiences.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://www.adithyabalaji.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-02-01T00:00:00+00:00</updated>
+    <id>https://www.adithyabalaji.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Get Better Sleep—Anecdata and Sleep Tech</title>
+        <published>2022-02-01T00:00:00+00:00</published>
+        <updated>2022-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Adithya Balaji
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com/posts/sleep/"/>
+        <id>https://www.adithyabalaji.com/posts/sleep/</id>
+        
+        <content type="html" xml:base="https://www.adithyabalaji.com/posts/sleep/">&lt;div class=&quot;soundcloud-embed&quot;&gt;
+    &lt;iframe
+        loading=&quot;lazy&quot;
+        width=&quot;100%&quot;
+        height=&quot;166&quot;
+        scrolling=&quot;no&quot;
+        frameborder=&quot;no&quot;
+        allow=&quot;autoplay&quot;
+        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;1208777116&amp;color=%23d64000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;I recently got 8.5 hours of the best sleep of my adult life--a culmination of a
+month of being mindful of my sleep habits. We spend anywhere between a
+quarter to half of our lives asleep. Yet, it doesn&#x27;t seem many people are
+intentional about this aspect of their lives.&lt;&#x2F;p&gt;
+&lt;p&gt;I have been interested in sleep tracking since I was in high school, but have
+not actively tried to improve my perceived quality. Over the past year I tried
+to change that and have felt a noticeable improvement. I posted a story on
+Instagram to my extended friends circle, which received more feedback than I
+expected. A lot of people were interested in what I was doing to optimize my
+sleep, so I thought I&#x27;d share.&lt;&#x2F;p&gt;
+
+
+
+    &lt;figure class=&quot;opt-image  &quot;
+            data-format=&quot;jpg&quot;
+            data-mime=&quot;image&amp;#x2F;jpeg&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;www.adithyabalaji.com&#x2F;posts&#x2F;sleep&#x2F;story.jpeg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;picture&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;story.867e835e7e61531c.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;story.3da973ff6f874a8d.jpg&quot;
+                    type=&quot;image&amp;#x2F;jpeg&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;story.24805656fe39c893.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;story.07fecbf56dd152a4.jpg&quot;
+                    type=&quot;image&amp;#x2F;jpeg&quot;&gt;
+                &lt;img
+                    src=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;story.3da973ff6f874a8d.jpg&quot;
+                    width=&quot;1242&quot;
+                    height=&quot;2210&quot;
+                    alt=&quot;Sleep Cycle Instagram Story&quot;
+                    loading=&quot;lazy&quot;
+                    decoding=&quot;async&quot;
+                    style=&quot;aspect-ratio: 1242&#x2F;2210&quot;&gt;
+            &lt;&#x2F;picture&gt;
+        &lt;&#x2F;a&gt;
+        
+    &lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;software&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#software&quot; aria-label=&quot;Anchor link for: software&quot;&gt;#&lt;&#x2F;a&gt;
+Software&lt;&#x2F;h2&gt;
+&lt;p&gt;The cornerstone of getting better sleep is tracking it. As the adage goes, &lt;em&gt;you
+can&#x27;t manage what you can&#x27;t measure&lt;&#x2F;em&gt;. I&#x27;ve been using
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;sleep-cycle-sleep-tracker&#x2F;id320606217&quot;&gt;Sleep Cycle,&lt;&#x2F;a&gt;
+which is
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;sleep-watch-by-bodymatter&#x2F;id1138066420&quot;&gt;one&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;pillow-auto-sleep-tracker&#x2F;id878691772&quot;&gt;of&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;autosleep-track-sleep-on-watch&#x2F;id1164801111&quot;&gt;many&lt;&#x2F;a&gt;
+apps that claim to track your sleep. I bought the Sleep Cycle app waaay back
+in 2014. Anecdotally, I&#x27;ve found their cycle tracking to be somewhat
+accurate and their ability to wake me in &quot;non-deep&quot; sleep pretty spot on. The
+concept of
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Sleep_cycle&quot;&gt;sleep cycles&lt;&#x2F;a&gt; is borne out in the
+science literature (i.e. the difference between
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Rapid_eye_movement_sleep&quot;&gt;REM sleep&lt;&#x2F;a&gt;
+and non-REM sleep). And it seems that at least one
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=fjPng54_CtE&quot;&gt;sleep researcher&lt;&#x2F;a&gt;
+found that the app did correlate to real sleep cycles. Most of all, I like the
+sleep score, regularity, and other statistics that the app lays out bare for you
+to draw your own conclusions. I also happen to be an early adopter, so I&#x27;ve been
+grandfathered into the subscription features.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;white-noise&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#white-noise&quot; aria-label=&quot;Anchor link for: white-noise&quot;&gt;#&lt;&#x2F;a&gt;
+White Noise&lt;&#x2F;h2&gt;
+
+
+
+    &lt;figure class=&quot;opt-image  &quot;
+            data-format=&quot;jpg&quot;
+            data-mime=&quot;image&amp;#x2F;jpeg&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;www.adithyabalaji.com&#x2F;posts&#x2F;sleep&#x2F;affected.jpeg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;picture&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;affected.936f660049420cbe.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;affected.03c0a3afd9f41583.jpg&quot;
+                    type=&quot;image&amp;#x2F;jpeg&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;affected.36870d73bf38b5d2.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;affected.376c8ef1ecb613a5.jpg&quot;
+                    type=&quot;image&amp;#x2F;jpeg&quot;&gt;
+                &lt;img
+                    src=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;affected.03c0a3afd9f41583.jpg&quot;
+                    width=&quot;1242&quot;
+                    height=&quot;1058&quot;
+                    alt=&quot;Sleep Quality vs Weather&quot;
+                    loading=&quot;lazy&quot;
+                    decoding=&quot;async&quot;
+                    style=&quot;aspect-ratio: 1242&#x2F;1058&quot;&gt;
+            &lt;&#x2F;picture&gt;
+        &lt;&#x2F;a&gt;
+        
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;The second thing I noticed was that the Sleep Cycle app consistently reported
+higher sleep scores on rainy nights. The white noise that a fan makes has always
+helped me fall asleep--since I was a kid. So, I started using the app&#x27;s
+built-in &quot;Rain on Car Roof&quot; sleep aid on top of the fan I have running in
+my room. I have since been falling asleep much faster.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;weighted-blanket&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#weighted-blanket&quot; aria-label=&quot;Anchor link for: weighted-blanket&quot;&gt;#&lt;&#x2F;a&gt;
+Weighted Blanket&lt;&#x2F;h2&gt;
+&lt;p&gt;The third piece of sleep &quot;technology&quot;--likely the secret sauce--has been a
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20230130005935&#x2F;https:&#x2F;&#x2F;chillablankets.com&#x2F;&quot;&gt;weighted blanket.&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20220122141045&#x2F;https:&#x2F;&#x2F;jcsm.aasm.org&#x2F;doi&#x2F;10.5664&#x2F;jcsm.8636&quot;&gt;The&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.pennmedicine.org&#x2F;updates&#x2F;blogs&#x2F;health-and-wellness&#x2F;2019&#x2F;february&#x2F;weighted-blankets&quot;&gt;science&lt;&#x2F;a&gt;
+seems to suggest that weighted blankets can help with sleep disorders. I do not
+think I have any major issues with sleep, but I&#x27;ve found that a weighted blanket
+improves my sleep score. I&#x27;ve only had mine for ~1 month, but
+the initial data shows an upward trending sleep score.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;qualitative-observations&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#qualitative-observations&quot; aria-label=&quot;Anchor link for: qualitative-observations&quot;&gt;#&lt;&#x2F;a&gt;
+Qualitative Observations&lt;&#x2F;h2&gt;
+&lt;p&gt;On the even more anecdotal side, I&#x27;ve found that a couple of other key factors
+help the cause:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Being tired before bed (especially from working out that day)&lt;&#x2F;li&gt;
+&lt;li&gt;Not having eaten food 1.5 hours before bed&lt;&#x2F;li&gt;
+&lt;li&gt;Waking up at a consistent time&lt;&#x2F;li&gt;
+&lt;li&gt;Refraining from phone screen-time in bed&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I&#x27;ve found that bedtime matters less for me personally. Looking into it, it
+seems some doctors
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.headspace.com&#x2F;articles&#x2F;sleep-health-2-consistent-wake-up-time-sleeps-surprising-mvp&quot;&gt;have echoed similar ideas.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;social-media&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#social-media&quot; aria-label=&quot;Anchor link for: social-media&quot;&gt;#&lt;&#x2F;a&gt;
+Social Media&lt;&#x2F;h2&gt;
+&lt;p&gt;The hardest habit that I have broken this year was scrolling on social media
+before bed. I would say this is the second most important aspect to better
+sleep. I&#x27;ve found that killing a habit without replacing it &#x2F; concessions
+doesn&#x27;t work. Here were mine: I allow myself to instead listen to podcasts at
+night, which seems to have filled that gap. I try to pick ones that are on the
+shorter side, like 20ish minutes, which also seems to give me a chance to wind
+down. Second, I deleted all social media apps on my phone but give myself
+unlimited time to browse on a desktop computer. Desktop sites don&#x27;t seem to have
+as optimized algorithms for endless scrolling. &lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; I&#x27;ve found that there are
+more natural stopping points when you are on a desktop computer.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;waking-up&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#waking-up&quot; aria-label=&quot;Anchor link for: waking-up&quot;&gt;#&lt;&#x2F;a&gt;
+Waking up&lt;&#x2F;h2&gt;
+&lt;p&gt;The part of sleep that people sometimes forget to talk about is waking up.
+I&#x27;ve already talked about using an app to try to wake up in a lighter phase of
+sleep. In addition, I&#x27;ve found that a waking up routine really helps.&lt;&#x2F;p&gt;
+&lt;p&gt;I make sure to have a full water bottle at night--a swig of water in the morning
+wakes me right up. I also run through a couple of cards on
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.ankiweb.net&#x2F;&quot;&gt;Anki&lt;&#x2F;a&gt;
+and run through an exercise on
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.duolingo.com&#x2F;&quot;&gt;Duolingo&lt;&#x2F;a&gt;. &lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-2-1&quot;&gt;&lt;a href=&quot;#fn-2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; &lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-3-1&quot;&gt;&lt;a href=&quot;#fn-3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+Though not critical, I&#x27;ve found that doing these mental exercises wakes my mind
+up and stops me from drifting back to sleep. It also acts as a two-for-one since
+I make sure to keep the habit in both apps going since I do it first thing in
+the morning.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-results&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-results&quot; aria-label=&quot;Anchor link for: the-results&quot;&gt;#&lt;&#x2F;a&gt;
+The Results&lt;&#x2F;h2&gt;
+
+
+
+    &lt;figure class=&quot;opt-image  &quot;
+            data-format=&quot;jpg&quot;
+            data-mime=&quot;image&amp;#x2F;jpeg&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;www.adithyabalaji.com&#x2F;posts&#x2F;sleep&#x2F;trendline.jpeg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;picture&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;trendline.7a31c9df5a30bf28.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;trendline.1e51378fff12d9e5.jpg&quot;
+                    type=&quot;image&amp;#x2F;jpeg&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;trendline.7685b1fcf0481bd1.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;trendline.ddc8e29579a38ba4.jpg&quot;
+                    type=&quot;image&amp;#x2F;jpeg&quot;&gt;
+                &lt;img
+                    src=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;trendline.1e51378fff12d9e5.jpg&quot;
+                    width=&quot;1242&quot;
+                    height=&quot;1341&quot;
+                    alt=&quot;Sleep Cycle Trend Line&quot;
+                    loading=&quot;lazy&quot;
+                    decoding=&quot;async&quot;
+                    style=&quot;aspect-ratio: 1242&#x2F;1341&quot;&gt;
+            &lt;&#x2F;picture&gt;
+        &lt;&#x2F;a&gt;
+        
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;This is a snapshot of sleep cycle over the last couple of months. I had taken a
+break from tracking my sleep at the start of the pandemic, but got back into it
+when I was at Carnegie Mellon in person for grad school. I put into practice
+some waking up habits in mid-November, but I really kicked up the focus in late
+December with the weighted blankets, social media restrictions, and white noise.
+I plan to continue to track the results of these changes this year.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;summary&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#summary&quot; aria-label=&quot;Anchor link for: summary&quot;&gt;#&lt;&#x2F;a&gt;
+Summary&lt;&#x2F;h2&gt;
+&lt;p&gt;The long-short of it all, in rough relative order of importance:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Track your sleep with a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.sleepcycle.com&#x2F;&quot;&gt;sleep tracking app&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Get a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20230130005935&#x2F;https:&#x2F;&#x2F;chillablankets.com&#x2F;&quot;&gt;weighted blanket&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Refrain from phone use in bed&lt;&#x2F;li&gt;
+&lt;li&gt;Use a sleep aid (specifically &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.sleepcycle.com&#x2F;sleep-sounds-music&#x2F;sounds-to-sleep-by&#x2F;&quot;&gt;rain sounds&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;Exercise on days you want to get good sleep (being tired)&lt;&#x2F;li&gt;
+&lt;li&gt;Implement instant wake up habits (e.g. drinking water)&lt;&#x2F;li&gt;
+&lt;li&gt;Have a regular wake-up time&lt;&#x2F;li&gt;
+&lt;li&gt;Eat food 1.5 hours before bed&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Thanks to Matt Figdore, Simon Berens, Daniel Alfonsetti, Svapnil Ankolkar, and
+Aishwarya Balaji for providing feedback on earlier versions of this post.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Edit 2022-02-22&lt;&#x2F;strong&gt;: The post got some traction on Hacker News--
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30410310&quot;&gt;check out the discussion there&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;footer class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;I manually delete and re-download Instagram stories on days I want to post,
+since it&#x27;s honestly the only real way to stay in touch with friends async. &lt;a href=&quot;#fr-1-1&quot;&gt;↩&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li id=&quot;fn-2&quot;&gt;
+&lt;p&gt;Anki is a
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Spaced_repetition&quot;&gt;spaced repetition&lt;&#x2F;a&gt;
+memory app. &lt;a href=&quot;#fr-2-1&quot;&gt;↩&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li id=&quot;fn-3&quot;&gt;
+&lt;p&gt;Duolingo is a language learners app. I&#x27;m currently using it to learn Spanish
+and have a streak of 130 days! &lt;a href=&quot;#fr-3-1&quot;&gt;↩&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;footer&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Quantum Resource Estimation and my Intern Experience</title>
+        <published>2021-12-18T00:00:00+00:00</published>
+        <updated>2021-12-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Adithya Balaji
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com/posts/microsoft/"/>
+        <id>https://www.adithyabalaji.com/posts/microsoft/</id>
+        
+        <content type="html" xml:base="https://www.adithyabalaji.com/posts/microsoft/">&lt;div class=&quot;soundcloud-embed&quot;&gt;
+    &lt;iframe
+        loading=&quot;lazy&quot;
+        width=&quot;100%&quot;
+        height=&quot;166&quot;
+        scrolling=&quot;no&quot;
+        frameborder=&quot;no&quot;
+        allow=&quot;autoplay&quot;
+        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;1180461799&amp;color=%23d64000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;This past summer, I worked on the Quantum Systems Team at Microsoft. Every
+December the group puts together a
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;devblogs.microsoft.com&#x2F;qsharp&#x2F;q-advent-calendar-2021&#x2F;&quot;&gt;Q# Advent Calendar&lt;&#x2F;a&gt;
+filled with great blog posts. I thought I&#x27;d share my work on the Quantum Systems
+Team, as well as my general experience being a Microsoft Intern.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;quantum-resource-estimation&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#quantum-resource-estimation&quot; aria-label=&quot;Anchor link for: quantum-resource-estimation&quot;&gt;#&lt;&#x2F;a&gt;
+Quantum Resource Estimation&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;motivation&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#motivation&quot; aria-label=&quot;Anchor link for: motivation&quot;&gt;#&lt;&#x2F;a&gt;
+Motivation&lt;&#x2F;h3&gt;
+&lt;p&gt;Resource estimation is an important concept in quantum programs. As the name
+implies, resource estimation allows a quantum researcher to understand the
+simulated resources required to run a particular algorithm, usually measured in
+logical qubits. But resource estimation can provide much more than that. We can
+track the number and types of gates required to run a program. And, by
+continuously evaluating a quantum program against a common set of metrics, we
+can understand the improvement of our theoretical approaches.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;toy-example&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#toy-example&quot; aria-label=&quot;Anchor link for: toy-example&quot;&gt;#&lt;&#x2F;a&gt;
+Toy Example&lt;&#x2F;h3&gt;
+&lt;p&gt;To be more concrete, we can look at the outputs of the QDK Resource Estimation
+tool on various Q# implementations of quantum programs that implement the
+following function, where $n=3$. (known as the
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Majority_function&quot;&gt;majority of three&lt;&#x2F;a&gt;
+) This example is taken from a great presentation given by the QDK Team at
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;qce20.quantum.ieee.org&#x2F;tutorials&#x2F;&quot;&gt;IEEE Quantum Week 2020&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt; &lt;&#x2F;p&gt;
+&lt;p&gt;
+$$\begin{split}
+\langle p_1,\dots, p_n \rangle &amp;= \rm Majority (p_1, \dots, p_n) \\
+\\
+&amp;= \left \lfloor \frac{1}{2} + \frac{((\sum^n_{i=1} p_i) - 1&#x2F;2}{n} \right \rfloor
+\end{split}$$
+&lt;&#x2F;p&gt;
+&lt;p&gt; &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;cs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-cs &quot;&gt;&lt;code class=&quot;language-cs&quot; data-lang=&quot;cs&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;namespace &lt;&#x2F;span&gt;&lt;span&gt;Majority {
+&lt;&#x2F;span&gt;&lt;span&gt;    open &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Microsoft&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Quantum&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Canon&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    open &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Microsoft&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Quantum&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Convert&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    open &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Microsoft&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Quantum&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Intrinsic&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    open &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Microsoft&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Quantum&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Synthesis&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    operation &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;ApplyMajorityUsingInts&lt;&#x2F;span&gt;&lt;span&gt;(x1 : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;, x2&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;, x3 : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    y : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt; Unit &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;is Adj&lt;&#x2F;span&gt;&lt;span&gt; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Ctl &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        ...
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    operation &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;ApplyMajorityUsingCCNOTs&lt;&#x2F;span&gt;&lt;span&gt;(x1 : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;, x2&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;, x3 : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    y : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt; Unit &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;is Adj&lt;&#x2F;span&gt;&lt;span&gt; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Ctl &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        ...
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    operation &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;ApplyMajorityUsingTruthTable&lt;&#x2F;span&gt;&lt;span&gt;(x1 : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;, x2&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;, x3 : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    y : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt; Unit &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;is Adj&lt;&#x2F;span&gt;&lt;span&gt; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Ctl &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        ...
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    operation &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;ApplyMajorityUsingCNOTTransformation&lt;&#x2F;span&gt;&lt;span&gt;(x1 : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;, x2&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    x3 : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;, y : &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Qubit&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt; Unit &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;is Adj&lt;&#x2F;span&gt;&lt;span&gt; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Ctl &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        ...
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;We won&#x27;t dive into the implementation details of each of these functions since
+that is not the focus of this blog post. (and, they were
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Ps5lZ0G6zIg&quot;&gt;already covered in the talk linked above&lt;&#x2F;a&gt;
+) What is important, though, is that they &lt;em&gt;do&lt;&#x2F;em&gt; produce
+significantly different qubit usage counts and gate counts as noted in the table
+below.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Implementation&lt;&#x2F;th&gt;&lt;th&gt;CNOT&lt;&#x2F;th&gt;&lt;th&gt;Clifford&lt;&#x2F;th&gt;&lt;th&gt;T&lt;&#x2F;th&gt;&lt;th&gt;T   Depth&lt;&#x2F;th&gt;&lt;th&gt;Qubits&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Ints&lt;&#x2F;td&gt;&lt;td&gt;120&lt;&#x2F;td&gt;&lt;td&gt;30&lt;&#x2F;td&gt;&lt;td&gt;84&lt;&#x2F;td&gt;&lt;td&gt;56&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CCNOTs&lt;&#x2F;td&gt;&lt;td&gt;30&lt;&#x2F;td&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;td&gt;21&lt;&#x2F;td&gt;&lt;td&gt;15&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Truth Table&lt;&#x2F;td&gt;&lt;td&gt;14&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CCNOT Transformation&lt;&#x2F;td&gt;&lt;td&gt;15&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;7&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Now imagine you are a researcher trying to iteratively improve upon your
+algorithm&#x27;s performance. Often times, performance in one of these metrics comes
+at the cost of another area. (known as a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Pareto_front&quot;&gt;Pareto front&lt;&#x2F;a&gt;
+) And after speaking with quantum researchers, I noted that they all mention the
+tedium and sometimes error filled process of tracking experiment results.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;approach&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#approach&quot; aria-label=&quot;Anchor link for: approach&quot;&gt;#&lt;&#x2F;a&gt;
+Approach&lt;&#x2F;h3&gt;
+&lt;p&gt;Enter the resource estimation dashboard, an all-in-one tool to both measure and
+track the performance of different quantum programs. The idea here is to track
+experiment results using a consistent format and upload the results to a central
+platform. As you iteratively improve on your algorithm--or run your algorithm
+with a different set of parameters, you will see plots that result in points
+along a Pareto curve.&lt;&#x2F;p&gt;
+&lt;p&gt;The screenshot below is taken from the MVP that I built over the summer. It
+digitizes the main plots showing the tradeoffs suggested in the work to
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2006.03845.pdf&quot;&gt;reduce the T-Depth of quantum circuits&lt;&#x2F;a&gt;.
+One could imagine a website with this page, along with others pages, for
+specific quantum applications covered in the
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;quantumalgorithmzoo.org&#x2F;&quot;&gt;Quantum Algorithm Zoo&lt;&#x2F;a&gt;. In fact, you get a
+two for one, since both the results and code are collated together, you get
+reproducibility of results for free. (that is, if the project was run using a
+public CI service like GitHub Actions)&lt;&#x2F;p&gt;
+
+
+
+    &lt;figure class=&quot;opt-image wide &quot;
+            data-format=&quot;png&quot;
+            data-mime=&quot;image&amp;#x2F;png&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;www.adithyabalaji.com&#x2F;posts&#x2F;microsoft&#x2F;demo.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;picture&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;demo.478eae720a94fbbb.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;demo.df76a3c5fdaada13.png&quot;
+                    type=&quot;image&amp;#x2F;png&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;demo.ff8599f30508b494.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;demo.e596a9b1e1b173e1.png&quot;
+                    type=&quot;image&amp;#x2F;png&quot;&gt;
+                &lt;img
+                    src=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;demo.df76a3c5fdaada13.png&quot;
+                    width=&quot;2826&quot;
+                    height=&quot;1800&quot;
+                    alt=&quot;Pareto Plots&quot;
+                    loading=&quot;lazy&quot;
+                    decoding=&quot;async&quot;
+                    style=&quot;aspect-ratio: 2826&#x2F;1800&quot;&gt;
+            &lt;&#x2F;picture&gt;
+        &lt;&#x2F;a&gt;
+        
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;In fact, this concept is not all that new and has been put to great effect in the
+ML community and &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;wandb.ai&#x2F;site&quot;&gt;a number&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;neptune.ai&#x2F;&quot;&gt;of startups&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;IDSIA&#x2F;sacred&quot;&gt;and projects&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20211205032107&#x2F;https:&#x2F;&#x2F;www.comet.ml&#x2F;site&#x2F;&quot;&gt;are working&lt;&#x2F;a&gt;
+on problems in that space. &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20250601010035&#x2F;https:&#x2F;&#x2F;paperswithcode.com&#x2F;&quot;&gt;Papers with Code&lt;&#x2F;a&gt;,
+most notably, has become the go-to source for ML researchers to get a rough
+sense of the progression of the state of the art in any particular problem area.
+The work I implemented over the summer put together an MVP for a hosted runner
+that executed &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;QuantumLibraries&quot;&gt;Q# programs&lt;&#x2F;a&gt;
+against the open source &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;azure&#x2F;quantum&#x2F;user-guide&#x2F;machines&#x2F;resources-estimator&quot;&gt;QDK Resource Estimator&lt;&#x2F;a&gt;.
+For those curious, the stack was a Next.js frontend with a .NET API backend
+server. The above is just a sample of the overall project vision, and I hope
+gives you an idea of the types of exciting work the Quantum Systems team is
+working on.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-microsoft-intern-experience&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-microsoft-intern-experience&quot; aria-label=&quot;Anchor link for: the-microsoft-intern-experience&quot;&gt;#&lt;&#x2F;a&gt;
+The Microsoft Intern Experience&lt;&#x2F;h2&gt;
+&lt;p&gt;Besides my core work on the Quantum Systems Team, I also enjoyed
+my time as a Microsoft Intern! Although there were a number of fantastic intern
+events, two in particular, stand out in my memory: the
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;interngame.microsoft.com&#x2F;&quot;&gt;Microsoft Intern Game&lt;&#x2F;a&gt; and serving as a
+moderator for a &quot;pool-side&quot; chat with a Microsoft Researcher.&lt;&#x2F;p&gt;
+&lt;p&gt;For the intern game, we paired up into groups and competed in an &quot;Amazing Race&quot;
+style virtual event with a Casino Heist theme. The Microsoft team behind the
+event had developed a custom virtual platform with mini-games that had real
+world puzzles that were mailed out to us along with actors, to boot. It was a
+great time. For my moderation panel, I got a chance to chat with &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;kevinkyang&quot;&gt;Kevin Yang&lt;&#x2F;a&gt;
+a senior researcher working on bioinformatics in Microsoft&#x27;s Cambridge office.
+We chatted about his past as a PhD student and his current work at Microsoft
+along with why he&#x27;s excited about protein engineering. Besides the events, the
+intern team was very kind to send the interns a lot of swag--some of which I
+wear all the time like my quantum team sweatshirt.&lt;&#x2F;p&gt;
+&lt;p&gt;Overall, I cannot speak more highly about my experience as an intern on the
+Quantum Team and--
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;devblogs.microsoft.com&#x2F;qsharp&#x2F;interning-at-microsoft-quantum-2022&#x2F;&quot;&gt;I hear they are looking for more interns&lt;&#x2F;a&gt;,
+so I would definitely recommend you check them out.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Get an Audio Version of Any Blog Post</title>
+        <published>2021-11-20T00:00:00+00:00</published>
+        <updated>2021-11-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Adithya Balaji
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com/posts/apple-spoken-content/"/>
+        <id>https://www.adithyabalaji.com/posts/apple-spoken-content/</id>
+        
+        <content type="html" xml:base="https://www.adithyabalaji.com/posts/apple-spoken-content/">&lt;div class=&quot;soundcloud-embed&quot;&gt;
+    &lt;iframe
+        loading=&quot;lazy&quot;
+        width=&quot;100%&quot;
+        height=&quot;166&quot;
+        scrolling=&quot;no&quot;
+        frameborder=&quot;no&quot;
+        allow=&quot;autoplay&quot;
+        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;1163756371&amp;color=%23d64000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;I&#x27;ve sometimes found myself distracted while reading a passage or two and then
+having to track back to re-read the sentence. Other times, I&#x27;ve been on a walk
+and wanted to read a blog post. Although it&#x27;s not a silver bullet,
+I found a solution that works in most cases--a hidden Apple accessibility
+feature. It&#x27;s called
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;support.apple.com&#x2F;guide&#x2F;iphone&#x2F;spoken-content-iph96b214f0&#x2F;ios&quot;&gt;&quot;Spoken Content&quot;&lt;&#x2F;a&gt;
+and it&#x27;s pretty easy to set up.&lt;&#x2F;p&gt;
+&lt;p&gt;On your iOS device, go to &lt;code&gt;Settings &amp;gt; Accessibility &amp;gt; Spoken Content&lt;&#x2F;code&gt; and turn
+on &lt;code&gt;Speak Selection&lt;&#x2F;code&gt;. Also make sure that &lt;code&gt;Highlight Content&lt;&#x2F;code&gt; is turned on.
+If you then hop into &lt;code&gt;Voices&lt;&#x2F;code&gt;, you can pick a voice to narrate the content. I
+particularly like &lt;code&gt;Siri Voice 1&lt;&#x2F;code&gt; which is not the default.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;video-container&quot;&gt;
+  
+    &lt;div style=&quot;max-width: min(300px, 100vw); margin: 0 auto;&quot;&gt;
+  
+  &lt;video
+    controls
+    class=&quot;&quot;
+    
+     loop
+    
+    
+     aria-label=&quot;iOS Spoken Content Setup Demo&quot;
+     title=&quot;iOS Spoken Content Setup Demo&quot;&gt;
+    
+
+    &lt;source src=&quot;spoken-content-setup.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+    iOS Spoken Content Setup Demo
+  &lt;&#x2F;video&gt;
+  &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;It&#x27;s a pain to select text and then tap on the screen to speak. That&#x27;s where the
+second trick comes in. Another feature hidden in accessibility is an alternative
+input method. If you head over to &lt;code&gt;Settings &amp;gt; Accessibility &amp;gt; Touch &amp;gt; Back Tap&lt;&#x2F;code&gt;,
+you can set either of the taps to turn on &lt;code&gt;Speak Screen&lt;&#x2F;code&gt;. I personally, set
+&lt;code&gt;Triple Tap : Speak Screen&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;On macOS, it&#x27;s a similar process. Head to
+&lt;code&gt;System Preferences &amp;gt; Accessibility &amp;gt; Spoken Content&lt;&#x2F;code&gt; and turn on
+&lt;code&gt;Speak Selection&lt;&#x2F;code&gt;. The default keyboard shortcut is &lt;code&gt;⌥ + Esc&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;video-container&quot;&gt;
+  
+    &lt;div style=&quot;max-width: min(650px, 100vw); margin: 0 auto;&quot;&gt;
+  
+  &lt;video
+    controls
+    class=&quot;&quot;
+    
+     loop
+    
+    
+     aria-label=&quot;macOS Desktop Spoken Content Setup Demo&quot;
+     title=&quot;macOS Desktop Spoken Content Setup Demo&quot;&gt;
+    
+
+    &lt;source src=&quot;macos-setup.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+    macOS Desktop Spoken Content Setup Demo
+  &lt;&#x2F;video&gt;
+  &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;The thing I like the most about this setup is that it&#x27;s native--so I know it&#x27;ll
+work on all my apps, system-wide. (I used the
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;chrome.google.com&#x2F;webstore&#x2F;detail&#x2F;wavenet-for-chrome&#x2F;iefankigbnlnlaolflbcopliocibkffc?hl=en&quot;&gt;Wavenet Chrome extension&lt;&#x2F;a&gt;
+in the past) I often find myself using it on my Mac to read things I&#x27;ve written
+back to me to catch typos. Anecdotally, I&#x27;ve also found that I retain content
+better if I&#x27;m listening to it while I&#x27;m reading it. This seems to be
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;moritz.digital&#x2F;reading&#x2F;&quot;&gt;borne out in the literature&lt;&#x2F;a&gt;
+as well.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;video-container&quot;&gt;
+  
+    &lt;div style=&quot;max-width: min(300px, 100vw); margin: 0 auto;&quot;&gt;
+  
+  &lt;video
+    controls
+    class=&quot;&quot;
+    
+     loop
+    
+    
+     aria-label=&quot;Safari Reader Mode Demo&quot;
+     title=&quot;Safari Reader Mode Demo&quot;&gt;
+    
+
+    &lt;source src=&quot;python-paradox.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+    Safari Reader Mode Demo
+  &lt;&#x2F;video&gt;
+  &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;It works great with iBooks and also with blog posts and longer news articles.
+Sometimes the articles have superfluous bits of text (ads, call to actions, and
+so on) that you might want to avoid. Safari has a built-in reader mode that
+works well on most articles. Just tap the left part of the address bar on iOS,
+and it&#x27;ll swap to a reader view that works much better with &lt;code&gt;Spoken Content&lt;&#x2F;code&gt;. On
+desktop Chrome, you can do something very similar by heading to
+&lt;a href=&quot;chrome:&#x2F;&#x2F;flags&#x2F;&quot;&gt;chrome flags&lt;&#x2F;a&gt; and setting &lt;code&gt;Enable Reader Mode : Enabled&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+
+
+
+    &lt;figure class=&quot;opt-image  &quot;
+            data-format=&quot;png&quot;
+            data-mime=&quot;image&amp;#x2F;png&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;www.adithyabalaji.com&#x2F;posts&#x2F;apple-spoken-content&#x2F;ChromeReaderMode.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;picture&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderMode.99ca66ad51507304.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderMode.d68fc8f6776b0f5c.png&quot;
+                    type=&quot;image&amp;#x2F;png&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderMode.49b06cc4a797cf9d.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderMode.f5e3ea64f60e0471.png&quot;
+                    type=&quot;image&amp;#x2F;png&quot;&gt;
+                &lt;img
+                    src=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderMode.d68fc8f6776b0f5c.png&quot;
+                    width=&quot;3584&quot;
+                    height=&quot;2150&quot;
+                    alt=&quot;Chrome Reader Mode Setup&quot;
+                    loading=&quot;lazy&quot;
+                    decoding=&quot;async&quot;
+                    style=&quot;aspect-ratio: 3584&#x2F;2150&quot;&gt;
+            &lt;&#x2F;picture&gt;
+        &lt;&#x2F;a&gt;
+        
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;I also set up keyboard shortcuts for this by going to
+&lt;code&gt;System Preferences &amp;gt; Keyboard &amp;gt; Shortcuts&lt;&#x2F;code&gt; and adding an entry for
+&lt;code&gt;Enter Reader Mode&lt;&#x2F;code&gt; and &lt;code&gt;Exit Reader Mode&lt;&#x2F;code&gt;. I use &lt;code&gt;⌃ + ⇧ + R&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+
+
+
+    &lt;figure class=&quot;opt-image  &quot;
+            data-format=&quot;png&quot;
+            data-mime=&quot;image&amp;#x2F;png&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;www.adithyabalaji.com&#x2F;posts&#x2F;apple-spoken-content&#x2F;ChromeReaderModeKeyboardShortcuts.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;picture&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderModeKeyboardShortcuts.65a46a2f305cc2ed.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderModeKeyboardShortcuts.06c637ea481ad04e.png&quot;
+                    type=&quot;image&amp;#x2F;png&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderModeKeyboardShortcuts.27071b630f08bc25.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderModeKeyboardShortcuts.eafdda8ff522fcf8.png&quot;
+                    type=&quot;image&amp;#x2F;png&quot;&gt;
+                &lt;img
+                    src=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;ChromeReaderModeKeyboardShortcuts.06c637ea481ad04e.png&quot;
+                    width=&quot;1560&quot;
+                    height=&quot;1416&quot;
+                    alt=&quot;Chrome Reader Mode Keyboard Shortcut&quot;
+                    loading=&quot;lazy&quot;
+                    decoding=&quot;async&quot;
+                    style=&quot;aspect-ratio: 1560&#x2F;1416&quot;&gt;
+            &lt;&#x2F;picture&gt;
+        &lt;&#x2F;a&gt;
+        
+    &lt;&#x2F;figure&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How I (almost) got infinite free Chipotle</title>
+        <published>2021-08-10T00:00:00+00:00</published>
+        <updated>2021-08-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Adithya Balaji
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com/posts/chipotle/"/>
+        <id>https://www.adithyabalaji.com/posts/chipotle/</id>
+        
+        <content type="html" xml:base="https://www.adithyabalaji.com/posts/chipotle/">&lt;div class=&quot;soundcloud-embed&quot;&gt;
+    &lt;iframe
+        loading=&quot;lazy&quot;
+        width=&quot;100%&quot;
+        height=&quot;166&quot;
+        scrolling=&quot;no&quot;
+        frameborder=&quot;no&quot;
+        allow=&quot;autoplay&quot;
+        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;1103970979&amp;color=%23d64000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;It&#x27;s
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.basketball-reference.com&#x2F;boxscores&#x2F;201906050GSW.html&quot;&gt;Game 3 of the NBA finals&lt;&#x2F;a&gt;,
+the Raptors are up 2-1 as Steph Curry and Kawhi Leonard face off in the Oracle
+Arena. I was having a face-off of my own: me vs Chipotle&#x27;s free burrito promo
+codes.&lt;&#x2F;p&gt;
+&lt;p&gt;As a huge fan of Chipotle, I couldn&#x27;t wait to get my hands on some free burrito
+coupons. As a college student, Chipotle happened to be part of my food pyramid.
+The NBA promo event was paying me in burritos for something I already enjoyed
+watching.&lt;&#x2F;p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-theme=&quot;dark&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🏀 We’re giving away up to $1,000,000 in burritos. 🏀 Every time the announcer says FREE we’ll tweet out a code for free burritos. 5&#x2F;30, 9PM ET TERMS: &lt;a href=&quot;https:&#x2F;&#x2F;t.co&#x2F;02TnDtj9Jh&quot;&gt;https:&#x2F;&#x2F;t.co&#x2F;02TnDtj9Jh&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;hashtag&#x2F;ChipotleFreeting?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ChipotleFreeting&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;&amp;mdash; Chipotle (@ChipotleTweets) &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ChipotleTweets&#x2F;status&#x2F;1133785740645687301?ref_src=twsrc%5Etfw&quot;&gt;May 29, 2019&lt;&#x2F;a&gt;&lt;&#x2F;blockquote&gt;
+&lt;script async src=&quot;https:&#x2F;&#x2F;platform.twitter.com&#x2F;widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;&#x2F;script&gt;
+
+
+
+&lt;p&gt;For those not in the know, Chipotle &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ChipotleTweets&#x2F;status&#x2F;1133785740645687301&quot;&gt;ran a promotional campaign&lt;&#x2F;a&gt;
+during the 2019 NBA playoffs to get more people into their stores. Each time the
+announcer said the word &quot;free&quot; (as in free throw) during the game, the
+@ChipotleTweets account would tweet out a code that would result in a free
+burrito coupon for the first 5,000 people to send it to an account.&lt;&#x2F;p&gt;
+&lt;p&gt;Sounds easy enough, right? Wrong. Apparently, although my reaction times may be
+fast, they were not fast enough. Attempt after attempt, I had no luck. Game 1
+passed and so had Game 2. I was frustrated.&lt;&#x2F;p&gt;
+&lt;p&gt;It was time to bring out the big guns. As Tom Scott would say, it was time to
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lIFE7h3m40U&quot;&gt;bodge together a script&lt;&#x2F;a&gt; to save
+the day. There were two parts to the equation, extracting the code from Twitter
+and sending it via SMS to the Chipotle Number.&lt;&#x2F;p&gt;
+&lt;p&gt;The first part was pretty straightforward. Throw on the social network
+soundtrack and write a quick script to extract the codes from tweets.
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BPazh2kDdvA&amp;amp;t=215s&quot;&gt;Who needs Perl&lt;&#x2F;a&gt;, when
+you&#x27;ve got Python? &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AlDanial&#x2F;cloc&quot;&gt;Cloc&#x27;ing&lt;&#x2F;a&gt; at just
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;adithyabsk&#x2F;chipotle_freeting&#x2F;blob&#x2F;main&#x2F;tweets.py&quot;&gt;29 lines of code&lt;&#x2F;a&gt;,
+it&#x27;s nothing to write home about, but it gets the job done. We set up a
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;developer.twitter.com&#x2F;en&#x2F;docs&#x2F;authentication&#x2F;oauth-1-0a&#x2F;obtaining-user-access-tokens&quot;&gt;Twitter API credential&lt;&#x2F;a&gt;
+and use a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;python-twitter-tools&#x2F;twitter&quot;&gt;python twitter library&lt;&#x2F;a&gt;
+(now outdated) to parse the firehose of tweets for what we need.&lt;&#x2F;p&gt;
+
+
+
+    &lt;figure class=&quot;opt-image  &quot;
+            data-format=&quot;png&quot;
+            data-mime=&quot;image&amp;#x2F;png&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;www.adithyabalaji.com&#x2F;posts&#x2F;chipotle&#x2F;code.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;picture&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;code.175bba90ef287709.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;code.6a9ab717ff3d8b2f.png&quot;
+                    type=&quot;image&amp;#x2F;png&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;code.b44a661e77f73a3f.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;code.53c7081aa14c6b53.png&quot;
+                    type=&quot;image&amp;#x2F;png&quot;&gt;
+                &lt;img
+                    src=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;code.6a9ab717ff3d8b2f.png&quot;
+                    width=&quot;1498&quot;
+                    height=&quot;1668&quot;
+                    alt=&quot;An image of the source code.&quot;
+                    loading=&quot;lazy&quot;
+                    decoding=&quot;async&quot;
+                    style=&quot;aspect-ratio: 1498&#x2F;1668&quot;&gt;
+            &lt;&#x2F;picture&gt;
+        &lt;&#x2F;a&gt;
+        
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;In terms of actually extracting the codes, I started out with a more complex
+regex approach that would pull out codes that only seemed to work sometimes. I
+then realized that all the codes had the word &quot;FREE&quot; in them and that I could
+just scan for that and extract the code.&lt;&#x2F;p&gt;
+&lt;p&gt;The next part was a little trickier, how would I get from extracting the code to
+sending it via my phone. That&#x27;s where the bodge comes in. I found an AppleScript
+that someone shared via a GitHub Gist to automate sending messages via the
+Desktop iMessage client. Jackpot. I downloaded the file and checked if it
+worked, and it did! Now all I had to do was use &lt;code&gt;subprocess&lt;&#x2F;code&gt; to call the script
+from within my Python script, and I would be burrito rich. You can see below
+from my triumphant Instagram story that it worked.&lt;&#x2F;p&gt;
+
+
+
+    &lt;figure class=&quot;opt-image  &quot;
+            data-format=&quot;jpg&quot;
+            data-mime=&quot;image&amp;#x2F;jpeg&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;www.adithyabalaji.com&#x2F;posts&#x2F;chipotle&#x2F;insta.jpg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;picture&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;insta.8b2aac4cee1379fd.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;insta.d9c0fe9f3aa00a25.jpg&quot;
+                    type=&quot;image&amp;#x2F;jpeg&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;insta.a5d389141ce3d2cb.webp&quot;
+                    type=&quot;image&#x2F;webp&quot;&gt;
+                &lt;source
+                    srcset=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;insta.ec7b5744ddc916b9.jpg&quot;
+                    type=&quot;image&amp;#x2F;jpeg&quot;&gt;
+                &lt;img
+                    src=&quot;https:&amp;#x2F;&amp;#x2F;www.adithyabalaji.com&amp;#x2F;processed_images&amp;#x2F;insta.d9c0fe9f3aa00a25.jpg&quot;
+                    width=&quot;1242&quot;
+                    height=&quot;2210&quot;
+                    alt=&quot;Instagram Story.&quot;
+                    loading=&quot;lazy&quot;
+                    decoding=&quot;async&quot;
+                    style=&quot;aspect-ratio: 1242&#x2F;2210&quot;&gt;
+            &lt;&#x2F;picture&gt;
+        &lt;&#x2F;a&gt;
+        
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;But, I wasn&#x27;t about to become a burrito billionaire. Chipotle was likely wise to
+the fact that someone like me might try to script their way to glory and
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20190606162618&#x2F;https:&#x2F;&#x2F;www.chipotle.com&#x2F;freedelivery.html#freeting&quot;&gt;set up a limit to one burrito per person&lt;&#x2F;a&gt;.
+(emphasis mine)&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There is a &lt;strong&gt;limit of one free entrée per person and&#x2F;or per mobile number&lt;&#x2F;strong&gt;
+during the promotion, a limit of up to 20,000 Redemption Codes per game, and
+a limit of up to 140,000 overall Redemption Codes during the duration of the
+promotion.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;While I could have spent a bit more time discovering a way to spoof phone
+numbers, it didn&#x27;t feel right. I resigned to my solitary free burrito with the
+happy thought that some other NBA fan would be able to enjoy theirs too.&lt;&#x2F;p&gt;
+&lt;p&gt;Check out the
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;adithyabsk&#x2F;chipotle_freeting&#x2F;blob&#x2F;main&#x2F;tweets.py&quot;&gt;source code&lt;&#x2F;a&gt;
+here.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Analyzing Bird Audio</title>
+        <published>2021-05-17T00:00:00+00:00</published>
+        <updated>2021-05-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Adithya Balaji
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com/posts/analyzing-bird-audio/"/>
+        <id>https://www.adithyabalaji.com/posts/analyzing-bird-audio/</id>
+        
+        <content type="html" xml:base="https://www.adithyabalaji.com/posts/analyzing-bird-audio/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How to use Custom Sklearn Classes and Pipelines</title>
+        <published>2021-04-08T00:00:00+00:00</published>
+        <updated>2021-04-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Adithya Balaji
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com/posts/custom-sklearn-pipelines/"/>
+        <id>https://www.adithyabalaji.com/posts/custom-sklearn-pipelines/</id>
+        
+        <content type="html" xml:base="https://www.adithyabalaji.com/posts/custom-sklearn-pipelines/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Python Tooling Makes a Project Tick</title>
+        <published>2019-08-08T00:00:00+00:00</published>
+        <updated>2019-08-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Adithya Balaji
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com/posts/python-tooling/"/>
+        <id>https://www.adithyabalaji.com/posts/python-tooling/</id>
+        
+        <content type="html" xml:base="https://www.adithyabalaji.com/posts/python-tooling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Choosing the best AutoML Framework</title>
+        <published>2018-08-21T00:00:00+00:00</published>
+        <updated>2018-08-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Adithya Balaji
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.adithyabalaji.com/posts/automl/"/>
+        <id>https://www.adithyabalaji.com/posts/automl/</id>
+        
+        <content type="html" xml:base="https://www.adithyabalaji.com/posts/automl/"></content>
+        
+    </entry>
+</feed>
