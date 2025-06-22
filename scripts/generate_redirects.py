@@ -10,6 +10,7 @@ REDIRECT_TEMPLATE = """<!DOCTYPE html>
     <title>Redirecting...</title>
     <meta http-equiv="refresh" content="0; URL={redirect_url}">
     <link rel="canonical" href="{redirect_url}">
+    <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
     <p>Redirecting to <a href="{redirect_url}">{redirect_url}</a>...</p>
