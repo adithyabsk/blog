@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Page Not Found - {{ config.title }}{% endblock title %}
+
+{% block content %}
+<div class="standalone-content">
+    <div class="error-page">
+        <div class="error-code">404</div>
+        <h1 class="title">Page Not Found</h1>
+        <p class="error-message">
+            The page you're looking for doesn't exist. It might have been moved, deleted, or you may have typed the URL incorrectly.
+        </p>
+        
+        <div class="error-actions">
+            <a href="{{ config.base_url }}" class="btn-primary">Go Home</a>
+            <a href="{{ config.base_url }}/posts" class="btn-secondary">Browse Posts</a>
+        </div>
+
+        <div class="search-suggestion">
+            <p>Looking for something specific? Try:</p>
+            <ul>
+                <li>Checking the URL for typos</li>
+                <li>Going back to the <a href="{{ config.base_url }}">homepage</a></li>
+                <li>Browsing my <a href="{{ config.base_url }}/posts">blog posts</a></li>
+                <li>Reaching out at adithya[at]adithyabalaji[dot]com</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock content %}

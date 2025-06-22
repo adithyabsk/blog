@@ -1,0 +1,124 @@
+@import "../base/variables";
+
+.error-page {
+    text-align: center;
+    padding: $spacing * 3 0;
+    max-width: 600px;
+    margin: 0 auto;
+
+    .error-code {
+        font-family: $font-family-headings;
+        font-size: $font-size-3xl * 2.5;
+        font-weight: 700;
+        color: $primary-color;
+        line-height: $line-height-tight;
+        margin-bottom: $spacing;
+        opacity: 0.8;
+
+        @media (max-width: $breakpoint-mobile) {
+            font-size: $font-size-3xl * 2;
+        }
+    }
+
+    .title {
+        margin-bottom: $spacing;
+        color: $text-color-headings;
+        font-size: $font-size-2xl;
+        font-family: $font-family-headings;
+        font-weight: 600;
+        line-height: $line-height-tight;
+    }
+
+    .error-message {
+        font-size: $font-size-lg;
+        color: lighten($text-color-body, $lighten-medium);
+        margin-bottom: $spacing * 2;
+        line-height: $line-height-base;
+    }
+
+    .error-actions {
+        display: flex;
+        gap: $spacing;
+        justify-content: center;
+        margin-bottom: $spacing * 3;
+
+        @media (max-width: $breakpoint-mobile) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn-primary,
+        .btn-secondary {
+            padding: ($spacing * 0.5) ($spacing * 1);
+            border-radius: $border-radius-sm;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            display: inline-block;
+            min-width: 100px;
+            font-size: $font-size-sm;
+        }
+
+        .btn-primary {
+            background-color: $primary-color;
+            color: white;
+
+            &:hover {
+                background-color: darken($primary-color, $darken-medium);
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: $primary-color;
+            border: 2px solid $primary-color;
+
+            &:hover {
+                background-color: $primary-color;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .search-suggestion {
+        text-align: left;
+        background: $subtle-gray;
+        padding: $spacing * 1.5;
+        border-radius: $border-radius-sm;
+        margin-top: $spacing * 2;
+
+        p {
+            margin-bottom: $spacing;
+            font-weight: 600;
+            color: $text-color-headings;
+            font-size: $font-size-base;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: $spacing * 1.5;
+
+            li {
+                margin-bottom: $spacing * 0.5;
+                color: lighten($text-color-body, $lighten-subtle);
+                font-size: $font-size-base;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        a {
+            color: $link-color-primary;
+            text-decoration: underline;
+
+            &:hover {
+                color: $link-color-hover;
+            }
+        }
+    }
+}

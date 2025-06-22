@@ -22,7 +22,10 @@
 {% if page.description %}
     <meta property="og:description" content="{{ page.description }}">
 {% endif %}
-<meta property="og:url" content="{{ current_url }}">
+{# Only include og:url if current_path is available (not on 404 pages) #}
+{% if current_path %}
+<meta property="og:url" content="{{config.base_url | safe}}/{{current_path | safe}}" />
+{% endif %}
 <meta property="og:site_name" content="Adithya Balaji's Blog">
 
 {# Twitter Card Meta Tags #}
