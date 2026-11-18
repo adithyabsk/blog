@@ -1,0 +1,49 @@
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta content="width=device-width,initial-scale=1.0" name=viewport><title>RSA-270 | Adithya Balaji's Blog</title><meta content="RSA-270 | Adithya Balaji's Blog" property=og:title><meta content=website property=og:type><meta content=https://www.adithyabalaji.com/images/logo.png property=og:image><meta content="An independent factorization of RSA-270." property=og:description><meta content=https://www.adithyabalaji.com//posts/rsa-270/ property=og:url><meta content="Adithya Balaji's Blog" property=og:site_name><meta content=summary_large_image name=twitter:card><meta content="RSA-270 | Adithya Balaji's Blog" name=twitter:title><meta content="An independent factorization of RSA-270." name=twitter:description><meta content=https://www.adithyabalaji.com/images/logo.png name=twitter:image><link href=https://www.adithyabalaji.com/images/favicon/apple-touch-icon.png rel=apple-touch-icon sizes=180x180><link href=https://www.adithyabalaji.com/images/favicon/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://www.adithyabalaji.com/images/favicon/favicon-16x16.png rel=icon sizes=16x16 type=image/png><link href=https://www.adithyabalaji.com/images/favicon/favicon.ico rel=icon type=image/x-icon><link href=https://www.adithyabalaji.com/images/favicon/site.webmanifest rel=manifest><link color=#5bbad5 href=https://www.adithyabalaji.com/images/favicon/safari-pinned-tab.svg rel=mask-icon><meta content=https://www.adithyabalaji.com/images/favicon/browserconfig.xml name=msapplication-config><meta content=https://www.adithyabalaji.com/images/favicon/mstile-150x150.png name=msapplication-TileImage><meta content="RSA-270 | Adithya Balaji's Blog" name=application-name><meta content="RSA-270 | Adithya Balaji's Blog" name=apple-mobile-web-app-title><meta content=#ffffff name=theme-color><link href=https://www.adithyabalaji.com/style.css rel=stylesheet><body><nav class=site-nav><div class=nav-content><div class=nav-logo><a href=https://www.adithyabalaji.com> <img alt=Logo class=nav-logo-img height=48 loading=lazy src=https://www.adithyabalaji.com/processed_images/logo.61483fedcc26b569.png width=48> <div class=nav-divider></div> <span class=name-stylized> <span class=name-container> <span class=full-name> <span class=first>Adithya</span> <span class=last>Balaji</span> </span> <span class=monogram>AB</span> </span> </span> </a></div><ul class=nav-links><li><a href=https://www.adithyabalaji.com>Home</a><li><a href=https://www.adithyabalaji.com/posts>Posts</a><li><a href=https://www.adithyabalaji.com/short-thoughts>Short Thoughts</a><li><a href=https://www.adithyabalaji.com/media>Media</a><li><a href=https://www.adithyabalaji.com/lt>Linktree</a></ul><button class=nav-menu-button><span class=bar></span> <span class=bar></span> <span class=bar></span></button></div></nav><main class=main-content><div class=post-page><div class=post-heading><h1 class=title>RSA-270</h1><p class=description>An independent factorization of RSA-270.</p><time class=date datetime=2026-11-18> November 18, 2026 </time><hr></div><p>On November 16, 2026, I completed a long running, independent factorization of <code>RSA-270</code> (a 270-digit (895-bit) number)<p>One of the factors:<pre class=giallo style=color:#e1e4e8;background-color:#24292e><code data-lang=plain><span class=giallo-l><span>359353359560835771039202980394651186700927320732604439802133630990767075387516847337701049401067297464438120309866365659527898117552867</span></span></code></pre><p>A swarm of Grok4.7 agents ran the computation end to end, and optimized kernels, on Tesla's SoTA heterogeneous GPU compute cluster on expressly pre-emptible jenga'd compute. The run used ~17.9 GPU-years (compared to 30 GPU years of <a rel="noopener external" href=https://saweis.net/posts/rsa-896.html target=_blank>a run of similar bit size</a>).<p>Our polynomial's Murphy E was <code>3.5031e-10</code> at <code>Bf=1.100e+12</code>, <code>Bg=1.374e+11</code>, and <code>area=8.590e+19</code>.<p>Congrats to <a rel="noopener external" href=https://www.mersenneforum.org/node/1125296/page3#post1130660 target=_blank>Eric Lu</a> who posted a factorization on November 12, 2026. My factor matches his result. Thanks also to the great work by the <a rel="noopener external" href=https://github.com/cado-nfs/cado-nfs target=_blank><code>CADO-NFS</code></a> and <a rel="noopener external" href=https://github.com/kyleaskine/cuda-sieve target=_blank><code>cuda-sieve</code></a> folks. Grok expanded this work to target many GPU variants and work within the cluster's job scalability framework.<p>RSA-1024 keys are certainly within reach of many actors with large compute clusters.<div class=newsletter-section><h2>Stay Updated</h2><p>I write about robotics, machine learning, and software engineering. Subscribe to get new posts in your inbox.<form action="https://adithyabalaji.us19.list-manage.com/subscribe/post?u=3f318b3689786e08a7addd668&id=1037a8ae06" id=mc-embedded-subscribe-form method=post name=mc-embedded-subscribe-form novalidate target=_blank><div class=form-group><div class=form-group-header><label for=mce-EMAIL>Your email</label></div><div class=form-group-body><input class=form-control id=mce-EMAIL name=EMAIL placeholder=you@example.com required type=email></div></div><div class=form-group><div class=form-group-header><label for=mce-FNAME>Your name</label></div><div class=form-group-body><input placeholder="First name" class=form-control id=mce-FNAME name=FNAME required></div></div><input name=b_3f318b3689786e08a7addd668_1037a8ae06 type=hidden><button class="btn btn-primary" id=mc-embedded-subscribe name=subscribe>Subscribe to Blog Posts</button></form><p class=privacy-note>No spam, unsubscribe anytime.</div></div></main><script async data-goatcounter=https://adithyabalaji.goatcounter.com/count src=https://gc.zgo.at/count.js></script><script>let lastScrollTop = 0;
+        const nav = document.querySelector('.site-nav');
+        const menuButton = document.querySelector('.nav-menu-button');
+        const scrollThreshold = 50;
+        let menuOpen = false;
+        let isAnchorScroll = false;
+
+        // Handle anchor clicks
+        document.addEventListener('click', (e) => {
+            const anchor = e.target.closest('a');
+            if (anchor && anchor.hash && anchor.origin + anchor.pathname === window.location.origin + window.location.pathname) {
+                isAnchorScroll = true;
+                setTimeout(() => { isAnchorScroll = false; }, 100);
+            }
+        });
+
+        // Mobile menu button handler
+        menuButton.addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('show');
+            // Toggle menu state
+            menuOpen = !menuOpen;
+
+            // When opening menu, ensure nav is visible
+            if (menuOpen) {
+                nav.classList.remove('nav-hidden');
+            }
+        });
+
+        window.addEventListener('scroll', () => {
+            // Don't hide nav when mobile menu is open or during anchor scrolls
+            if (menuOpen || isAnchorScroll) return;
+
+            const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+            // Only trigger if we've scrolled more than the threshold
+            if (Math.abs(lastScrollTop - currentScroll) <= scrollThreshold) return;
+
+            // Scrolling down and past the threshold
+            if (currentScroll > lastScrollTop && currentScroll > scrollThreshold) {
+                nav.classList.add('nav-hidden');
+            }
+            // Scrolling up (only for non-anchor scrolls)
+            else if (currentScroll < lastScrollTop) {
+                nav.classList.remove('nav-hidden');
+            }
+
+            lastScrollTop = currentScroll;
+        });</script>

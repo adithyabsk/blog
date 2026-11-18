@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/abalaji
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://adithyabalaji.com
+  * I am abalaji (https://keybase.io/abalaji) on keybase.
+  * I have a public key ASDagzA4vgI2kuB6xpf0pgfCrwn8xH8Q6Lqn5_iyFrJMMQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120da833038be023692e07ac697f4a607c2af09fcc47f10e8baa7e7f8b216b24c310a",
+      "host": "keybase.io",
+      "kid": "0120da833038be023692e07ac697f4a607c2af09fcc47f10e8baa7e7f8b216b24c310a",
+      "uid": "69fa4269cbdeeb9633a9954898536f19",
+      "username": "abalaji"
+    },
+    "merkle_root": {
+      "ctime": 1603867802,
+      "hash": "c8051e9c908aee1603a101e629e171cb6eceaea45f57d0d0be79e39e09898f560725d8df76e56047baf984e098286b1ea853fa9ed4e289cfb1e5e9caae4b3d9a",
+      "hash_meta": "0f1fed7fa3fadd6249e7f31ea72ffc8f856f3c117792c9cef86d09fe65c0e91f",
+      "seqno": 17949170
+    },
+    "service": {
+      "entropy": "3iIuvtTJd3Q2PwE+r7uHCnVo",
+      "hostname": "adithyabalaji.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1603867815,
+  "expire_in": 504576000,
+  "prev": "33bea676631e77d9bce6bce489dba686aa01b41a435a2b87ba63f8f1573917cb",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2oMwOL4CNpLgesaX9KYHwq8J/MR/EOi6p+f4shayTDEKp3BheWxvYWTESpcCCMQgM76mdmMed9m85rzkidumhqoBtBpDWiuHumP48Vc5F8vEIBdr7c6rNxEd1J+hJToWg05d2Y7GEzB3yuPcVpaLxJAYAgHCo3NpZ8RAYJDARzteqaVUtaaKbW3VQZYIULQRObPqvJ5e1dvOe+ieD0Lx0Gd4ZFClFKpU5lW28x4RdvG549/en2cpGOMKD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOBaqEq7NMXIA8yX1lFsp7/7XKojHoNASGFA5QHjsF8io3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/abalaji
+
+==================================================================
